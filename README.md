@@ -8,6 +8,18 @@ join us on discord https://discord.gg/015OTigbS9wyJlBDP to discuss about upcomin
 
 updater and installer are made with much love by **PhantomGamers.**
 
+# [Download Here](https://github.com/AikoMidori/steam-dark-mode/archive/master.zip)
+To automatically install, simply run the installer.bat.
+
+### Manual Installation
+Windows
+You go to "C:/Program files (86)/Steam/Skins/Metro/resource" and put it in, click replace, restart steam and all done!
+
+macOS
+Right click on your Finder, select "Go to Folder..." and put this in the search path:
+~/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/skins
+Open Metro folder, go to resource folder, and replace just like Windows.
+
 ------------------------------------------------------------------------------------------------------------------
 
 **Beta Update 1.6**
@@ -28,31 +40,11 @@ What's New?
 
 <div class="container">
   <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
+    <div class="numbertext">1 / 2</div>
     <img src="https://i.imgur.com/KIcOaZs.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
+    <div class="numbertext">2 / 2</div>
     <img src="https://i.imgur.com/n4UqKX4.png" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-    <img src="https://i.imgur.com/Tf0xrci.png" style="width:100%">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-    <img src="https://i.imgur.com/HT0b6Yd.png" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-    <img src="https://i.imgur.com/MRApRGh.png" style="width:100%">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-    <img src="https://i.imgur.com/5WOVQfo.png" style="width:100%">
   </div>
