@@ -1,6 +1,5 @@
 **Steam Dark Mode**
 
-
 Use the update.bat to update the file whenever a new release comes out,
 and use the installer to install the file to your skin directory.
 
