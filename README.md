@@ -1,4 +1,4 @@
-**Steam Dark Mode**
+# Steam Dark Mode
 
 Use the update.bat to update the file whenever a new release comes out,
 and use the installer to install the file to your skin directory.
@@ -8,16 +8,13 @@ join us on discord https://discord.gg/015OTigbS9wyJlBDP to discuss about upcomin
 
 updater and installer are made with much love by **PhantomGamers.**
 
-# [Download Here](https://github.com/AikoMidori/steam-dark-mode/archive/master.zip)
-To automatically install, simply run the installer.bat.
-
 ### Manual Installation
-Windows
-You go to "C:/Program files (86)/Steam/Skins/Metro/resource" and put it in, click replace, restart steam and all done!
+# Windows
+You go to **"C:/Program files (86)/Steam/Skins/Metro/resource"** and put it in, click replace, restart steam and all done!
 
-macOS
+# macOS
 Right click on your Finder, select "Go to Folder..." and put this in the search path:
-~/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/skins
+**~/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/skins**
 Open Metro folder, go to resource folder, and replace just like Windows.
 
 ------------------------------------------------------------------------------------------------------------------
