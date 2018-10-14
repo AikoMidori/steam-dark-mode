@@ -21,17 +21,13 @@ updater and installer are made with much love by **PhantomGamers.**
 
 ------------------------------------------------------------------------------------------------------------------
 
-### Beta Update 1.6
+### Beta Update 1.7
 
 **What's New?**
 
-    Fixed Store and Workshop screenshots and videos.
-    Redesingned Content Page.
-    Redesingned Badge Page.
-    Redesingned Inventory.
-    Auto-Updater.
-    Auto-Installer.
-    Minor performance improvements.
+    Redisgined Workshop Frontpage
+    Redesingned Workshop Sub Pages
+    Cleaned up the code
 
 
 *Made with love by* ***Shiina♪***
