@@ -24,10 +24,35 @@ What's New?
 *Made with love by* ***Shiina♪***
 
 
-**Screenshots**
+# Screenshots
 
 <div class="container">
   <div class="mySlides">
     <div class="numbertext">1 / 6</div>
     <img src="https://i.imgur.com/KIcOaZs.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="https://i.imgur.com/n4UqKX4.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="https://i.imgur.com/Tf0xrci.png" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="https://i.imgur.com/HT0b6Yd.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="https://i.imgur.com/MRApRGh.png" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="https://i.imgur.com/5WOVQfo.png" style="width:100%">
   </div>
