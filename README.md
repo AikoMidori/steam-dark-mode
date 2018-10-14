@@ -14,11 +14,11 @@ updater and installer are made with much love by **PhantomGamers.**
 
 What's New?
 
-    -Fixed Store and Workshop screenshots and videos.
-    -Redesingned Content Page.
-    -Redesingned Badge Page.
-    -Redesingned Inventory.
-    -Small performance improvements.
+    Fixed Store and Workshop screenshots and videos.
+    Redesingned Content Page.
+    Redesingned Badge Page.
+    Redesingned Inventory.
+    Small performance improvements.
 
 
 *Made with much love by* ***Shiina♪***
