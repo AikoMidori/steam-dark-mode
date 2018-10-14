@@ -1242,8 +1242,8 @@ div#global_header .content {
     background: #161617 !important;
 }
 .apphub_sectionTab.active > span, .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner {
-    border-radius: 0 !important;
-    background: #161617 !important;
+    border-radius: 4px !important;
+    background: #2e2e2f !important;
     color: #fff !important;
 }
 .apphub_sectionTab.active, .apphub_sectionTab.active:hover, .apphub_responsive_tab .responsive_tab_control {
@@ -5007,7 +5007,7 @@ span.bb_spoiler {
     font-size: 14px;
     position: relative;
     padding: 16px 8px 16px 13px;
-    background: rgba( 0, 0, 0, 0.2 );
+    background: transparent !important;
     margin-bottom: 12px;
     border-radius: 4px !important;
 }
@@ -5203,6 +5203,242 @@ span.bb_spoiler {
 }
 
 
+/* Workshop */
+
+.browseApps {
+    background-color: #2e2e2f !important;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px !important;
+    box-shadow: 0px !important;
+}
+
+.browseAppsTitleContainer {
+    padding: 10px;
+    border-radius: 4px !important;
+    background: #2e2e2f !important;
+    background-color: #2e2e2f !important;
+}
+
+.searchApps {
+    float: right;
+    position: relative;
+    width: 279px;
+    height: 30px;
+    border-radius: 4px !important;
+    background: #1e1e1f !important;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+.workshopAppsRow {
+    margin: 10px 0px;
+    border-bottom: 0px !important;
+    background: none !important;
+}
+
+.primary_panel {
+    background: #2e2e2f !important;
+    border-radius: 4px !important;
+}
+
+.avatar_workshop_overlay {
+    background: none !important;
+    height: 84px;
+    width: 84px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.current_player_workshop_link {
+    padding-left: 60px !important;
+    float: left;
+}
+
+.joinGroup {
+    left: -5px;
+    border-radius: 4px !important;
+    width: 240px !important;
+    height: 80px !important;
+    background-repeat: no-repeat;
+    background: #1e1e1f !important;
+    cursor: pointer;
+}
+
+.joinGroupTitle {
+    color: #ffffff;
+    padding-top: 16px;
+    margin-left: 50px !important;
+}
+
+#ig_bottom .sidebar .panel, #ig_bottom .sidebar .detailPanel {
+    background: #2e2e2f !important;
+    padding: 10px 10px 10px 11px;
+    margin: 0 0 10px 0;
+    border: none;
+    border-radius: 4px !important;
+}
+
+.subscribeRSS {
+    padding-top: 15px !important;
+    padding-bottom: 5px !important;
+}
+
+.right_column .panel {
+    background: #2e2e2f !important;
+    padding: 12px;
+    border-radius: 4px !important;
+    margin-bottom: 12px;
+}
+
+.workshop_header {
+    width: 948px;
+    height: 203px;
+    border-radius: 4px !important;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0px !important;
+}
+
+.workshop_browse_menu_area {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding-top: 10px;
+    border-radius: 4px !important;
+    padding-bottom: 10px;
+    height: 25px;
+    padding-left: 20px;
+    background: #1e1e1f !important;
+    text-align: left;
+}
+
+.workshop_browse_search {
+    position: absolute;
+    top: 6px;
+    height: 34px !important;
+    right: 5px;
+    padding: 0px 7px 0px 0px;
+    background-color: #2e2e2f !important;
+    border-radius: 4px;
+    border-left: 0px !important;
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+}
+
+.apphub_HeaderTop.workshop {
+    background-image: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5325,364 +5561,4 @@ span.bb_spoiler {
 ::-webkit-scrollbar-button:horizontal:increment:hover {
 	width: 22px;
 background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALAgMAAADUwp+1AAAACVBMVEUAAAD///////9zeKVjAAAAA3RSTlMAX7+ciytYAAAAI0lEQVQI12Ngc2BgYJzAwMCQAsSSQAwSYGoA0RB+CkgezAUAUN4Dt/sHRo4AAAAASUVORK5CYII=);
-}
-
- /* Chat for MacOS */
-
- .title-area-highlight {
-    height: 24px;
-    background: none !important;
-    -webkit-mask: none !important;
-    opacity: 0;
-    transition: 0 !important;
-    pointer-events: none;
-    user-select: none;
-    box-shadow: none !important;
-}    
-
-.SingleWindowFocusBar {
-    width: 100%;
-    height: 24px;
-    background: none !important;
-    -webkit-mask: none !important;
-    position: absolute;
-    top: 0;
-    opacity: 0;
-    pointer-events: none;
-    user-select: none;
-}
-
-.currentUserAvatar {
-    z-index: 100;
-    position: relative;
-    cursor: pointer;
-    border-radius: 30px !important;
-}
-
-.currentUserContainer .labelHolder {
-    margin: 0px 0px 0px 8px;
-    min-width: 0;
-    flex-shrink: 1;
-    margin-right: 84px;
-    flex-direction: column;
-    justify-content: flex-end;
-    display: flex;
-    margin-bottom: 5px !important;
-}
-
-.currentUserContainer {
-border-bottom: 0px !important;
-}
-
-.friendListInsetShadowBottom {
-background: 0px !important;
-height: 16px;
-position: absolute;
-flex-shrink: 0;
-bottom: 0px;
-left: 0;
-right: 0;
-pointer-events: none;
-}
-
-.friendListInsetShadowTop {
-background: none !important;
-height: 26px;
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-flex-shrink: 0;
-z-index: 2;
-}
-
-.friendListInsetShadowBottom {
-background: none !important;
-height: 26px;
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-flex-shrink: 0;
-z-index: 2;
-}
-
-.singleWindowFocusBar {
-width: 100%;
-height: 24px;
-background: none !important;
-position: absolute;
-top: 0;
-opacity: 0;
-transition: opacity .18s ease-in-out;
-pointer-events: none;
-user-select: none;
-}
-
-.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends {
-border-top: 4px !important;
-background: linear-gradient( to bottom, rgba( 72, 87, 112, 0.2 ) 0, rgba( 67, 73, 83, 0 ) 320px );
-background: linear-gradient( to bottom, rgba( 72, 87, 112, 0.0 ) 0, rgba( 67, 73, 83, 0 ) 320px );
-margin-top: 8px !important;
-}
-
-.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
-border-top: none !important;
-background: linear-gradient( to bottom, rgba( 0, 0, 0, 0.4 ) 0, rgba( 67, 73, 83, 0 ) 320px );
-background: linear-gradient( to bottom, rgba( 0, 0, 0, 0 ) 0, rgba( 67, 73, 83, 0 ) 320px );
-margin-top: 4px !important;
-}
-
-.friendGroup.taggedGroup {
-border-top: 0px !important;
-}
-.friendGroup.gameGroup {
-border-top: 0px !important;
-}
-
-.friendGroup.gameGroup:not( .otherGamesGroup ) .friend {
-padding: 2px 0px 2px 12px !important;
-}
-
-.friend .avatarHolder img.avatar {
-border: 0px !important;
-box-shadow: none !important;
-border-radius: 30px !important;
-margin-top: 2px !important;
-}
-
-.ChatTabContent .avatarHolder .avatar {
-    width: 41px;
-    height: auto;
-    margin-top: 2px;
-    margin-left: 5px;
-}
-
-
-.ChatTabContent .avatarHolder .avatarStatus {
-    display: block;
-    position: absolute;
-    right: 0px !important;
-    top: 2px !important;
-    bottom: 0px !important; 
-    left: 35px !important;
-    height: 0px !important;
-    width: 0px !important;
-    border-style: solid !important;
-    border-radius: 40px !important;
-    margin-top: 1px !important;
-    z-index: 4;
-}
-
-.friendlistListContainer {
-    position: relative;
-    overflow-y: auto;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    flex-grow: 1;
-    background: #1e1e1f !important;
-    min-height: 32px;
-}
-
-
-.friendlistListContainer .friend .avatarHolder .avatarStatus {
-    display: block;
-    position: absolute;
-    right: 0px !important;
-    top: 0px !important;
-    bottom: 0px !important; 
-    left: 30px !important;
-    height: 0px !important;
-    width: 0px !important;
-    border-style: solid !important;
-    border-radius: 40px !important;
-}
-
-.CompactFriendsList .friend .avatarHolder .avatarStatus {
-    display: block;
-    position: absolute;
-    right: none !important;
-    top: none !important;
-    bottom: none !important; 
-    left: 20px !important;
-    height: 0px !important;
-    width: 0px !important;
-    border-style: solid !important;
-    border-radius: 40px !important;
-}
-
-.confirmInviteRequestContainer .confirmInviteButton
-{
-    flex: 1;
-    text-align: center;
-    background-color: #3d434d;
-    color: #dfe3e6;
-    padding: 4px;
-    margin: 4px;
-    font-size: 14px;
-    transition: 0.2s all;
-    cursor: pointer;
-    border-radius:  4px !important;
-}
-
-.confirmInviteRequestContainer .cancelAddFriends
-{
-    position: absolute;
-    top: 4px;
-    right: 10px;
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
-    border-radius:  4px !important;
-}
-
-.confirmInviteRequestContainer .cancelAddFriends .SVGIcon_Arrow polyline
-{
-    stroke: rgb( 218, 168, 31 );
-    stroke-width: 20px;
-    transition: all .21s ease-in-out;
-    border-radius:  4px !important;
-}
-
-.confirmInviteRequestContainer .cancelAddFriends:hover .SVGIcon_Arrow polyline
-{
-    stroke: rgb( 252, 227, 160 );
-    transform: translateY( -32px );
-    border-radius:  4px !important;
-}
-
-.confirmInviteButton.dim
-{
-    cursor: default;
-}
-
-.confirmInviteRequestContainer .confirmInviteButton:hover
-{
-    color: white;
-    background-color: #464d5a;
-}
-
-.confirmInviteRequestContainer
-{
-    display: flex;
-    flex-direction: column;
-    padding: 0 6px;
-    border-radius:  4px !important;
-}
-
-.friendsTabButtonsContainer .TabSearchButton
-{
-    flex-grow: 1;
-    cursor: text;
-    display: flex;
-    justify-content: flex-end;
-    border-radius:  4px !important;
-}
-
-.currentUserAvatar:hover
-{
-    transform: scale(1.05);
-    filter: none !important;
-}
-
-.singlewindow .currentUserContainer .labelHolder.twoLine .statusAndName,
-.singlewindow .currentUserContainer .labelHolder.twoLine,
-.currentUserContainer .labelHolder.twoLine
-{
-    margin-right: 10px;
-    margin-top: 7px !important;
-}
-
-.friendListFooter {
-    position: relative;
-    min-height: 0px !important;
-    background-color: none !important;
-    flex-shrink: 0;
-}
-
-.window_resize_grip {
-    background-image: none !important;
-}
-
-.titleBarContainer.ChatTabs {
-    background: #1e1e1f !important;
-}
-
-.friendListHeaderContainer {
-    background-color: #1E1E1F !important;
-}
-
-.statusHeaderGlow {
-    position: absolute;
-    opacity: 0 !important; /* 0/1 to turn on/off */
-    transition: opacity .92s ease-in-out;
-    pointer-events: none;
-}
-
-::-webkit-scroll-thumb {
-    width: 10px;
-    background-color: #282828 !important;
-    border-radius: 0px !important;
-    border: 0px !important;
-}
-
-.chatTabList .chatTab,
-.ChatTabsBackButton
-{
-	display: flex;
-	background: #2e2e2f !important;
-	margin: 0px;
-	margin-right: 4px;
-	cursor: default;
-	padding: 0px;
-	border-top-left-radius: 2px;
-	border-top-right-radius: 2px;
-	flex-direction: row;
-	width: 180px;  /* update k_chatTabWidth in chattabs.tsx if this width changes */
-	height: 43px;
-	flex: 1;
-	position: relative;
-	overflow: hidden;
-}
-
-.chatWindow .chatHeader {
-    flex-shrink: 0;
-    background: #2e2e2f !important;
-    min-height: 2px !important; /* 1 or 2 pixels */
-}
-
-.chatWindow {
-    background: #1e1e1f !important;
-}
-
-.chatWindow .chatEntry {
-    background-color: transparent !important;
-}
-
-.chatWindow .chatEntryControls {
-    background-color: #2e2e2f !important;
-    border-radius: 4px !important;
-}
-
-.VoiceToggle {
-    background: #2e2e2f !important;
-}
-
-.ChatMessageEntryVoice {
-    background-color: #2e2e2f !important;
-}
-
-.ChatMessageEntryVoice.Disabled {
-    border: 0px !important;
-    outline: 0px !important;
-}
-
-.chatSubmitButton.disabled, .chatSubmitButton.EmbedButton,
-.chatSubmitButton.EmoticonPickerButton {
-    background: #2e2e2f !important;
-}
-
-.chatSubmitButton {
-    border: 1px solid rgb( 27, 28, 32 );
-    margin-top: 2px;
 }
