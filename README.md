@@ -27,7 +27,9 @@ What's New?
     Redesingned Content Page.
     Redesingned Badge Page.
     Redesingned Inventory.
-    Small performance improvements.
+    Auto-Updater.
+    Auto-Installer.
+    Minor performance improvements.
 
 
 *Made with love by* ***Shiina♪***
