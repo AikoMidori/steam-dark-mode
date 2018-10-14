@@ -10,7 +10,7 @@ updater and installer are made with much love by **PhantomGamers.**
 
 ------------------------------------------------------------------------------------------------------------------
 
-**Beta Update 1.6
+**Beta Update 1.6**
 
 What's New?
 
