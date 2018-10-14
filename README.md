@@ -10,10 +10,10 @@ updater and installer are made with much love by **PhantomGamers.**
 
 ### Manual Installation
 # Windows
-You go to **"C:/Program files (86)/Steam/Skins/Metro/resource"** and put it in, click replace, restart steam and all done!
+Head over to **"C:/Program files (86)/Steam/Skins/Metro/resource"** and put it in, click replace, restart steam and all done!
 
 # macOS
-Right click on your Finder, select "Go to Folder..." and put this in the search path:
+Right click on Finder, select "Go to Folder..." and put this in the search path:
 **~/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/skins**
 Open Metro folder, go to resource folder, and replace just like Windows.
 
