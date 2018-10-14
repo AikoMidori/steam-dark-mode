@@ -21,4 +21,4 @@ What's New?
     -Small performance improvements.
 
 
-*Made with much love by Shiina♪*
+*Made with much love by **Shiina♪*
