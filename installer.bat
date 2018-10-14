@@ -1,8 +1,6 @@
 @echo off
 title Steam Dark Mode Installer
 
-if not exist webkit.css (echo webkit.css not found, make sure it is in the same directory as this batch file! && pause && goto:eof)
-
 echo Checking for Steam directory and current skin...
 for /f "tokens=1,2*" %%E in ('reg query HKEY_CURRENT_USER\Software\Valve\Steam\') do (
     if %%E==SteamPath set SteamPath=%%G
