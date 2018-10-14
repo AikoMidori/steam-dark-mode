@@ -22,3 +22,12 @@ What's New?
 
 
 *Made with love by* ***Shiina♪***
+
+
+**Screenshots**
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="https://i.imgur.com/KIcOaZs.png" style="width:100%">
+  </div>
