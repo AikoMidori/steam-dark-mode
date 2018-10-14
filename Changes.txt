@@ -1,0 +1,29 @@
+### Beta Update 1.7
+
+What's New?
+
+    Redisgined Workshop Frontpage
+    Redesingned Workshop Sub Pages
+    Cleaned up the code
+
+
+Made with love by Shiina
+
+Screenshot: http://prntscr.com/l62qw0
+
+--------------------------------------------------------
+
+### Beta Update 1.6
+
+What's New?
+
+    Fixed Store and Workshop screenshots and videos.
+    Redesingned Content Page.
+    Redesingned Badge Page.
+    Redesingned Inventory.
+    Auto-Updater.
+    Auto-Installer.
+    Minor performance improvements.
+
+
+Made with love by Shiina
