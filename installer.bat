@@ -16,7 +16,7 @@ echo Checking for write access to Steam directory...
 mkdir "%SteamPath%/tmp"
 if exist "%SteamPath%/tmp" (rmdir "%SteamPath%/tmp" && echo Success! && echo.) else (echo Write access denied, try running this file as administrator. && pause && goto:eof)
 
-echo Downloading Steam Dark Mode skin to Skin directory...
-powershell -Command "(New-Object Net.WebClient).DownloadFile('https://aikomidori.github.io/steam-dark-mode/webkit.css', '%WebkitPath%')"
+echo Copying Steam Dark Mode skin to Skin directory...
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://github.com/AikoMidori/steam-dark-mode/webkit.css', '%WebkitPath%')"
 
 echo Finished.
