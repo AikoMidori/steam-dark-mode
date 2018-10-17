@@ -5334,6 +5334,31 @@ span.bb_spoiler {
     background-image: none !important;
 }
 
+/* Update News */
+
+BODY	   {
+	font-size: 62.5%;
+    background-color: #1e1e1f !important;
+	margin: 0px;
+}
+
+#ButtonContainer {
+    position: relative;
+    width: auto;
+    height: 59px;
+    background: rgba( 0, 0, 0, 0.2);
+    padding-top: 8px;
+    margin-top: 5px !important;
+    border-radius: 4px !important;
+}
+
+#MessageContent {
+    text-align: center;
+    margin: 0px auto;
+    width: 570px;
+    margin-top: 5px !important;
+    padding: 0px 13px;
+}
 
 
 
