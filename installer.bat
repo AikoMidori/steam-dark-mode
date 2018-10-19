@@ -21,9 +21,9 @@ echo Downloading Steam Dark Mode skin to Skin directory...
 if [%SteamSkin%]==[] (
     reg add HKEY_CURRENT_USER\Software\Valve\Steam /v SkinV4 /t REG_SZ /d "SteamDarkMode" /f >nul
     mkdir "%SteamPath%/skins/SteamDarkMode/resource" >nul
-    powershell -Command "Try{(New-Object Net.WebClient).DownloadFile('https://aikomidori.github.io/steam-dark-mode/webkit.css', '%WebkitPath%')}Catch{Write-Warning $($error[0])}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/webkit.css', '%WebkitPath%')}Catch{Write-Warning $($error[0]);pause}"
 )
-if not [%SteamSkin%]==[] powershell -Command "Try{(New-Object Net.WebClient).DownloadFile('https://aikomidori.github.io/steam-dark-mode/webkit.css', '%WebkitPath%')}Catch{Write-Warning $($error[0])}"
+if not [%SteamSkin%]==[] powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/webkit.css', '%WebkitPath%')}Catch{Write-Warning $($error[0]);pause}"
 
 
 echo Finished. Restart Steam to see changes.

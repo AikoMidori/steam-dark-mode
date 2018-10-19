@@ -1,5 +1,2 @@
 @echo off
-powershell -Command "(New-Object Net.WebClient).DownloadFile('https://aikomidori.github.io/steam-dark-mode/webkit.css', 'webkit.css')"
-powershell -Command "(New-Object Net.WebClient).DownloadFile('https://aikomidori.github.io/steam-dark-mode/README.md', 'README.md')"
-powershell -Command "(New-Object Net.WebClient).DownloadFile('https://aikomidori.github.io/steam-dark-mode/installer.bat', 'installer.bat')"
-powershell -Command "(New-Object Net.WebClient).DownloadFile('https://aikomidori.github.io/steam-dark-mode/Changes.txt', 'Changes.txt')"
+powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/webkit.css', 'webkit.css')}Catch{Write-Warning $($error[0]);pause}"
