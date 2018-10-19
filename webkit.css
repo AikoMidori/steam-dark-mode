@@ -311,8 +311,9 @@ div#global_actions #global_action_menu {
 }
 div#global_actions .user_avatar {
     display: inline-block !important;
-    margin-left: -29px !important;
-    left: 30px !important;
+    margin-left: 3px !important;
+    margin-top: 15px !important;
+    border-radius: 40px !important;
 }
 
 body.v6 .supernav_content, body.v6 #global_header, body.v6 #global_header .content {
@@ -483,10 +484,6 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
 }
 .ds_options_tooltip > .option {
     color: #4f94bc !important;
-}
-div#global_actions .user_avatar {
-    height: 60px !important;
-    width: 60px !important;
 }
 
 .store_main_capsule, .store_main_capsule {
