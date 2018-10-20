@@ -78,7 +78,7 @@ echo.
 echo Updating Files to current folder... 
     powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/webkit.css',    'webkit.css')}Catch{Write-Warning $($error[0]);pause}"
     powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/README.md',     'README.md')}Catch{Write-Warning $($error[0]);pause}"
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/Steam Dark Mode Tool.bat', 'SteamDark Mode Tool.bat')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/Steam Dark Mode Tool.bat', 'Steam Dark Mode Tool.bat')}Catch{Write-Warning $($error[0]);pause}"
     powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/Changes.txt',   'Changes.txt')}Catch{Write-Warning $($error[0]);pause}"
 echo Files updated!
 echo.
