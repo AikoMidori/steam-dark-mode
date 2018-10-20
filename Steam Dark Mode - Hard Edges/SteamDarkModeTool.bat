@@ -45,7 +45,7 @@ goto:start
 
 :replace
 echo.
-if not exist webkit.css (echo webkit.css not found, make sure it's in the same directory as this installer. && echo. && goto:start)
+if not exist webkit.css (echo webkit not found, make sure it's in the same directory as this installer. && echo. && goto:start)
 
 echo Checking for Steam directory and current skin...
 for /f "tokens=1,2*" %%E in ('reg query HKEY_CURRENT_USER\Software\Valve\Steam\') do (

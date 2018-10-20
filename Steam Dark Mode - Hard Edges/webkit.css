@@ -181,8 +181,6 @@ body.recommendgame #review_create {
 }
 
 .newmodal_header_border {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
     background: -webkit-linear-gradient( top, #797272 5%, #2e2e2e 95%);
     background: linear-gradient( to bottom, #797272 5%, #2e2e2e 95%);
     padding: 1px 1px 0 1px;
@@ -585,8 +583,6 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
     padding: 36px 11px;
     cursor: pointer;
     z-index: 3;
-    border-top-left-radius: 4px !important;
-    border-bottom-left-radius: 4px !important;
 }
 .arrow.right {
     background: #161617 !important;
@@ -597,8 +593,6 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
     padding: 36px 11px;
     cursor: pointer;
     z-index: 3;
-    border-top-right-radius: 4px !important;
-    border-bottom-right-radius: 4px !important;
 }
 
 .store_capsule .discount_block.discount_block_large .discount_prices {
@@ -845,8 +839,6 @@ a.home_marketing_message {
     background-size: cover;
     padding: 0;
     margin: 0;
-    border-bottom-left-radius: 4px !important;
-    border-bottom-right-radius: 4px !important;
 }
 
 .home_content a.home_content_item img, .home_content .item img {
@@ -962,7 +954,6 @@ a.home_marketing_message {
 }
 .home_tab.active .tab_content {
     border: none !important;
-    border-top-left-radius: 4px !important;
     background-color: #161617 !important;
 }
 .tab_item.focus {
@@ -2002,8 +1993,6 @@ color: white !important;
 }
 
 .invite_section_ctn .header_row {
-    border-top-left-radius: 4px !important;
-    border-top-right-radius: 4px !important;
     flex: 1 100%;
     background-color: rgba(255,255,255,0.1) !important;
     text-transform: uppercase;
@@ -2016,8 +2005,6 @@ color: white !important;
 }
 
 .invite_section_ctn .content {
-    border-bottom-left-radius: 4px !important;
-    border-bottom-right-radius: 4px !important;
     flex: 1 100%;
     font-size: 13px;
     color: rgb(235, 235, 235);
@@ -2055,8 +2042,6 @@ color: white !important;
 }
 
 .gameListRowLogo.ds_flagged .ds_flag {
-    border-top-right-radius: 4px !important;
-    border-bottom-right-radius: 4px !important;
     top: auto;
     bottom: 20%;
     background: rgba( 0, 0, 0, 0.2 ) no-repeat 4px 4px #d3deea !important;
@@ -2379,8 +2364,6 @@ body.v6 .wishlist_header h2 {
 }
 
 .review_box .header {
-    border-top-left-radius: 4px !important;
-    border-top-right-radius: 4px !important;
     padding: 8px 9px;
     font-size: 12px;
     color: #8f98a0;
@@ -2408,8 +2391,6 @@ a.trigger, a.activetrigger {
 }
 
 .dselect_container a, .dselect_container a:hover, .dselect_container a:active, .dselect_container a:visited {
-    border-bottom-left-radius: 4px !important;
-    border-bottom-right-radius: 4px !important;
     font-size: 12px;
     line-height: 22px;
     text-decoration: none;
@@ -2773,8 +2754,6 @@ img.game_header_image_full {
     width: 324px !important;
     margin-left: -5px !important;
     height: 151px;
-    border-top-left-radius: 4px !important;
-    border-top-right-radius: 4px !important;
 }
 
 body.v6 .game_area_already_owned.page_content {
@@ -3088,8 +3067,6 @@ body.v6 #footer .rule {
     margin-bottom: 6px;
     display: block;
     line-height: 15px;
-    border-top-left-radius: 4px !important;
-    border-top-right-radius: 4px !important;
 }
 
 .short_header:hover {
@@ -3099,8 +3076,6 @@ body.v6 #footer .rule {
     margin-bottom: 6px;
     display: block;
     line-height: 15px;
-    border-top-left-radius: 4px !important;
-    border-top-right-radius: 4px !important;
 }
 
 .discount_block.no_discount .bundle_base_discount {
@@ -3409,8 +3384,6 @@ h2 span.note:hover {
     background-color: #2a475e;
     box-shadow: 0px !important;
     position: relative;
-    border-top-left-radius: 4px !important;
-    border-top-right-radius: 4px !important;
 }
 
 .review_histogram_section .user_reviews_summary_bar {
@@ -3423,7 +3396,6 @@ h2 span.note:hover {
 
 .review_histogram_section.recent {
     box-shadow: 0px !important;
-    border-top-right-radius: 4px !important;
 }
 
 .user_reviews_header {
@@ -3441,9 +3413,6 @@ h2 span.note:hover {
     color: #556772;
     line-height: 20px;
     z-index: 10;
-    border-top-right-radius: 4px !important;
-    border-bottom-left-radius: 4px !important;
-    border-bottom-right-radius: 4px !important;
 }
 
 .user_reviews_filter_options {
@@ -3451,8 +3420,6 @@ h2 span.note:hover {
     padding: 10px;
     margin-bottom: 30px;
     background-color: #1f2f42;
-    border-bottom-left-radius: 4px !important;
-    border-bottom-right-radius: 4px !important;
 }
 
 .user_reviews_filter_menu {
@@ -3871,8 +3838,6 @@ div.early_access_announcements .post .more:hover {
     max-width: 480px;
     overflow: hidden;
     white-space: nowrap;
-    border-top-right-radius: 4px !important;
-    border-bottom-right-radius: 4px !important;
 }
 
 .grouppage_header_label {
@@ -3885,7 +3850,6 @@ div.early_access_announcements .post .more:hover {
     background-color: rgba( 0, 0, 0, 0.6 ) !important;
     color: #949491;
     font-size: 11px;
-    border-top-right-radius: 4px !important;
 }
 
 .grouppage_friendsingroup {
@@ -3896,8 +3860,6 @@ div.early_access_announcements .post .more:hover {
     background-color: rgba( 0, 0, 0, 0.6 ) !important;
     height: 42px;
     max-width: 680px;
-    border-top-left-radius: 4px !important;
-    border-bottom-left-radius: 4px !important;
 }
     
 .btn_blue_white_innerfade {
@@ -4501,15 +4463,11 @@ img#blotter_nofriends_block {
     min-height: 88px;
     padding-left: 210px;
     position: relative;
-    border-top-left-radius: 4px !important;
-    border-top-right-radius: 4px !important;
 }
 
 .blotter_comment_thread .commentthread_area {
     padding-left: 2px;
     padding-right: 15px;
-    border-bottom-left-radius: 4px !important;
-    border-bottom-right-radius: 4px !important;
 }
 
 .blotter_comment_thread {
@@ -4523,8 +4481,6 @@ img#blotter_nofriends_block {
     position: relative;
     border-bottom: 0px solid #2e3a4a !important;
     background: rgba( 0, 0, 0, 0.2 );
-    border-top-left-radius: 4px !important;
-    border-top-right-radius: 4px !important;
 }
 
 .blotter_screenshot_gallery_image, .blotter_screenshot_gallery_image_selected {
@@ -4609,8 +4565,6 @@ span.bb_spoiler {
 .games_list_tabs {
     border: 0px solid #535353 !important;
     border-bottom-color: #303030;
-    border-top-left-radius: 4px !important;
-    border-top-right-radius: 4px !important;
     -moz-border-radius-topleft: 4px !important;
     -moz-border-radius-topright: 4px !important;
     background-color: #3A3A3A;
@@ -4677,16 +4631,12 @@ span.bb_spoiler {
 
 #iteminfo0 .item_desc_content, #iteminfo1 .item_desc_content {
     min-height: 207px;
-    border-top-left-radius: 4px !important;
-    border-top-right-radius: 4px !important;
     background-color: #181818 !important;
 }
 
 .item_market_actions {
     padding: 11px;
     min-height: 32px;
-    border-bottom-left-radius: 4px !important;
-    border-bottom-right-radius: 4px !important;
 }
 
 .trade_item_box {
@@ -5302,8 +5252,6 @@ margin-top: 2px !important;
    margin-right: 4px;
    cursor: default;
    padding: 0px;
-   border-top-left-radius: 2px;
-   border-top-right-radius: 2px;
    flex-direction: row;
    width: 180px;  /* update k_chatTabWidth in chattabs.tsx if this width changes */
    height: 43px;
@@ -5473,7 +5421,6 @@ margin-top: 2px !important;
     border-left: 1px solid #74859b;
     border-bottom: 1px solid #74859b;
     margin-top: -5px;
-    border-bottom-left-radius: 6px;
     margin-left: -32px !important;
 }
 
@@ -5488,7 +5435,6 @@ margin-top: 2px !important;
     margin-top: 0px !important;
     border-left: 0px solid #74859b !important;
     border-top: 0px solid #74859b !important;
-    border-top-left-radius: 0px !important;
 }
 
 .friend .avatarHolder, .SteamPlayerGroupFooter .SteamPlayerGroupFooterCount {
@@ -5529,8 +5475,6 @@ margin-top: 2px !important;
 .gameGroup:not(.OtherGamesGroup):not(.NonSteamGamesGroup) .gameGroupContainer {
     background-color: #cde2;
     background-color: transparent;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
     width: 40px;
     height: 26px;
     margin-right: 8px;
@@ -5581,8 +5525,6 @@ margin-top: 2px !important;
     margin-right: 4px;
     cursor: default;
     padding: 0px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
     flex-direction: row;
     width: 180px;
     height: 44px !important;
