@@ -1,5 +1,7 @@
 @echo off
-title Steam Dark Mode Installer
+title Steam Dark Mode Offline Installer
+
+if not exist webkit.css (echo webkit.css not found, make sure it's in the same directory as this installer. && pause && goto:eof)
 
 echo Checking for Steam directory and current skin...
 for /f "tokens=1,2*" %%E in ('reg query HKEY_CURRENT_USER\Software\Valve\Steam\') do (
@@ -21,9 +23,9 @@ echo Moving Steam Dark Mode skin to Skin directory...
 if [%SteamSkin%]==[] (
     reg add HKEY_CURRENT_USER\Software\Valve\Steam /v SkinV4 /t REG_SZ /d "SteamDarkMode" /f >nul
     mkdir "%SteamPath%/skins/SteamDarkMode/resource" >nul
-    copy /Y webkit.css "%WebkitPath%"
+    copy /Y webkit.css "%WebkitPath%" >nul
 )
-if not [%SteamSkin%]==[] copy /Y webkit.css "%WebkitPath%"
+if not [%SteamSkin%]==[] copy /Y webkit.css "%WebkitPath%" >nul
 
 
 echo Finished. Restart Steam to see changes.
