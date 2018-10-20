@@ -33,7 +33,7 @@ updater and installer are made with much love by **PhantomGamers.**
     
 <div class="container">
   <div class="Screenshots">    
-      <img src="http://prntscr.com/l88ebo"style="width:100%">
+      <img src="http://prntscr.com/l88ebo" style="width:100%">
   </div>
 
 
