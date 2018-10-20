@@ -17,13 +17,13 @@ echo Checking for write access to Steam directory...
 mkdir "%SteamPath%/tmp"
 if exist "%SteamPath%/tmp" (rmdir "%SteamPath%/tmp" && echo Success! && echo.) else (echo Write access denied, try running this file as administrator. && pause && goto:eof)
 
-echo Downloading Steam Dark Mode skin to Skin directory...
+echo Moving Steam Dark Mode skin to Skin directory...
 if [%SteamSkin%]==[] (
     reg add HKEY_CURRENT_USER\Software\Valve\Steam /v SkinV4 /t REG_SZ /d "SteamDarkMode" /f >nul
     mkdir "%SteamPath%/skins/SteamDarkMode/resource" >nul
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/webkit.css', '%WebkitPath%')}Catch{Write-Warning $($error[0]);pause}"
+    copy /Y webkit.css "%WebkitPath%"
 )
-if not [%SteamSkin%]==[] powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/webkit.css', '%WebkitPath%')}Catch{Write-Warning $($error[0]);pause}"
+if not [%SteamSkin%]==[] copy /Y webkit.css "%WebkitPath%"
 
 
 echo Finished. Restart Steam to see changes.
