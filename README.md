@@ -1,7 +1,7 @@
 # Steam Dark Mode
 
-Use the Steam Dark Mode Tool.bat to update and install the Dark Mode for Steam.
-This will also update all the files to the latest version!
+Use the Steam Dark Mode Tool to update and install the Dark Mode for Steam.
+This Tool can also update all the files to the latest version!
 
 Visit https://steamcommunity.com/groups/metroskin/discussions/0/1761356057412667612/ to check for updates.
 join us on discord https://discord.gg/015OTigbS9wyJlBDP to discuss about upcoming releases and updates.
