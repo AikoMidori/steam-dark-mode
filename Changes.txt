@@ -2,7 +2,7 @@
 
 What's New?
 
-    Redisgined News Update Page.
+    Redesingned News Update Page.
     Fixed the In-game overlay avatar.
     A brand new all-in-one tool to update and install.
     In collaboration with PhantomGamers https://github.com/PhantomGamers.
@@ -17,7 +17,7 @@ Made with love by Shiina♪
 
 What's New?
 
-    Redisgined Workshop Frontpage.
+    Redesingned Workshop Frontpage.
     Redesingned Workshop Sub Pages.
     Cleaned up the code.
 
