@@ -1,7 +1,7 @@
 # Steam Dark Mode
 
-Use the update.bat to update the file whenever a new release comes out,
-and use the installer to install the file to your skin directory.
+Use the Steam Dark Mode Tool.bat to update and install the Dark Mode for Steam.
+This will also update all the files to the latest version!
 
 Visit https://steamcommunity.com/groups/metroskin/discussions/0/1761356057412667612/ to check for updates.
 join us on discord https://discord.gg/015OTigbS9wyJlBDP to discuss about upcoming releases and updates.
@@ -21,13 +21,15 @@ updater and installer are made with much love by **PhantomGamers.**
 
 ------------------------------------------------------------------------------------------------------------------
 
-### Beta Update 1.7
+### Beta Update 1.8
 
 **What's New?**
 
-    Redisgined Workshop Frontpage
-    Redesingned Workshop Sub Pages
-    Cleaned up the code
+    Redisgined News Update Page.
+    Fixed the In-game overlay avatar.
+    A brand new all-in-one tool to update and install.
+    Collaboration with PhantomGamers https://github.com/PhantomGamers.
+    Cleaned up the code.
 
 
 *Made with love by* ***Shiina♪***
