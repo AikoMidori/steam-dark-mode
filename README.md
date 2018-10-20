@@ -28,7 +28,7 @@ updater and installer are made with much love by **PhantomGamers.**
     Redisgined News Update Page.
     Fixed the In-game overlay avatar.
     A brand new all-in-one tool to update and install.
-    Collaboration with PhantomGamers https://github.com/PhantomGamers.
+    I collaboration with PhantomGamers https://github.com/PhantomGamers.
     Cleaned up the code.
 
 
