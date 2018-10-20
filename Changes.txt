@@ -1,3 +1,17 @@
+﻿### Beta Update 1.9
+
+What's New?
+
+    Dark Mode for Steam is now available with hard edges. (no rounded corners)
+    A brand new all-in-one tool to update and install.
+    In collaboration with PhantomGamers https://github.com/PhantomGamers.
+    Cleaned up the code.
+
+
+Made with love by Shiina♪
+
+--------------------------------------------------------
+
 ### Beta Update 1.8
 
 What's New?
@@ -8,9 +22,10 @@ What's New?
     In collaboration with PhantomGamers https://github.com/PhantomGamers.
     Cleaned up the code.
 
-Screenshot: http://prntscr.com/l88ebo
 
 Made with love by Shiina♪
+
+Screenshot: http://prntscr.com/l88ebo
 
 --------------------------------------------------------
 
