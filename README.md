@@ -21,12 +21,11 @@ updater and installer are made with much love by **PhantomGamers.**
 
 ------------------------------------------------------------------------------------------------------------------
 
-### Beta Update 1.8
+### Beta Update 1.9
 
 **What's New?**
 
-    Redesingned News Update Page.
-    Fixed the In-game overlay avatar.
+    Dark Mode for Steam is now available with hard edges. (no rounded corners)
     A brand new all-in-one tool to update and install.
     In collaboration with PhantomGamers https://github.com/PhantomGamers.
     Cleaned up the code.
