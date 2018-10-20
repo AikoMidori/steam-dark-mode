@@ -30,6 +30,8 @@ updater and installer are made with much love by **PhantomGamers.**
     A brand new all-in-one tool to update and install.
     In collaboration with PhantomGamers https://github.com/PhantomGamers.
     Cleaned up the code.
+    
+Screenshot: http://prntscr.com/l88ebo
 
 
 *Made with love by* ***Shiina♪***
