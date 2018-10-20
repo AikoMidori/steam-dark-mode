@@ -31,7 +31,10 @@ updater and installer are made with much love by **PhantomGamers.**
     In collaboration with PhantomGamers https://github.com/PhantomGamers.
     Cleaned up the code.
     
-Screenshot: http://prntscr.com/l88ebo
+<div class="container">
+  <div class="Screenshots">    
+      <img src="http://prntscr.com/l88ebo"style="width:100%">
+  </div>
 
 
 *Made with love by* ***Shiina♪***
