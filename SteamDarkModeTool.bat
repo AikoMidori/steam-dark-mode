@@ -19,7 +19,7 @@ if exist "%SteamPath%" (echo Steam directory found! && echo.) else (echo Steam d
 echo Choose an option:
 echo 1. Update all files to current folder.
 echo 2. Replace webkit to Steam Skin.
-echo 3. Update and replace webkits to steam skin.
+echo 3. Update and replace webkit to steam skin.
 echo 4. Restart Steam for changes to take effect.
 echo 5. Exit.
 echo.
