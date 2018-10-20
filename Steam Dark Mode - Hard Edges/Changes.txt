@@ -1,0 +1,45 @@
+### Beta Update 1.8
+
+What's New?
+
+    Redesingned News Update Page.
+    Fixed the In-game overlay avatar.
+    A brand new all-in-one tool to update and install.
+    In collaboration with PhantomGamers https://github.com/PhantomGamers.
+    Cleaned up the code.
+
+Screenshot: http://prntscr.com/l88ebo
+
+Made with love by Shiina♪
+
+--------------------------------------------------------
+
+### Beta Update 1.7
+
+What's New?
+
+    Redesingned Workshop Frontpage.
+    Redesingned Workshop Sub Pages.
+    Cleaned up the code.
+
+
+Made with love by Shiina♪
+
+Screenshot: http://prntscr.com/l62qw0
+
+--------------------------------------------------------
+
+### Beta Update 1.6
+
+What's New?
+
+    Fixed Store and Workshop screenshots and videos.
+    Redesingned Content Page.
+    Redesingned Badge Page.
+    Redesingned Inventory.
+    Auto-Updater.
+    Auto-Installer.
+    Minor performance improvements.
+
+
+Made with love by Shiina♪
