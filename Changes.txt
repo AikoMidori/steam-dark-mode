@@ -1,13 +1,28 @@
+### Beta Update 1.8
+
+What's New?
+
+    Redisgined News Update Page.
+    Fixed the In-game overlay avatar.
+    A brand new all-in-one tool to update and install.
+    In collaboration with PhantomGamers https://github.com/PhantomGamers.
+    Cleaned up the code.
+
+
+Made with love by Shiina♪
+
+--------------------------------------------------------
+
 ### Beta Update 1.7
 
 What's New?
 
-    Redisgined Workshop Frontpage
-    Redesingned Workshop Sub Pages
-    Cleaned up the code
+    Redisgined Workshop Frontpage.
+    Redesingned Workshop Sub Pages.
+    Cleaned up the code.
 
 
-Made with love by Shiina
+Made with love by Shiina♪
 
 Screenshot: http://prntscr.com/l62qw0
 
@@ -26,4 +41,4 @@ What's New?
     Minor performance improvements.
 
 
-Made with love by Shiina
+Made with love by Shiina♪
