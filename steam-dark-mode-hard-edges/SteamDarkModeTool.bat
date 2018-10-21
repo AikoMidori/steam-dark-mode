@@ -2,12 +2,13 @@
 title Steam Dark Mode Tool
 
 echo Welcome to the Steam Dark Mode Tool.
+echo Made by PhantomGamers and Shiina.
+echo Version 2.0 (Hard Edges)
 echo.
 echo This tool helps you update and install the Dark Mode for Steam!
 echo It also creates a skin for you if you didn't had one yet.
 echo If you have any questions, Leave a message on our Discord: https://discord.gg/UZvkvkh
 echo.
-echo Tool by PhantomGamers and Shiina.
 echo.
 
 echo Checking for Steam directory...
