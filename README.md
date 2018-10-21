@@ -20,7 +20,7 @@ updater and installer are made with much love by **PhantomGamers.**
     Copy or drag the files in, click replace, restart steam and all done!
     
 # Linux
-    Open Terminal, copy and paste the folling line:
+    Open Terminal, copy and paste the following line:
     ~/.local/share/Steam/skins/YourSkinName/resource
     Copy or drag the files in, click replace, restart steam and all done!
 ------------------------------------------------------------------------------------------------------------------
