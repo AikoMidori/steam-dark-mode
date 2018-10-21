@@ -11,7 +11,7 @@ updater and installer are made with much love by **PhantomGamers.**
 ### Manual Installation
 # Windows
     Head over to:
-    "C:/Program files (86)/Steam/Skins/Metro/resource"
+    "C:/Program files (86)/Steam/Skins/YourSkinName/resource"
     Copy or drag the files in, click replace, restart steam and all done!
 
 # macOS
