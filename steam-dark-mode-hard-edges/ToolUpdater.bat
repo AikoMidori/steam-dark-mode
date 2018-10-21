@@ -1,5 +1,5 @@
 @echo off
-title Steam Dark Mode Tool
+title Steam Dark Mode Tool Updater
 
 echo Welcome to the Steam Dark Mode Tool Updater.
 echo Made by Shiina.
