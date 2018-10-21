@@ -4565,8 +4565,6 @@ span.bb_spoiler {
 .games_list_tabs {
     border: 0px solid #535353 !important;
     border-bottom-color: #303030;
-    -moz-border-radius-topleft: 4px !important;
-    -moz-border-radius-topright: 4px !important;
     background-color: #3A3A3A;
     padding-top: 1px;
 }
