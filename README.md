@@ -12,13 +12,17 @@ updater and installer are made with much love by **PhantomGamers.**
 # Windows
     Head over to:
     "C:/Program files (86)/Steam/Skins/Metro/resource"
-    copy or drag the files in, click replace, restart steam and all done!
+    Copy or drag the files in, click replace, restart steam and all done!
 
 # macOS
     Right click on Finder, select "Go to Folder..." and put this in the search path:
-    ~/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/skins
-    Open Metro folder, go to resource folder, and replace just like Windows.
-
+    ~/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/skins/YourSkinName/resource
+    Copy or drag the files in, click replace, restart steam and all done!
+    
+# Linux
+    Right click on Finder, select "Go to Folder..." and put this in the search path:
+    ~/.local/share/Steam/skins/YourSkinName/resource
+    Copy or drag the files in, click replace, restart steam and all done!
 ------------------------------------------------------------------------------------------------------------------
 
 ### Beta Update 1.9
