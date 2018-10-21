@@ -20,7 +20,7 @@ updater and installer are made with much love by **PhantomGamers.**
     Copy or drag the files in, click replace, restart steam and all done!
     
 # Linux
-    Right click on Finder, select "Go to Folder..." and put this in the search path:
+    Open Terminal, copy and paste the folling line:
     ~/.local/share/Steam/skins/YourSkinName/resource
     Copy or drag the files in, click replace, restart steam and all done!
 ------------------------------------------------------------------------------------------------------------------
