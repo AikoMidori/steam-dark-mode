@@ -31,6 +31,7 @@ updater and installer are made with much love by **PhantomGamers.**
 
     Dark Mode for Steam is now available with hard edges. (no rounded corners)
     A brand new all-in-one tool to update and install.
+    A Tool to update the SteamDarkModeTool.
     In collaboration with PhantomGamers. https://github.com/PhantomGamers.
     Cleaned up the code.
 
