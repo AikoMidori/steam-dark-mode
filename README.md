@@ -23,6 +23,7 @@ updater and installer are made with much love by **PhantomGamers.**
     Open Terminal, copy and paste the following line:
     ~/.local/share/Steam/skins/YourSkinName/resource
     Copy or drag the files in, click replace, restart steam and all done!
+    
 ------------------------------------------------------------------------------------------------------------------
 
 ### Beta Update 1.9
