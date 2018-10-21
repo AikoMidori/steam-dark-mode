@@ -606,13 +606,14 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
 }
 .friends_recently_purchased .friends_container {
     background: #2e2e2f !important;
+    border-top: none !important;
 }
+
+
+
 .friends_recently_purchased .store_capsule {
     background-image: none !important;
     background: #2e2e2f !important;
-}
-.friends_recently_purchased .friends_container {
-    border-top: 1px solid #161617 !important;
 }
 .discovery_queue_ctn .begin_exploring {
     background: none !important;
@@ -947,7 +948,7 @@ a.home_marketing_message {
     background: #2e2e2f !important;
 }
 .recently_updated .store_capsule .recently_updated_desc {
-    border-top: 1px solid #161617 !important;
+    border-top: none !important;
 }
 .hardware_ctn.double .hardware_content .left, .hardware_ctn.double .hardware_content .right {
     display: none !important;
@@ -4565,6 +4566,8 @@ span.bb_spoiler {
 .games_list_tabs {
     border: 0px solid #535353 !important;
     border-bottom-color: #303030;
+    -moz-border-radius-topleft: 4px !important;
+    -moz-border-radius-topright: 4px !important;
     background-color: #3A3A3A;
     padding-top: 1px;
 }
