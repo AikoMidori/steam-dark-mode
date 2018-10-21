@@ -11,13 +11,18 @@ updater and installer are made with much love by **PhantomGamers.**
 ### Manual Installation
 # Windows
     Head over to:
-    "C:/Program files (86)/Steam/Skins/Metro/resource"
-    copy or drag the files in, click replace, restart steam and all done!
+    "C:/Program files (86)/Steam/Skins/YourSkinName/resource"
+    Copy or drag the files in, click replace, restart steam and all done!
 
 # macOS
     Right click on Finder, select "Go to Folder..." and put this in the search path:
-    ~/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/skins
-    Open Metro folder, go to resource folder, and replace just like Windows.
+    ~/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/skins/YourSkinName/resource
+    Copy or drag the files in, click replace, restart steam and all done!
+    
+# Linux
+    Open Terminal, copy and paste the following line:
+    ~/.local/share/Steam/skins/YourSkinName/resource
+    Copy or drag the files in, click replace, restart steam and all done!
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -40,10 +45,10 @@ updater and installer are made with much love by **PhantomGamers.**
 <div class="container">
   <div class="mySlides">
     <div class="numbertext">1 / 2</div>
-    <img src="https://i.imgur.com/KIcOaZs.png" style="width:100%">
+    <img src="https://image.prntscr.com/image/Rm4s_K_LQ6ikqNiDluTsZg.png" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">2 / 2</div>
-    <img src="https://i.imgur.com/n4UqKX4.png" style="width:100%">
+    <img src="https://image.prntscr.com/image/cF43nT6gTb27zhHzYNRt0w.png" style="width:100%">
   </div>
