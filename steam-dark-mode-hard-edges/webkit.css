@@ -245,6 +245,11 @@ background: #1E1E1F !important;
     background: #1E1E1F !important;
 }
 
+.compact .wishlist_row .capsule img {
+    width: 162px !important;
+    height: 78px !important;
+}
+
 .discovery_queue img {
     height: 289px;
     position: relative;
