@@ -1,9 +1,5 @@
 *{
     box-shadow: none !important;
-    transition: none !important;
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -o-transition: none !important;
 }
 
 @media /* Large screen, non-retina */
@@ -259,6 +255,11 @@ background: #1E1E1F !important;
 }
 .responsive_page_content {
     background: #1E1E1F !important;
+}
+
+.compact .wishlist_row .capsule img {
+    width: 162px !important;
+    height: 78px !important;
 }
 
 .discovery_queue img {
@@ -4827,8 +4828,6 @@ img#blotter_nofriends_block {
     padding: 32px 0;
     border-radius: 4px !important;
 }
-
-
 
 /* Activity Page */
 
