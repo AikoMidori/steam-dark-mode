@@ -3280,8 +3280,41 @@ body.v6 #footer .rule {
     box-shadow: 0 0 5px #000;
 }
 
-.sale_page_n_section_block.n_section_1 {
-    background: none !important;
+.sale_page_n_section_block {
+    background: #020202 !important;
+}
+
+.promotion_curator_container {
+    background: -webkit-linear-gradient( left, rgba(255,255,255,0.6) 5%,rgba(255,255,255,0) 95%);
+    background: linear-gradient( to right, rgba(255,255,255,0.6) 5%,rgba(255,255,255,0) 95%);
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+body.v6 .page_content {
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 400px !important;
+}
+
+.promotion_follow_controls {
+    display: inline-flex;
+    margin-top: 4px;
+    background: rgba( 0, 0, 0, 0.8);
+    padding: 1px 1px 1px 1px !important;
+}
+
+.promotion_curator_socialmedia_accounts {
+    color: #fff;
+    font-size: 12px;
+    background: rgb( 50, 50, 50);
+    padding: 3px 6px 3px 6px;
+    display: inline-flex;
+    vertical-align: top;
+    margin-top: 4px;
 }
 
 .sale_page_purchase_item {
