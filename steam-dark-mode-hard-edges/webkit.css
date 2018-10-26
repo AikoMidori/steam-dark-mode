@@ -2683,7 +2683,7 @@ body.flat_page #footer_spacer, body.headerless_page #footer_spacer {
     vertical-align: bottom;
     display: inline-block;
     background-color: #252525 !important;
-    padding: 1px 1px 2px 0px !important;
+    padding: 2px 2px 2px 0px !important;
     white-space: nowrap;
     font-size: 0;
     margin: 0;
@@ -3292,12 +3292,6 @@ body.v6 #footer .rule {
     padding: 12px;
     margin-bottom: 8px;
     position: relative;
-}
-
-body.v6 .page_content {
-    width: 940px;
-    margin: 0 auto;
-    margin-top: 400px !important;
 }
 
 .promotion_follow_controls {
