@@ -3613,12 +3613,6 @@ body.v6 #footer .rule {
     position: relative;
 }
 
-body.v6 .page_content {
-    width: 940px;
-    margin: 0 auto;
-    margin-top: 400px !important;
-}
-
 .promotion_follow_controls {
     display: inline-flex;
     margin-top: 4px;
