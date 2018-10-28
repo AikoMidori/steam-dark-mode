@@ -2942,7 +2942,7 @@ body.flat_page #footer_spacer, body.headerless_page #footer_spacer {
     display: inline-block;
     background-color: #252525 !important;
     padding: 1px 1px 2px 0px !important;
-    border-radius: 4px !important;
+    border-radius: 6px !important;
     -moz-border-radius: 2px !important;
     white-space: nowrap;
     font-size: 0;
