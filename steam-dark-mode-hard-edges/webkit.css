@@ -4902,12 +4902,6 @@ span.bb_spoiler {
 
 /* Update News */
 
-BODY	   {
-	font-size: 62.5%;
-    background-color: #1e1e1f !important;
-	margin: 0px;
-}
-
 #ButtonContainer {
     position: relative;
     width: auto;
