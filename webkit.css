@@ -79,6 +79,20 @@ only screen and (min-width: 4000px) {
     border-radius: 4px !important;
 }
 
+.appHubIconHolder.greyOverlay {
+    border-radius: 50% !important
+}
+
+.forum_topic_tooltip
+{
+    background-color: #454545 !important;
+    border: 1px solid #303030 !important;
+}
+
+.apphub_Card.interactable:hover .apphub_CardContentDiscussionType {
+    background-color: transparent !important
+}
+
 .capsule.header img {
     border-radius: 4px !important;
 }
@@ -1362,11 +1376,15 @@ body.flat_page:not(.iframe) {
 }
 
 .miniprofile_arrow.right {
-    border-left: 8px solid #1e1e1f !important;
+    display: none !important;
+}
+
+.miniprofile_arrow.left {
+    display: none !important;
 }
 
 .miniprofile_arrow {
-    border-left: 8px solid #353536 !important;
+    display: none !important;
 }
 
 .apphub_BackToTopButton {
