@@ -75,8 +75,94 @@ only screen and (min-width: 4000px) {
     padding-bottom: 3px !important;
 }
 
+.light_container.bezel {
+    background: #1e1e1f !important;
+}
+
+.browse_ctn_background {
+    background: #1e1e1f !important;
+}
+
+.curator_featured .screenshots > div {
+    border-radius: 4px !important;
+}
+
+.lists_more_container .item > div div {
+    background-color: #1e1e1f !important;
+    border-radius: 4px !important;
+}
+
+.lists_more_container .item {
+    border-radius: 4px !important;
+}
+
+.curator_featured .contents {
+    border-radius: 4px !important;
+}
+
+.browse_content .recommendation {
+    border-bottom: 0px !important;
+    border-radius: 4px !important;
+}
+
+.browse_filters a:hover, .browse_filters a.selected {
+    border-radius: 4px !important;
+}
+
+.browse_tabs a:hover, .browse_tabs a.selected {
+    background-color: #2e2e2f !important;
+    border-radius: 4px !important;
+}
+
+.navigation_bar > a.selected {
+    border-radius: 4px !important;
+}
+
+.navigation_bar > * {
+    border-radius: 4px !important;
+}
+
+.game_area_dlc_row.even {
+    border-radius: 4px !important;
+}
+
+#dlc_footer #dlc_show_all_link {
+    border-radius: 4px !important;
+}
+
+#dlc_footer #dlc_show_all_link:hover {
+    border-radius: 4px !important;
+}
+
+.navigation_bar > div.nav_right_side > div.curator_report a {
+    border-radius: 4px !important;
+}
+
+.page_content_ctn.dlc_associated_franchise {
+    background: #1e1e1f !important;
+}
+
+.background_header_ctn.page_background {
+    display: none !important;
+}
+
+.curator_featured > div {
+        border: 0px !important;
+        border-radius: 4px !important;
+        background: #2e2e2f !important;
+}
+
 .mature_content_notice {
     border-radius: 4px !important;
+}
+
+.market_multi_warning_tooltip {
+    background-color:#303030!important;
+    border: 1px solid #303030 !important;
+}
+
+body.v6 .page_content.browse_reviews {
+    background: #1e1e1f !important;
 }
 
 .appHubIconHolder.greyOverlay {
@@ -99,6 +185,12 @@ only screen and (min-width: 4000px) {
 
 .capsule.headerv5 img, .capsule.headerv5 {
     border-radius: 4px !important;
+}
+
+.detailBox .commentthread_comment:not(.hidden_post):hover,
+.group_comments .commentthread_comment:not(.hidden_post):hover,
+.profile_comment_area .commentthread_comment:not(.hidden_post):hover {
+	border-radius: 4px !important;
 }
 
 .daily_deal .dailydeal_desc {
@@ -3069,6 +3161,10 @@ body.v6 .steam_curators_block h2,
 body.v6 .referring_curator_ctn h2,
 body.v6 #game_area_purchase h2.package_group {
 	margin-left: -40px !important;
+}
+
+.referring_curator {
+    border-radius: 4px !important;
 }
 
 div.early_access_announcements .post .more:hover {
