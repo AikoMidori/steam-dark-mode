@@ -2996,9 +2996,20 @@ body.v6 #footer .rule {
 }
 
 .ds_flag.ds_owned_flag {
-    background: none !important;
     border-radius: 4px !important;
 }  
+
+.ds_flag.ds_wishlist_flag {
+    border-radius: 4px !important;
+}
+
+.ds_flag.ds_incart_flag {
+    border-radius: 4px !important;
+}
+
+.ds_flag.ds_ignored_flag {
+    border-radius: 4px !important;
+}
 
 div.early_access_header {
     border-radius: 4px !important;
