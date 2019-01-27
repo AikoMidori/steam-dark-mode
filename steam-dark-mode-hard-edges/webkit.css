@@ -1,4 +1,4 @@
-*{box-shadow:0!important;-webkit-box-shadow:none!important;-moz-box-shadow:none!important}
+*{box-shadow:none!important;-webkit-box-shadow:none!important;-moz-box-shadow:none!important}
 @media only screen and (min-width:1000px){
 .responsive_page_content{-webkit-transform:scale(1)!important;-webkit-transform-origin:50% 00% 0!important}
 }
@@ -85,7 +85,7 @@ input::-webkit-input-placeholder{opacity:0!important}
 body.v6 #footer_nav .popup_block_new .popup_body,body.v6 .store_nav .popup_block_new .popup_body{background:#353535!important}
 .creator .responsive_page_template_content .popup_menu .popup_menu_item,.curator .responsive_page_template_content .popup_menu .popup_menu_item,.footer_content .popup_menu .popup_menu_item,.search_area .popup_body .match,.search_area .popup_body .match .match_name,.store_nav .popup_menu .popup_menu_item{color:#b8b6b4!important}
 .creator .popup_menu .popup_menu_item.focus,.creator .popup_menu .popup_menu_item:hover,.curator .popup_menu .popup_menu_item.focus,.curator .popup_menu .popup_menu_item:hover,.footer_content .popup_menu .popup_menu_item.focus,.footer_content .popup_menu .popup_menu_item:hover,.search_area .popup_body .match:hover,.search_area .popup_body .match:hover .match_name,.store_nav .popup_menu .popup_menu_item.focus,.store_nav .popup_menu .popup_menu_item:hover{color:#fff!important;background-color:#404040!important}
-.store_nav .tab.focus,.store_nav .tab.focus>span,.store_nav .tab:hover,.store_nav .tab:hover>span{text-shadow:0!important}
+.store_nav .tab.focus,.store_nav .tab.focus>span,.store_nav .tab:hover,.store_nav .tab:hover>span{text-shadow:none!important}
 .searchbox input{color:#b8b6b4!important;margin-top:0!important}
 .search_suggest .match{border-top:0!important}
 .game_hover_box{background:#353536!important;color:#b8b6b4!important}
@@ -97,7 +97,7 @@ body.v6 #footer_nav .popup_block_new .popup_body,body.v6 .store_nav .popup_block
 .ds_options_tooltip>.option{color:#4f94bc!important}
 .store_main_capsule{background-image:none!important;background:#2e2e2f!important}
 .store_main_capsule .screenshots>div>div{width:162px!important;height:69px!important;background-size:cover!important;background-position:center center!important;display:inline-block!important;opacity:.6!important;padding:0!important;margin:0!important}
-.capsule.main_capsule{flex-shrink:none!important;position:relative!important;z-index:2!important;margin-right:10px!important;width:616px!important;height:353px!important;background-position:center center!important;background-size:cover!important}
+.capsule.main_capsule{flex-shrink:0!important;position:relative!important;z-index:2!important;margin-right:10px!important;width:616px!important;height:353px!important;background-position:center center!important;background-size:cover!important}
 .carousel_container.spotlight .carousel_items>* .store_capsule.daily_deal{background:#2e2e2f!important}
 .carousel_container.spotlight .carousel_items>* .store_capsule{background-image:none!important;background:#2e2e2f!important}
 .spotlight_content{background:#2e2e2f!important}
@@ -116,8 +116,8 @@ body.v6 #footer_nav .popup_block_new .popup_body,body.v6 .store_nav .popup_block
 .big_button{background-image:none!important;background:#3d3d3e!important}
 a.follow_button.btn_green_white_innerfade.btn_medium{color:#d2e885!important}
 a.following_button.btn_green_white_innerfade.btn_medium{text-decoration:none!important;color:#d2e885!important}
-.tab_item{padding:none!important;margin:none!important}
-.tab_item.focus{margin-right:0!important;padding:none!important;margin:none!important}
+.tab_item{margin:0px!important}
+.tab_item.focus{margin-right:0!important;margin:0px!important}
 .screenshot_bottom_fade{display:none!important}
 .screenshot_container::after{display:none!important}
 .screenshot_container{margin-left:-480px!important}
@@ -311,9 +311,9 @@ div#headerSearch.friend_activity_header_search{background-color:#282828!importan
 .profile_count_link.ellipsis{font-size:14px!important;margin-bottom:4px!important;min-height:29px!important;overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important}
 .profile_in_common.responsive_hidden{margin-bottom:6px!important}
 .profile_topfriends.profile_count_link_preview{display:block!important}
-.friendBlock.persona.in-game{background:0 0!important;color:#90ba3c!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:none!important}
-.friendBlock.persona.online{background:0 0!important;color:#57cbde!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:none!important}
-.friendBlock.persona.offline{background:0 0!important;color:#898989!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:none!important}
+.friendBlock.persona.in-game{background:0 0!important;color:#90ba3c!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:rgba(0,0,0,0)!important}
+.friendBlock.persona.online{background:0 0!important;color:#57cbde!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:rgba(0,0,0,0)!important}
+.friendBlock.persona.offline{background:0 0!important;color:#898989!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:rgba(0,0,0,0)!important}
 .friendBlock.persona.in-game:hover{background:0 0!important;color:#90ba3c!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:rgba(84,133,183,.2)!important}
 .friendBlock.persona.online:hover{background:0 0!important;color:#57cbde!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:rgba(84,133,183,.2)!important}
 .friendBlock.persona.offline:hover{background:0 0!important;color:#898989!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:rgba(84,133,183,.2)!important}
@@ -343,7 +343,7 @@ div#headerSearch.friend_activity_header_search{background-color:#282828!importan
 .friends_nav a{margin-bottom:2px!important}
 .group_block{background:#262627!important}
 .profile_friends.title_bar,.profile_groups.title_bar{margin-top:4px!important}
-.friends_nav .hr{height:none!important;background-color:transparent!important;border-bottom:0!important}
+.friends_nav .hr{height:0px!important;background-color:transparent!important;border-bottom:0!important}
 .friends_search_text_box,.groups_search_text_box{background-color:#2e2e2f!important;border:0!important}
 .profile_friends.title_bar,.profile_groups.title_bar{background-color:rgba(255,255,255,.1)!important}
 .friend_block_link_overlay{border-top-style:solid!important;border-bottom-style:solid!important;border-left-style:solid!important;border-right-style:solid!important;border-width:1px!important}
@@ -367,20 +367,20 @@ div#headerSearch.friend_activity_header_search{background-color:#282828!importan
 .invite_section_ctn .header_row{border-top-left-radius:4px!important;border-top-right-radius:4px!important;background-color:rgba(255,255,255,.1)!important}
 .invite_section_ctn .content{border-bottom-left-radius:4px!important;border-bottom-right-radius:4px!important}
 .profile_small_header_texture{background-image:none!important;background-color:#1e1e1f!important}
-.gameListRowLogo.ds_flagged .ds_flag{border-top-right-radius:4px!important;border-bottom-right-radius:4px!important;background:rgba(0,0,0,.2) no-repeat 4px 4px #d3deea!important}
+.gameListRowLogo.ds_flagged .ds_flag{border-top-right-radius:4px!important;border-bottom-right-radius:4px!important;background:rgba(0,0,0,.2) no-repeat 4px 4px /*#d3deea*/!important}
 .sectionTab{background-color:#262627!important}
 .sectionTab.active{background:rgba(0,0,0,.2)!important}
 .sectionTab:hover{background:rgba(0,0,0,.2)!important}
-.responsive_tab_baseline{background-color:none!important;max-width:0!important;height:0!important}
+.responsive_tab_baseline{background-color:rgba(0,0,0,0)!important;max-width:0!important;height:0!important}
 .gray_bevel.for_text_input{background-color:rgba(0,0,0,.2)!important;border:0!important}
-.shadow_content{margin:none!important}
+.shadow_content{margin:0px!important}
 body.v6 .wishlist_header h2{margin-top:2px!important}
-#wishlist_search{box-sizing:none!important;background-color:#262627!important;border:0!important}
+#wishlist_search{/*box-sizing:none!important;*/background-color:#262627!important;border:0!important}
 #wishlist_search:hover{border:0!important}
 .wishlist_row{background-color:#2e2e2f!important}
-.wishlist_row .purchase_area{background-color:none!important}
+.wishlist_row .purchase_area{background-color:rgba(0,0,0,0)!important}
 .discount_block.no_discount .discount_prices{background:0 0!important}
-.discount_block .discount_prices{background:0 0!important;vertical-align:none!important}
+.discount_block .discount_prices{background:0 0!important;vertical-align:0px!important}
 .btnv6_green_white_innerfade{padding:3px!important;text-decoration:none!important;color:#d2e885!important;background:rgba(121,153,5,1)!important}
 .btnv6_blue_blue_innerfade{padding:3px!important;text-decoration:none!important;color:#a4d7f5!important;background:rgba(47,137,188,1)!important}
 .btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{background:rgba(83,105,4,1)!important;color:#fff!important}
@@ -394,9 +394,9 @@ a.activetrigger,a.trigger{background:0 0!important;background-color:#000!importa
 .profile_customization{background-image:none!important;background-color:#282828!important}
 .recent_game{background-color:#282828!important}
 .favoritegame_showcase .game_info_stats,.recent_game .game_info_stats{background-color:transparent!important;border-top:0!important}
-.game_info_badge_border{border:0!important;background-color:none!important}
+.game_info_badge_border{border:0!important;background-color:rgba(0,0,0,0)!important}
 .achievement_progress_bar_ctn{padding:0!important;border:0!important}
-.game_info_stats_rule{border-top:0!important;background-color:none!important;height:0!important}
+.game_info_stats_rule{border-top:0!important;background-color:rgba(0,0,0,0)!important;height:0!important}
 .screenshot_showcase_screenshot{border:1px transparent solid!important}
 .showcase_content_bg{background-color:#282828!important}
 .commentthread_header,.profile_leftcol_header{border-bottom:0!important;background-color:transparent!important}
@@ -473,7 +473,7 @@ body.v6 #footer .rule{border-top:0 solid #29363d!important}
 h2 span.note{background:rgba(47,137,188,1)!important;color:#a4d7f5!important;padding:0!important;padding-top:4px!important;padding-bottom:1px!important;padding-left:5px!important;padding-right:5px!important}
 h2 span.note:hover{background:rgba(23,67,92,1)!important;color:#fff!important;padding:0!important;padding-top:4px!important;padding-bottom:1px!important;padding-left:5px!important;padding-right:5px!important}
 .review_box.partial .content .gradient{background:0 0!important}
-.early_access_review{background-color:none!important}
+.early_access_review{background-color:rgba(0,0,0,0)!important}
 #review_histograms_container{border-top-left-radius:4px!important;border-top-right-radius:4px!important}
 .review_histogram_section .user_reviews_summary_bar{border-bottom:10px!important}
 .review_histogram_section.recent{border-top-right-radius:4px!important}
@@ -485,13 +485,13 @@ h2 span.note:hover{background:rgba(23,67,92,1)!important;color:#fff!important;pa
 .review_box.partial .view_more a{background:rgba(47,137,188,1)!important;color:#a4d7f5!important}
 .review_box.partial .view_more a:hover{background:rgba(23,67,92,1)!important;color:#fff!important}
 .user_reviews_active_filters .active_filter{background-repeat:no-repeat;background-image:none!important}
-.block.recommendation_reasons hr{height:0!important;background-color:none!important}
-div.early_access_announcements .post .hr{background-color:none!important;height:0!important}
+.block.recommendation_reasons hr{height:0!important;background-color:rgba(0,0,0,0)!important}
+div.early_access_announcements .post .hr{background-color:rgba(0,0,0,0)!important;height:0!important}
 .steam_curator_icon.medium{border-left:0!important}
 div.early_access_announcements .post .more{color:#a4d7f5!important;padding-top:6px!important;padding-bottom:0!important;padding-left:5px!important;padding-right:5px!important;background:rgba(47,137,188,1)!important}
 body.v6 #game_area_purchase h2.package_group,body.v6 .early_access_announcements h2,body.v6 .game_area_description h2,body.v6 .game_area_dlc_section h2,body.v6 .item_store_items_block h2,body.v6 .referring_curator_ctn h2,body.v6 .steam_curators_block h2,body.v6 .sys_req h2{margin-left:-40px!important}
 div.early_access_announcements .post .more:hover{color:#fff!important;padding-top:6px!important;padding-bottom:3px!important;padding-left:5px!important;padding-right:5px!important;background:rgba(23,67,92,1)!important}
-.btnv6_lightblue_blue{padding:4px!important;border:1px #282828!important;padding:4px!important;color:#000!important;background:#7cbef8!important}
+.btnv6_lightblue_blue{padding:4px!important;border:1px #282828!important;color:#000!important;background:#7cbef8!important}
 .btnv6_lightblue_blue>span{border:1px #282828!important;color:#000!important;background:#7cbef8!important}
 .btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{text-decoration:none!important;color:#000!important;border:1px #282828!important;background:#477ead!important}
 .btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span{background:#477ead!important;color:#000!important;border:1px #282828!important}
@@ -500,7 +500,7 @@ div.early_access_announcements .post .more:hover{color:#fff!important;padding-to
 .group_content_rule{background-image:none!important}
 .group_content{background:0 0!important}
 .group_content.bottomless{background:#252525!important;margin-bottom:50px!important;padding-left:7px!important}
-.commentthread_entry{background-color:none!important}
+.commentthread_entry{background-color:rgba(0,0,0,0)!important}
 .group_comments .commentthread_entry{background:0 0!important}
 .commentthread_header .commentthread_count{background-image:none!important;margin-left:15px!important;margin-top:4px!important}
 .commentthread_paging{margin-top:3px!important}
@@ -524,7 +524,7 @@ a.group_tab:hover{background:#282828!important}
 .joinchat_bg{position:relative;width:257px!important;height:36px!important;background:#1c1c1c!important}
 .joinchat_bg .joinchat_button{top:2px!important;color:#fff!important;background:rgba(102,192,244,.8)!important}
 .joinchat_bg .joinchat_membercount{top:1px!important;color:#6a9fce!important}
-.rightbox .rule{height:0!important;background-color:none!important;border-top:0!important}
+.rightbox .rule{height:0!important;background-color:rgba(0,0,0,0)!important;border-top:0!important}
 .commentthread_comment_edit_textarea_ctn,.gray_bevel,input.gray_bevel,textarea.gray_bevel{border:0!important}
 .btn_grey_black{text-decoration:none!important;color:#67c1f5!important}
 .btn_grey_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{text-decoration:none!important;color:#fff!important}
@@ -552,9 +552,9 @@ a.group_tab:hover{background:#282828!important}
 .primary_panel_border{background:0 0!important}
 .rightSectionHolder{background:0 0!important}
 .games_list_tabs{border:0!important;border-top-left-radius:4px!important;border-top-right-radius:4px!important}
-.games_list_tab.active{margin-left:1px!important;background-color:none!important;}
+.games_list_tab.active{margin-left:1px!important;background-color:rgba(0,0,0,0)!important;}
 .games_list_tab,a.games_list_tab{padding:0 12px!important;border-top:0!important}
-.games_list_tab_separator{width:0!important;background-color:none!important;background-repeat:no-repeat}
+.games_list_tab_separator{width:0!important;background-color:rgba(0,0,0,0)!important;background-repeat:no-repeat}
 .games_list_tab.first_tab,a.games_list_tab.first_tab{margin-left:1px!important}
 .filter_ctn.inventory_filters #filter_control{border:0!important;background-color:rgba(0,0,0,.4)!important}
 .inventory_iteminfo{border:2px solid transparent!important}
@@ -563,10 +563,10 @@ a.group_tab:hover{background:#282828!important}
 .item_market_actions{border-bottom-left-radius:4px!important;border-bottom-right-radius:4px!important}
 .trade_item_box{background-color:transparent!important;border:1px solid transparent!important}
 .itemHolder{background-color:transparent!important;background-image:none!important}
-.market_dialog_contents .item,.trade_item_box .item{background-color:none!important}
+.market_dialog_contents .item,.trade_item_box .item{background-color:rgba(0,0,0,0)!important}
 .badge_row{border-top:1px solid transparent!important;border-right:1px solid transparent!important;border-bottom:1px solid transparent!important;border-left:1px solid transparent!important;background-color:#181818!important;background:#181818!important}
 .badge_row_inner{background-color:#181818!important;background:#181818!important}
-.badge_title_rule{height:0!important;border-top:0!important;background-color:none!important}
+.badge_title_rule{height:0!important;border-top:0!important;background-color:rgba(0,0,0,0)!important}
 .badge_empty{border:1px solid transparent!important}
 .badge_progress_card.unowned{border:0!important}
 .profile_xp_block{border:0!important;border-color:#181818!important;background-color:#181818!important}
@@ -591,7 +591,7 @@ a.group_tab:hover{background:#282828!important}
 #ButtonContainer{margin-top:5px!important}
 #MessageContent{margin-top:5px!important}
 .profile_subpage_general .maincontent{border-left:0 solid!important;border-right:0 solid!important}
-.tradeoffer_items_ctn.active{border-top-color:0!important;border-left-color:0!important;border-right-color:0!important;background:#2e2e2f!important}
+.tradeoffer_items_ctn.active{border-top-color:rgba(0,0,0,0)!important;border-left-color:rgba(0,0,0,0)!important;border-right-color:rgba(0,0,0,0)!important;background:#2e2e2f!important}
 .tradeoffer_items_ctn{border:0 solid!important;background-color:#151515!important}
 .tradeoffer_items_rule{background:0 0!important}
 .tradeoffer_rule{border-top:0!important;height:0!important}
