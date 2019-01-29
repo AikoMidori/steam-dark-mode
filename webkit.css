@@ -148,8 +148,8 @@ a.follow_button.btn_green_white_innerfade.btn_medium{color:#d2e885!important;bor
 a.following_button.btn_green_white_innerfade.btn_medium{text-decoration:none!important;color:#d2e885!important;border-radius:4px!important}
 .home_rightcol{border-radius:4px!important}
 #tab_preview_container{border-radius:4px!important}
-.tab_item{margin:0px!important;border-radius:4px!important}
-.tab_item.focus{margin-right:0!important; margin:0px!important;border-radius:4px!important}
+.tab_item{margin:5px!important;border-radius:4px!important}
+.tab_item.focus{margin-right:0!important; margin:5px!important;border-radius:4px!important}
 img.tab_item_cap_img{border-radius:4px!important}
 .tab_review_summary{border-radius:4px!important}
 .tab_preview .screenshot{border-radius:4px!important}
@@ -217,7 +217,7 @@ a.home_marketing_message{border-radius:4px!important}
 .tab_item_details{color:#4f94bc!important}
 .tab_item.focus .discount_block .discount_final_price{color:#acdbf5!important}
 #tab_preview_container{background:#2e2e2f!important}
-body.v6 .home_rightcol .tab_preview h2{color:#fff!important}
+body.v6 .home_rightcol .tab_preview h2{color:#fff!important;margin-left:-40px!important}
 .tab_review_summary{background-color:#161617!important}
 .tab_preview .tags>a{background-color:#161617!important}
 .store_capsule{background:#2e2e2f!important;border-radius:4px!important}
@@ -809,8 +809,8 @@ span.bb_spoiler{border-radius:4px!important}
 ::-webkit-scrollbar-button:vertical:increment{display:none!important;background-image:none!important;background-repeat:no-repeat!important;background-position:-1px 2px!important}
 ::-webkit-scrollbar-button:vertical:decrement{display:none!important;background-image:none!important;background-repeat:no-repeat!important;background-position:-1px 2px!important}
 ::-webkit-scrollbar-track{background-color:#1e1e1f!important;border-radius:4px!important;visibility:hidden!important}
-::-webkit-scrollbar-thumb{background-color:#151515!important;border:0!important;border-radius:4px!important;visibility:hidden!important}
-::-webkit-scrollbar-thumb:hover{background-color:#151515!important;border-radius:4px!important;visibility:visible!important}
+::-webkit-scrollbar-thumb{background-color:#151515!important;border:0!important;border-radius:4px!important}
+::-webkit-scrollbar-thumb:hover{background-color:#151515!important;border-radius:4px!important}
 ::-webkit-scrollbar{width:18px!important}
 .DialogBody::-webkit-scrollbar{display:none!important}
 .maincontent{background-image:none!important;background-color:#1e1e1f!important}
