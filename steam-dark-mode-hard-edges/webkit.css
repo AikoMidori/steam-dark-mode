@@ -116,8 +116,8 @@ body.v6 #footer_nav .popup_block_new .popup_body,body.v6 .store_nav .popup_block
 .big_button{background-image:none!important;background:#3d3d3e!important}
 a.follow_button.btn_green_white_innerfade.btn_medium{color:#d2e885!important}
 a.following_button.btn_green_white_innerfade.btn_medium{text-decoration:none!important;color:#d2e885!important}
-.tab_item{margin:0px!important}
-.tab_item.focus{margin-right:0!important;margin:0px!important}
+.tab_item{margin:5px!important}
+.tab_item.focus{margin-right:0!important;margin:5px!important}
 .screenshot_bottom_fade{display:none!important}
 .screenshot_container::after{display:none!important}
 .screenshot_container{margin-left:-480px!important}
@@ -602,8 +602,8 @@ a.group_tab:hover{background:#282828!important}
 ::-webkit-scrollbar-button:vertical:increment{display:none!important;background-image:none!important;background-repeat:no-repeat!important;background-position:-1px 2px!important}
 ::-webkit-scrollbar-button:vertical:decrement{display:none!important;background-image:none!important;background-repeat:no-repeat!important;background-position:-1px 2px!important}
 ::-webkit-scrollbar-track{background-color:#1e1e1f!important;visibility:hidden!important}
-::-webkit-scrollbar-thumb{background-color:#151515!important;border:0!important;visibility:hidden!important}
-::-webkit-scrollbar-thumb:hover{background-color:#151515!important;visibility:visible!important}
+::-webkit-scrollbar-thumb{background-color:#151515!important;border:0!important}
+::-webkit-scrollbar-thumb:hover{background-color:#151515!important}
 ::-webkit-scrollbar{width:18px!important}
 .DialogBody::-webkit-scrollbar{display:none!important}
 .maincontent{background-image:none!important;background-color:#1e1e1f!important}
