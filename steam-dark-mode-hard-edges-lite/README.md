@@ -1,12 +1,14 @@
-# Steam Dark Mode
+# Steam Dark Mode -- Hard Edges Lite Variant
+The Hard Edges Lite Variant of Steam Dark Mode offers a less customized version of Steam Dark Mode Hard Edges that fits the file size maximum of 31KB. This was made due to a bug that was introduced with Steam that causes larger webkit files to break Steam's ability to load webpages altogether. If you aren't experiencing this issue with the other versions, you can keep using them.
 
+# Installation
 Use the Steam Dark Mode Tool to update and install the Dark Mode for Steam.
 This Tool can also update all the files to the latest version!
 
 Visit https://steamcommunity.com/groups/metroskin/discussions/0/1761356057412667612/ to check for updates.
-join us on discord https://discord.gg/015OTigbS9wyJlBDP to discuss about upcoming releases and updates.
+Join us on discord https://discord.gg/015OTigbS9wyJlBDP to discuss about upcoming releases and updates.
 
-updater and installer are made with much love by **PhantomGamers.**
+The updater and installer are made with much love by **PhantomGamers.**
 
 ### Manual Installation
 # Windows
