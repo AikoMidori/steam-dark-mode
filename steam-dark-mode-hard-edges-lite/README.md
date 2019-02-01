@@ -26,18 +26,19 @@ updater and installer are made with much love by **PhantomGamers.**
 
 ------------------------------------------------------------------------------------------------------------------
 
-### Beta Update 1.9
+### Beta Update 2.1
 
 **What's New?**
 
-    Dark Mode for Steam is now available with hard edges. (no rounded corners)
-    A brand new all-in-one tool to update and install.
-    A Tool to update the SteamDarkModeTool.
-    In collaboration with PhantomGamers. https://github.com/PhantomGamers.
-    Cleaned up the code.
-
+    A complete new release of the Dark Mode with many features form user requests.
+    The Code has been cleaned up, and shrink the file size down to 60%.
+    Increased the loading times and overall usability on the file.
+    Added a new Lite version of Dark Mode, It's Dark Mode without extras. Credits to PhantomGamers
+    
 
 *Made with love by* ***Shiina♪***
+
+--------------------------------------------------------
 
 
 # Screenshots
