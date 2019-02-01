@@ -1,4 +1,4 @@
-*{box-shadow:none!important;-webkit-box-shadow:none!important;-moz-box-shadow:none!important}
+*{box-shadow:none!important}
 @media only screen and (min-width:1000px){
 .responsive_page_content{-webkit-transform:scale(1)!important;-webkit-transform-origin:50% 00% 0!important}
 }
@@ -16,12 +16,14 @@
 #footer{display:none!important}
 }
 html{background:#1e1e1f!important}
+body.v6 h2{margin-left:-40px!important}
 #modalContent.modal.frame{position:absolute!important;border-radius:4px!important;width:100%!important;height:100%!important;margin:0!important;display:flex!important}
 .store_nav .tab img.foryou_avatar{border-radius:35px!important}
 .store_nav .tab{border-right:0!important}
 .dailydeal_countdown{font-size:20px!important;background-color:#4f95bd!important;padding-top:5px!important;padding-bottom:3px!important}
 .light_container.bezel{background:#1e1e1f!important}
 .browse_ctn_background{background:#1e1e1f!important}
+.home_page_body_ctn.has_takeover .page_background_holder{background-color:transparent!important}
 .curator_featured .screenshots>div{border-radius:4px!important}
 .lists_more_container .item>div div{background-color:#1e1e1f!important;border-radius:4px!important}
 .lists_more_container .item{border-radius:4px!important}
@@ -60,7 +62,6 @@ body.recommendgame #review_create{background:#1e1e1f!important;padding:16px!impo
 #footerText{padding-bottom:26px!important}
 .recommended_creators_ctn .recommended_creators_container{background:#3d3d3e!important;border-top:1px solid #3d3d3e!important;border-radius:4px!important}
 .recommended_creators_ctn .store_capsule{background-image:none!important;border-radius:4px!important}
-.page_background_holder{background-size:100%!important}
 .mainLoginPanel{background:#161617!important}
 body.v6.summer2018_home .gutter_header a:hover .home_page_gutter_giftcard{background:#30343f00!important}
 body.v6.summer2018_home .home_page_gutter_giftcard{background:#1c202a00!important}
@@ -260,7 +261,7 @@ body.v6{background:#161617!important}
 .store_capsule:hover{background:#2e2e2f!important;border-radius:4px!important}
 .page_background{background-image:none!important}
 div#footer_spacer{background:#161617!important}
-div#footer,div#global_header,div#main,div#store_header,div.page_area{background:#1e1e1f!important}
+div#footer,div#global_header,div#main,div.page_area{background:#1e1e1f!important}
 div#global_header{background:#161617!important}
 div#global_header .content{background:#161617!important}
 .community_home_search_apps{border-radius:20px!important;background-color:#2e2e2f!important;border:0!important}
@@ -804,13 +805,9 @@ span.bb_spoiler{border-radius:4px!important}
 .tradeoffer_items_banner.accepted{border-radius:4px!important}
 .quote_arrow{background-image:none!important}
 .rightcol_controls_rule{height:0!important;border-top:0!important}
-::-webkit-scrollbar-button{height:25px!important;border-radius:0!important;background-color:#1a1a1f!important;border:0!important}
-::-webkit-scrollbar-button:hover{background-color:#272727!important}
-::-webkit-scrollbar-button:vertical:increment{display:none!important;background-image:none!important;background-repeat:no-repeat!important;background-position:-1px 2px!important}
-::-webkit-scrollbar-button:vertical:decrement{display:none!important;background-image:none!important;background-repeat:no-repeat!important;background-position:-1px 2px!important}
-::-webkit-scrollbar-track{background-color:#1e1e1f!important;border-radius:4px!important;visibility:hidden!important}
-::-webkit-scrollbar-thumb{background-color:#151515!important;border:0!important;border-radius:4px!important}
-::-webkit-scrollbar-thumb:hover{background-color:#151515!important;border-radius:4px!important}
+::-webkit-scrollbar-track{background-color:#1e1e1f!important;visibility:hidden!important}
+::-webkit-scrollbar-thumb{background-color:#151515!important;border:0!important}
+::-webkit-scrollbar-thumb:hover{background-color:#151515!important}
 ::-webkit-scrollbar{width:18px!important}
 .DialogBody::-webkit-scrollbar{display:none!important}
 .maincontent{background-image:none!important;background-color:#1e1e1f!important}
