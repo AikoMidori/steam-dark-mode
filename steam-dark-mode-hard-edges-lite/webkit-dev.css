@@ -12,7 +12,8 @@
 }
 
 ::-webkit-scrollbar {
-    width: 18px!important
+    width: 18px!important;
+    background: #1a1a1a
 }
 
 .DialogBody::-webkit-scrollbar {
@@ -29,7 +30,7 @@
     background-color: #4f95bd
 }
 
-.browse_ctn_background,.light_container.bezel,.page_content_ctn.dlc_associated_franchise,body.recommendgame #review_create,body.v6 .page_content.browse_reviews,html {
+.browse_ctn_background,.light_container.bezel,.page_content_ctn.dlc_associated_franchise,body.recommendgame #review_create,body.v6 .page_content.browse_reviews {
     background: #1e1e1f
 }
 
@@ -111,7 +112,7 @@ body.v6.summer2018_home .home_page_gutter_giftcard {
     background: #161617!important
 }
 
-.curator_buttons_ctn,body.flat_page #footer,body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content {
+.curator_buttons_ctn,body.flat_page #footer,body.v6 #global_header,body.v6 .supernav_content {
     background: #161617
 }
 
@@ -392,11 +393,7 @@ a.following_button.btn_green_white_innerfade.btn_medium {
     background-image: none
 }
 
-.quadscreenshot_carousel .main {
-    background-color: #2e2e2f
-}
-
-#term {
+.quadscreenshot_carousel .m#term {
     background-color: #303031;
     border: 1px solid rgba(30,30,31,.52)
 }
@@ -435,7 +432,7 @@ a.following_button.btn_green_white_innerfade.btn_medium {
     background: #2e2e2f
 }
 
-div#footer,div#global_header,div#main,div#store_header,div.page_area {
+div#footer,div#global_header,div#store_header,div.page_area {
     background: #1e1e1f
 }
 
@@ -444,7 +441,7 @@ div#footer,div#global_header,div#main,div#store_header,div.page_area {
     background-color: #2e2e2f!important
 }
 
-.community_home_shortcut_content,div#global_header,div#global_header .content {
+.community_home_shortcut_content,div#global_header {
     background: #161617
 }
 
@@ -898,7 +895,7 @@ body.flat_page:not(.iframe) {
     background-color: none
 }
 
-.discount_block .discount_prices,.review_box.partial .content .gradient {
+.discount_block .discount_prices,.review_box.partial .gradient {
     background: 0 0!important
 }
 
@@ -1109,7 +1106,7 @@ body.v6 #footer .rule {
     background: 282828px
 }
 
-.glance_ctn,.rightcol .review_box.partial .content .gradient,.slider_ctn.store_autoslider {
+.glance_ctn,.rightcol .review_box.partial .gradient,.slider_ctn.store_autoslider {
     background: 0 0!important
 }
 
@@ -1544,6 +1541,7 @@ a.group_tab:hover {
 }
 
 ::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,.05)!important;
     visibility: hidden
 }
 
