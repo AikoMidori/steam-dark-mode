@@ -20,7 +20,9 @@
 }
 
 * {
-    box-shadow: none!important
+    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important
 }
 
 .dailydeal_countdown {
@@ -73,8 +75,8 @@
 }
 
 .searchbox_news {
-    border: 1px solid #000;
-    background-color: #5398c300
+    border: 1px solid #000!important;
+    background-color: #5398c300!important
 }
 
 .newmodal_header {
@@ -101,11 +103,7 @@ body.v6.summer2018_home .home_page_gutter_giftcard {
     background: #1c202a00
 }
 
-.FeaturedBlock.First,.responsive_page_content {
-    background: #1e1e1f
-}
-
-body.v6 .page_content_ctn.dark,body.v6.summer2018_home .home_page_body_ctn {
+.FeaturedBlock.First,.responsive_page_content,body.v6 .page_content_ctn.dark,body.v6.summer2018_home .home_page_body_ctn {
     background: #1e1e1f!important
 }
 
@@ -279,12 +277,12 @@ body.v6 #footer_nav .popup_block_new .popup_body,body.v6 .store_nav .popup_block
 }
 
 a.follow_button.btn_green_white_innerfade.btn_medium {
-    color: #d2e885
+    color: #d2e885!important
 }
 
 a.following_button.btn_green_white_innerfade.btn_medium {
-    text-decoration: none;
-    color: #d2e885
+    text-decoration: none!important;
+    color: #d2e885!important
 }
 
 .apphub_Card.interactable:hover .apphub_CardContentAuthorBlock {
@@ -387,7 +385,7 @@ a.following_button.btn_green_white_innerfade.btn_medium {
 }
 
 .contenthub_featured_item_spotlight,.contenthub_specials_ctn,.home_page_sign_in_ctn,.page_header_ctn,.tabarea .tab .tab_content,.tabarea .tab .tab_content:hover {
-    background: 0 0
+    background: 0 0!important
 }
 
 .contenthub_page_background {
@@ -451,8 +449,8 @@ div#footer,div#global_header,div#main,div#store_header,div.page_area {
 }
 
 .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner,.apphub_sectionTab.active>span {
-    background: #2e2e2f;
-    color: #fff
+    background: #2e2e2f!important;
+    color: #fff!important
 }
 
 .apphub_responsive_tab .responsive_tab_control,.apphub_sectionTab.active,.apphub_sectionTab.active:hover,.apphub_sectionTab:hover {
@@ -552,7 +550,7 @@ body.flat_page:not(.iframe) {
 }
 
 .detailBox,.detailBox.altFooter {
-    background: 0 0
+    background: 0 0!important
 }
 
 .commentthread_area .commentthread_header,.sectionTab.active>span,.workshop_item_header {
@@ -675,8 +673,8 @@ body.flat_page:not(.iframe) {
 }
 
 .btn_profile_action.btn_medium {
-    background: #2e2e2f;
-    border: 0
+    background: #2e2e2f!important;
+    border: 0!important
 }
 
 .friendBlock.persona.in-game,.friendBlock.persona.in-game:hover {
@@ -763,11 +761,11 @@ body.flat_page:not(.iframe) {
 }
 
 .profile_small_header_texture {
-    background: #262627
+    background: #262627!important
 }
 
 .profile_small_header_bg {
-    background-image: none
+    background-image: none!important
 }
 
 .friends_header_bg {
@@ -814,7 +812,7 @@ body.flat_page:not(.iframe) {
 }
 
 .friend_reviews .review_box,.review_box.short {
-    background: #181819
+    background: #181819!important
 }
 
 .home_area_spotlight {
@@ -835,8 +833,8 @@ body.flat_page:not(.iframe) {
 }
 
 .discovery_queue_customize_ctn>.btn_medium {
-    text-decoration: none;
-    color: #67c1f5
+    text-decoration: none!important;
+    color: #67c1f5!important
 }
 
 .discovery_queue_overlay_message {
@@ -844,9 +842,9 @@ body.flat_page:not(.iframe) {
 }
 
 .btnv6_blue_hoverfade {
-    text-decoration: none;
-    color: #67c1f5;
-    background: #2e2e2f
+    text-decoration: none!important;
+    color: #67c1f5!important;
+    background: #2e2e2f!important
 }
 
 .explore_rightcol_box {
@@ -875,7 +873,7 @@ body.flat_page:not(.iframe) {
 }
 
 #wishlist_search,.sectionTab {
-    background-color: #262627
+    background-color: #262627!important
 }
 
 #rightContents .box,.sectionTab.active,.sectionTab:hover {
@@ -927,7 +925,7 @@ body.flat_page:not(.iframe) {
 }
 
 .review_box .header {
-    background: rgba(0,0,0,.2)
+    background: rgba(0,0,0,.2)!important
 }
 
 a.activetrigger,a.trigger {
@@ -1046,7 +1044,7 @@ input[type=number],input[type=password],input[type=text],select {
 }
 
 .game_description_column h2,.recommendation_bodytext h2,.review_box {
-    background-image: none
+    background-image: none!important
 }
 
 .sysreq_tabs {
@@ -1062,7 +1060,7 @@ body.v6 #footer .rule {
 }
 
 .review_box.short,.rightcol.game_meta_data .block {
-    background: #2e2e2f
+    background: #2e2e2f!important
 }
 
 .short_header:hover {
@@ -1088,8 +1086,8 @@ body.v6 #footer .rule {
 }
 
 .game_page_autocollapse_readmore,.review_box.partial .view_more a,h2 span.note {
-    background: #2f89bc;
-    color: #a4d7f5
+    background: #2f89bc!important;
+    color: #a4d7f5!important
 }
 
 .game_page_autocollapse_readmore:hover,h2 span.note:hover {
@@ -1112,7 +1110,7 @@ body.v6 #footer .rule {
 }
 
 .glance_ctn,.rightcol .review_box.partial .content .gradient,.slider_ctn.store_autoslider {
-    background: 0 0
+    background: 0 0!important
 }
 
 .highlight_ctn .slider .handle,.highlight_ctn .slider_ctn .slider_left,.highlight_ctn .slider_ctn .slider_right {
@@ -1147,8 +1145,8 @@ div.early_access_announcements .post .more {
 }
 
 .review_box.partial .view_more a:hover,div.early_access_announcements .post .more:hover {
-    color: #fff;
-    background: #17435c
+    color: #fff!important;
+    background: #17435c!important
 }
 
 .btnv6_lightblue_blue,.btnv6_lightblue_blue>span {
@@ -1359,7 +1357,7 @@ a.group_tab:hover {
 }
 
 .primary_panel_border,.rightSectionHolder {
-    background: 0 0
+    background: 0 0!important
 }
 
 .games_list_tabs {
@@ -1449,7 +1447,7 @@ a.group_tab:hover {
 }
 
 .browseApps {
-    background-color: #2e2e2f
+    background-color: #2e2e2f!important
 }
 
 .browseAppsTitleContainer {
@@ -1467,16 +1465,16 @@ a.group_tab:hover {
 }
 
 #ig_bottom .sidebar .detailPanel,#ig_bottom .sidebar .panel,.primary_panel,.right_column .panel {
-    background: #2e2e2f
+    background: #2e2e2f!important
 }
 
 .joinGroup {
-    width: 240px;
-    height: 80px
+    width: 240px!important;
+    height: 80px!important
 }
 
 .block a.linkbar,.joinGroup,.workshop_browse_menu_area {
-    background: #1e1e1f
+    background: #1e1e1f!important
 }
 
 .workshop_browse_search {
@@ -1554,8 +1552,8 @@ a.group_tab:hover {
 }
 
 .maincontent {
-    background-image: none;
-    background-color: #1e1e1f
+    background-image: none!important;
+    background-color: #1e1e1f!important
 }
 
 #headerContent,.maincontent #topSummaryBoxContent {
@@ -1568,9 +1566,59 @@ a.group_tab:hover {
 }
 
 .achieveFill,.tabOff,.tabOn {
-    background: #2e2e2f
+    background: #2e2e2f!important
 }
 
 .sale_page_background {
     background-color: #1e1e1f
+}
+
+.game_page_background.game {
+    background-image: none!important
+}
+
+@media only screen and (min-width:1000px) {
+    .responsive_page_content {
+        -webkit-transform: scale(1)!important;
+        -webkit-transform-origin: 50% 0% 0!important
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    .responsive_page_content {
+        -webkit-transform: scale(1)!important;
+        -webkit-transform-origin: 50% 0% 0!important
+    }
+}
+
+@media only screen and (min-width:3000px) {
+    .responsive_page_content {
+        -webkit-transform: scale(2)!important;
+        -webkit-transform-origin: 50% 0% 0!important
+    }
+
+    .modal_frame {
+        width: 66%!important;
+        height: 80%!important
+    }
+
+    #footer {
+        display: none!important
+    }
+}
+
+@media only screen and (min-width:4000px) {
+    .responsive_page_content {
+        -webkit-transform: scale(2)!important;
+        -webkit-transform-origin: 50% 0% 0!important
+    }
+
+    .modal_frame {
+        width: 66%!important;
+        height: 80%!important
+    }
+
+    #footer {
+        display: none!important
+    }
 }
