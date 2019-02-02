@@ -89,7 +89,7 @@
 }
 
 .page_background_holder {
-    background-color: #353536!important
+    background-color: transparent!important
 }
 
 .mainLoginPanel,body.v6 #footer,body.v6.infinite_scrolling #footer.small_footer {
