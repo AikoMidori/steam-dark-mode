@@ -194,7 +194,7 @@ body.v6 #footer_nav .popup_block_new .popup_body,body.v6 .store_nav .popup_block
 }
 
 .creator .responsive_page_template_content .popup_menu .popup_menu_item,.curator .responsive_page_template_content .popup_menu .popup_menu_item,.footer_content .popup_menu .popup_menu_item,.game_hover_box,.search_area .popup_body .match,.search_area .popup_body .match .match_name,.store_nav .popup_menu .popup_menu_item {
-    color: #b8b6b4
+    color: #b8b6b4!important
 }
 
 .creator .popup_menu .popup_menu_item.focus,.creator .popup_menu .popup_menu_item:hover,.curator .popup_menu .popup_menu_item.focus,.curator .popup_menu .popup_menu_item:hover,.footer_content .popup_menu .popup_menu_item.focus,.footer_content .popup_menu .popup_menu_item:hover,.search_area .popup_body .match:hover,.search_area .popup_body .match:hover .match_name,.store_nav .popup_menu .popup_menu_item.focus,.store_nav .popup_menu .popup_menu_item:hover {
@@ -539,7 +539,7 @@ input.community_home_search_app_input,input.community_home_search_players_input 
 }
 
 .BroadcastInfoWrapper,.pagecontent {
-    background: #1e1e1f
+    background: #1e1e1f!important
 }
 
 body.flat_page:not(.iframe) {
@@ -551,7 +551,7 @@ body.flat_page:not(.iframe) {
 }
 
 .commentthread_area .commentthread_header,.sectionTab.active>span,.workshop_item_header {
-    background: #161617
+    background: #161617!important
 }
 
 .sectionTab.active {
@@ -585,7 +585,7 @@ body.flat_page:not(.iframe) {
     color: #fff!important
 }
 
-.apphub_BackToTop:hover .apphub_BackToTopButton,.apphub_BackToTopButton {
+.apphub_BackToTop:hover .apphub_BackToTopButton,.apphub_BackToTopButton,.discussionSearchTextContainer {
     background-image: none!important
 }
 
@@ -594,11 +594,10 @@ body.flat_page:not(.iframe) {
 }
 
 .discussionSearchTextContainer {
-    background-image: none;
-    background-color: #151515;
-    border: 0;
-    color: #fff;
-    height: 28px
+    background-color: #151515!important;
+    border: 0!important;
+    color: #fff!important;
+    height: 28px!important
 }
 
 .discussions_forum_row,.discussions_forum_row:hover,a.recent_game_discussion,a.recent_game_discussion:hover {
@@ -606,11 +605,11 @@ body.flat_page:not(.iframe) {
 }
 
 .forum_paging {
-    background: #161617
+    background: #161617!important
 }
 
 .forum_topic {
-    background-color: #2e2e2f
+    background-color: #2e2e2f!important
 }
 
 .blotter_appselect_activeoption {
@@ -640,19 +639,19 @@ body.flat_page:not(.iframe) {
 }
 
 .blotter_daily_rollup,.forum_op {
-    background-color: #161617
+    background-color: #161617!important
 }
 
 .forumtopic_comments .commentthread_comment {
-    background-color: #161617;
-    color: #acb2b8;
-    border: 1px solid #161617
+    background-color: #161617!important;
+    color: #acb2b8!important;
+    border: 1px solid #161617!important
 }
 
 .forum_op {
-    background-image: none;
-    background-repeat: no-repeat;
-    border: 0
+    background-image: none!important;
+    background-repeat: no-repeat!important;
+    border: 0!important
 }
 
 .blotter_block {
@@ -1208,38 +1207,38 @@ div.early_access_announcements .post .more {
 }
 
 .grouppage_membertiles_overlay {
-    top: 0;
-    padding-bottom: 12px;
-    background: #1e1e1f;
-    opacity: .9
+    top: 0!important;
+    padding-bottom: 12px!important;
+    background: #1e1e1f!important;
+    opacity: .9!important
 }
 
 .grouppage_member_tiles {
-    right: -1px;
-    height: 230px;
-    padding-bottom: 12px;
-    padding-top: 0;
-    background: 0 0
+    right: -1px!important;
+    height: 230px!important;
+    padding-bottom: 12px!important;
+    padding-top: 0!important;
+    background: 0 0!important
 }
 
 .grouppage_header {
-    border-bottom: 4px;
-    background: 0 0
+    border-bottom: 4px!important;
+    background: 0 0!important
 }
 
 .grouppage_header_name {
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px
+    border-top-right-radius: 4px!important;
+    border-bottom-right-radius: 4px!important
 }
 
 .grouppage_header_label {
-    background-color: rgba(0,0,0,.6);
-    border-top-right-radius: 4px
+    background-color: rgba(0,0,0,.6)!important;
+    border-top-right-radius: 4px!important
 }
 
 .grouppage_friendsingroup {
-    padding: 1px;
-    background-color: rgba(0,0,0,.6)
+    padding: 1px!important;
+    background-color: rgba(0,0,0,.6)!important
 }
 
 .btn_blue_white_innerfade {
@@ -1265,15 +1264,15 @@ div.early_access_announcements .post .more {
 }
 
 .group_tab,.group_tab.active {
-    background: 0 0
+    background: 0 0!important
 }
 
 a.group_tab:hover {
-    background: #282828
+    background: #282828!important
 }
 
 .group_tab.active>span,.joinchat_bg .joinchat_button {
-    background: rgba(102,192,244,.8)
+    background: rgba(102,192,244,.8)!important
 }
 
 .joinchat_bg {
@@ -1483,8 +1482,8 @@ a.group_tab:hover {
 }
 
 .profile_subpage_general .maincontent {
-    border-left: 0 solid;
-    border-right: 0 solid
+    border-left: 0 solid!important;
+    border-right: 0 solid!important
 }
 
 .tradeoffer_items_ctn.active {
@@ -1582,33 +1581,9 @@ a.group_tab:hover {
     }
 }
 
-@media only screen and (min-width:2000px) {
-    .responsive_page_content {
-        -webkit-transform: scale(1)!important;
-        -webkit-transform-origin: 50% 0% 0!important
-    }
-}
-
 @media only screen and (min-width:3000px) {
     .responsive_page_content {
-        -webkit-transform: scale(2)!important;
-        -webkit-transform-origin: 50% 0% 0!important
-    }
-
-    .modal_frame {
-        width: 66%!important;
-        height: 80%!important
-    }
-
-    #footer {
-        display: none!important
-    }
-}
-
-@media only screen and (min-width:4000px) {
-    .responsive_page_content {
-        -webkit-transform: scale(2)!important;
-        -webkit-transform-origin: 50% 0% 0!important
+        -webkit-transform: scale(2)!important
     }
 
     .modal_frame {
