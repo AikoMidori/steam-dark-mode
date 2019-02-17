@@ -16,7 +16,6 @@
 #footer{display:none!important}
 }
 html{background:#1e1e1f!important}
-body.v6 h2{margin-left:-40px!important}
 #modalContent.modal.frame{position:absolute!important;border-radius:4px!important;width:100%!important;height:100%!important;margin:0!important;display:flex!important}
 .store_nav .tab img.foryou_avatar{border-radius:35px!important}
 .store_nav .tab{border-right:0!important}
@@ -156,9 +155,7 @@ img.tab_item_cap_img{border-radius:4px!important}
 .tab_preview .screenshot{border-radius:4px!important}
 .tab_preview{border-radius:4px!important}
 .carousel_items.store_capsule_container{border-radius:4px!important}
-.screenshot_bottom_fade{display:none!important}
-.screenshot_container::after{display:none!important}
-.screenshot_container{margin-left:-480px!important}
+.screenshot_container{display:none!important;}
 .share{border-radius:4px!important}
 .newshr{background-image:none!important}
 .apphub_Card.interactable{border-radius:4px!important}
@@ -394,7 +391,6 @@ div#headerSearch.friend_activity_header_search{border-radius:4px!important;backg
 .help_wizard_button_large>span{margin:10px 14px 10px 14px!important}
 #help_search_support_input{border-radius:0!important;background:#2a3f5a00!important;border:1px solid #000!important}
 .help_purchase_detail_box{background-color:#1e1e1f!important}
-.profile_small_header_texture{background-image:none!important;background:#262627!important}
 .profile_small_header_bg{background-image:none!important}
 .btn_grey_black{border-radius:4px!important}
 .games_list_tabs{border-radius:4px!important}
@@ -658,7 +654,7 @@ div.early_access_announcements .post .more:hover{color:#fff!important;padding-to
 .commentthread_entry{background-color:rgba(0,0,0,0)!important}
 .group_comments .commentthread_entry{background:0 0!important}
 .commentthread_header .commentthread_count{background-image:none!important;margin-left:15px!important;margin-top:4px!important}
-.commentthread_paging{margin-top:3px!important}
+.commentthread_paging{margin-top:3px!important;margin-right:4px!important}
 .commentthread_footer,.commentthread_header{padding-bottom:15px!important;padding-top:10px!important;border-radius:4px!important}
 .forum_topic_overlay{border-radius:4px!important}
 .forum_topic{border-radius:4px!important}
@@ -684,11 +680,17 @@ a.group_tab:hover{background:#282828!important;border-radius:4px!important}
 .joinchat_bg .joinchat_button{top:2px!important;color:#fff!important;background:rgba(102,192,244,.8)!important;border-radius:4px!important}
 .joinchat_bg .joinchat_membercount{top:1px!important;color:#6a9fce!important}
 .rightbox .rule{height:0!important;background-color:rgba(0,0,0,0)!important;border-top:0!important}
-.group_associated_game{border-radius:4px!important}
+.group_associated_game{background-color:#1e1e1f!important;border-radius:4px!important}
+.group_associated_game_icon{background-color:transparent!important}
+.group_overview_announcement_readmore{border-top:0px!important}
 .calendarBox{border-radius:4px!important}
-.member_block{border-radius:4px!important}
+.member_block{background-color:#2e2e2f!important;border-radius:4px!important}
+.member_block:hover{background-color:#151515!important;border-radius:4px!important}
+.member_block .rank_icon{background-color:transparent!important}
 .group_paging{border-radius:4px!important}
 .announcement{border-radius:4px!important}
+a.readmore_link{border-radius:4px!important;background:#0e5984!important}
+.pagebtn, a.pagebtn{background-color:#2e2e2f!important}
 .announcement_control_container{border-radius:4px!important}
 .forum_topic_pinned_notice{border-radius:4px!important}
 .forum_paging_summary{border-radius:4px!important}
@@ -818,7 +820,7 @@ span.bb_spoiler{border-radius:4px!important}
 .achievementProgressBar{border-radius:40px!important}
 .achieveBarProgress{border-radius:10px!important}
 .achieveBar{border-radius:10px!important}
-.profile_small_header_texture>h1,h2{padding-left:40px!important}
+.profile_small_header_texture>h1,h2{padding-left:-40px!important}
 .profile_small_header_texture>.profile_small_header_additional{right:36px!important}
 #headerContent{margin:20px 0!important;padding:15px 20px!important;background-color:#161617!important;border-radius:4px!important}
 #compareAvatar{margin:20px 0!important;padding:0 32px 0 16px!important}
@@ -849,3 +851,6 @@ body.v6.winter_sale_home h2.winter{margin-left:-40px!important}
 .steamaward_card_background{border-radius:4px!important}
 .shadow_bottom,.shadow_left,.shadow_right,.shadow_top{display:none!important}
 .shadow_bl,.shadow_br,.shadow_ul,.shadow_ur{display:none!important}
+.friend_block_v2:hover{background:#2e2e2f!important;border-radius:4px!important}
+.most_recommended .steam_curator_recommendation .steam_curators_for_app{border-top:0px!important}
+.navigation_bar{border-bottom:0px!important}
