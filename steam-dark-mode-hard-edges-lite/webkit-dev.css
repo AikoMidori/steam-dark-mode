@@ -81,7 +81,7 @@
 }
 
 .newmodal_header {
-    background: #1d1d1d
+    background: #1d1d1d!important
 }
 
 .recommended_creators_ctn .recommended_creators_container {
@@ -321,8 +321,8 @@ a.following_button.btn_green_white_innerfade.btn_medium {
 }
 
 .btn_grey_white_innerfade,.btn_grey_white_innerfade:hover,.btn_grey_white_innerfade>span,.btn_grey_white_innerfade>span:hover {
-    color: #fff;
-    background: #3d3d3e
+    color: #fff!important;
+    background: #3d3d3e!important
 }
 
 .btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover,.btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover>span {
@@ -527,15 +527,15 @@ input.community_home_search_app_input,input.community_home_search_players_input 
 }
 
 .newmodal {
-    border: 2px solid #262627
+    border: 2px solid #262627!important
 }
 
 .mediaTop .mediaSidebar {
     height: -webkit-fill-available
 }
 
-.mediaBodyNoBackground,.mediaTop,.mediaTop .mediaSidebar,.newmodal {
-    background-color: #262627
+.mediaBodyNoBackground,.mediaTop,.mediaTop .mediaSidebar,.newmodal,.newmodal_content {
+    background-color: #262627!important
 }
 
 .BroadcastInfoWrapper,.pagecontent {
@@ -721,7 +721,7 @@ body.flat_page:not(.iframe) {
 }
 
 .about_boxes_box_mid,body.flat_page,body.flat_page #footer_spacer,body.headerless_page #footer_spacer {
-    background: #1e1e1f
+    background: #1e1e1f!important
 }
 
 .about_install_ctn,.tab_item.focus::after {
@@ -765,7 +765,7 @@ body.flat_page:not(.iframe) {
 }
 
 .friends_header_bg {
-    background: 0 0
+    background: 0 0!important
 }
 
 .friends_search_text_box,.groups_search_text_box {
@@ -791,7 +791,7 @@ body.flat_page:not(.iframe) {
 }
 
 .profile_friends.title_bar,.profile_groups.title_bar {
-    background-color: rgba(255,255,255,.1)
+    background-color: rgba(255,255,255,.1)!important
 }
 
 .profile_content {
@@ -905,9 +905,9 @@ body.flat_page:not(.iframe) {
 }
 
 .btnv6_blue_blue_innerfade {
-    text-decoration: none;
-    color: #a4d7f5;
-    background: #2f89bc
+    text-decoration: none!important;
+    color: #a4d7f5!important;
+    background: #2f89bc!important
 }
 
 .btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
@@ -916,8 +916,8 @@ body.flat_page:not(.iframe) {
 }
 
 .btnv6_blue_blue_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
-    background: #23678e;
-    color: #fff
+    background: #23678e!important;
+    color: #fff!important
 }
 
 .review_box .header {
@@ -985,10 +985,10 @@ a.activetrigger,a.trigger {
 }
 
 .community_search_text_box {
-    background: 0 0;
-    background-color: #2e2e2f;
-    border: 0;
-    color: #fff
+    background: 0 0!important;
+    background-color: #2e2e2f!important;
+    border: 0!important;
+    color: #fff!important
 }
 
 input[type=number],input[type=password],input[type=text],select {
