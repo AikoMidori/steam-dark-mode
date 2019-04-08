@@ -425,7 +425,7 @@ a.following_button.btn_green_white_innerfade.btn_medium {
 }
 
 .game_background_glow {
-    background: 0 0
+    background: 0 0!important
 }
 
 .store_capsule:hover {
@@ -451,7 +451,7 @@ div#footer,div#global_header,div#store_header,div.page_area {
 }
 
 .apphub_responsive_tab .responsive_tab_control,.apphub_sectionTab.active,.apphub_sectionTab.active:hover,.apphub_sectionTab:hover {
-    background: 0 0
+    background: 0 0!important
 }
 
 .apphub_sectionTabsHR {
@@ -483,7 +483,7 @@ div#footer,div#global_header,div#store_header,div.page_area {
 }
 
 .apphub_background,body.headerOverride {
-    background: #1e1e1f
+    background: #1e1e1f!important
 }
 
 .popup_block .popup_body {
@@ -1174,7 +1174,7 @@ div.early_access_announcements .post .more {
 }
 
 .group_content {
-    background: 0 0
+    background: 0 0!important
 }
 
 .group_content.bottomless {
