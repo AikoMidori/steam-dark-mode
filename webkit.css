@@ -27,6 +27,9 @@ html{background:#1e1e1f!important}
 .lists_more_container .item>div div{background-color:#1e1e1f!important;border-radius:4px!important}
 .lists_more_container .item{border-radius:4px!important}
 .curator_featured .contents{border-radius:4px!important}
+.ds_options > div{border-radius:10px!important}
+.discount_block.discount_block_spotlight .bundle_base_discount{color:#151515!important;border-radius:40px!important;margin-right:5px!important}
+.discount_block.no_discount.daily_deal_discount .bundle_base_discount{color:#151515!important;border-radius:40px!important;margin-right:5px!important}
 .browse_content .recommendation{border-bottom:0!important;border-radius:4px!important}
 .browse_filters a.selected,.browse_filters a:hover{border-radius:4px!important}
 .browse_tabs a.selected,.browse_tabs a:hover{background-color:#2e2e2f!important;border-radius:4px!important}
@@ -215,7 +218,7 @@ a.home_marketing_message{border-radius:4px!important}
 .tab_item_details{color:#4f94bc!important}
 .tab_item.focus .discount_block .discount_final_price{color:#acdbf5!important}
 #tab_preview_container{background:#2e2e2f!important}
-body.v6 .home_rightcol .tab_preview h2{color:#fff!important;margin-left:-40px!important}
+body.v6 .home_rightcol .tab_preview h2{color:#fff!important}
 .tab_review_summary{background-color:#161617!important}
 .tab_preview .tags>a{background-color:#161617!important}
 .store_capsule{background:#2e2e2f!important;border-radius:4px!important}
@@ -328,8 +331,8 @@ a.recent_game_discussion:hover{border-radius:4px!important;background-color:#2e2
 .discussions_forum_row{border-radius:4px!important;background-color:#2e2e2f!important}
 .discussions_forum_row:hover{border-radius:4px!important;background-color:#2e2e2f!important}
 .discussion_tab_content_rule{border-top:0!important}
-.discussion_tab_content_area h2.discussion_primary_header{font-size:40px!important;margin-left:-40px!important}
-.discussion_tab_content_area h2{font-size:25px!important;margin-left:-40px!important}
+.discussion_tab_content_area h2.discussion_primary_header{font-size:40px!important}
+.discussion_tab_content_area h2{font-size:25px!important}
 .forum_paging{background:#161617!important;border-radius:4px!important}
 .forum_topic{background-color:#2e2e2f!important}
 .blotter_appselect_activeoption{background-image:none!important;border-radius:4px!important;color:#fff!important;background:#3d3d3e!important}
@@ -631,7 +634,6 @@ a.communitylink_achievement.communitylink_achivement_plusmore{border-radius:4px!
 div.early_access_announcements .post .hr{background-color:rgba(0,0,0,0)!important;height:0!important}
 .steam_curator_icon.medium{border-left:0!important}
 div.early_access_announcements .post .more{color:#a4d7f5!important;padding-top:6px!important;padding-bottom:0!important;padding-left:5px!important;padding-right:5px!important;background:rgba(47,137,188,1)!important;border-radius:4px!important}
-body.v6 #game_area_purchase h2.package_group,body.v6 .early_access_announcements h2,body.v6 .game_area_description h2,body.v6 .game_area_dlc_section h2,body.v6 .item_store_items_block h2,body.v6 .referring_curator_ctn h2,body.v6 .steam_curators_block h2,body.v6 .sys_req h2{margin-left:-40px!important}
 .referring_curator{border-radius:4px!important}
 div.early_access_announcements .post .more:hover{color:#fff!important;padding-top:6px!important;padding-bottom:3px!important;padding-left:5px!important;padding-right:5px!important;background:rgba(23,67,92,1)!important;border-radius:4px!important}
 .btnv6_lightblue_blue{border-radius:4px!important;padding:4px!important;border:1px #282828!important;color:#000!important;background:#7cbef8!important}
