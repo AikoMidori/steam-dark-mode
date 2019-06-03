@@ -1,10 +1,4 @@
 *{box-shadow:none!important}
-@media only screen and (min-width:1000px){
-.responsive_page_content{-webkit-transform:scale(1)!important;-webkit-transform-origin:50% 00% 0!important}
-}
-@media only screen and (min-width:2000px){
-.responsive_page_content{-webkit-transform:scale(1)!important;-webkit-transform-origin:50% 00% 0!important}
-}
 @media only screen and (min-width:3000px){
 .responsive_page_content{-webkit-transform:scale(2)!important;-webkit-transform-origin:50% 00% 0!important}
 .modal_frame{width:66%!important;height:80%!important}
@@ -150,7 +144,6 @@ div.store_header_btn{border-radius:4px!important}
 a.follow_button.btn_green_white_innerfade.btn_medium{color:#d2e885!important;border-radius:4px!important}
 a.following_button.btn_green_white_innerfade.btn_medium{text-decoration:none!important;color:#d2e885!important;border-radius:4px!important}
 .home_rightcol{border-radius:4px!important}
-#tab_preview_container{border-radius:4px!important}
 .tab_item{margin:5px!important;border-radius:4px!important}
 .tab_item.focus{margin-right:0!important; margin:5px!important;border-radius:4px!important}
 img.tab_item_cap_img{border-radius:4px!important}
@@ -217,7 +210,7 @@ a.home_marketing_message{border-radius:4px!important}
 .tab_item.focus .tab_item_name{color:#d9dadd!important}
 .tab_item_details{color:#4f94bc!important}
 .tab_item.focus .discount_block .discount_final_price{color:#acdbf5!important}
-#tab_preview_container{background:#2e2e2f!important}
+#tab_preview_container{border-radius:4px!important;top:15px!important;background:#2e2e2f!important}
 body.v6 .home_rightcol .tab_preview h2{color:#fff!important}
 .tab_review_summary{background-color:#161617!important}
 .tab_preview .tags>a{background-color:#161617!important}
@@ -327,10 +320,12 @@ input.discussionSearchText{position:static!important;padding:4px!important}
 .discussionSearchTextSubmitImg{top:5px!important;left:266px!important}
 .discussions_header{border-bottom:5px solid transparent!important}
 a.recent_game_discussion{border-radius:4px!important;background-color:#2e2e2f!important}
-a.recent_game_discussion:hover{border-radius:4px!important;background-color:#2e2e2f!important}
+a.recent_game_discussion:hover{border-radius:4px!important;background-color:#151515!important}
 .discussions_forum_row{border-radius:4px!important;background-color:#2e2e2f!important}
-.discussions_forum_row:hover{border-radius:4px!important;background-color:#2e2e2f!important}
+.discussions_forum_row:hover{border-radius:4px!important;background-color:#151515!important}
 .discussion_tab_content_rule{border-top:0!important}
+a.recent_game_discussion.quasi_official_group:hover{background:#151515!important}
+.community_tooltip{background:#151515!important;color:white!important}
 .discussion_tab_content_area h2.discussion_primary_header{font-size:40px!important}
 .discussion_tab_content_area h2{font-size:25px!important}
 .forum_paging{background:#161617!important;border-radius:4px!important}
@@ -437,7 +432,7 @@ div#headerSearch.friend_activity_header_search{border-radius:4px!important;backg
 .noCoplayHistory{border-radius:4px!important;border:0!important}
 .profile_friends.responsive_friendblocks{border-radius:4px!important}
 .invite_section_ctn.invite_link{background-image:none!important}
-.invite_section_ctn .header_row{border-top-left-radius:4px!important;border-top-right-radius:4px!important;background-color:rgba(255,255,255,.1)!important}
+.invite_section_ctn .header_row{border-top-left-radius:4px!important;border-top-right-radius:4px!important;padding-top: 10px!important;padding-bottom: 10px!important;background-color:rgba(255,255,255,.1)!important}
 .invite_section_ctn .content{border-bottom-left-radius:4px!important;border-bottom-right-radius:4px!important}
 .profile_small_header_texture{background-image:none!important;background-color:#1e1e1f!important}
 .gameListRow.followed{border-radius:4px!important}
@@ -659,6 +654,7 @@ div.early_access_announcements .post .more:hover{color:#fff!important;padding-to
 .commentthread_paging{margin-top:3px!important;margin-right:4px!important}
 .commentthread_footer,.commentthread_header{padding-bottom:15px!important;padding-top:10px!important;border-radius:4px!important}
 .forum_topic_overlay{border-radius:4px!important}
+.forum_topic_overlay:hover{background:#151515!important}
 .forum_topic{border-radius:4px!important}
 .grouppage_membertiles_overlay{top:0!important;padding-bottom:12px!important;background:#1e1e1f!important;opacity:.9!important}
 .grouppage_member_tiles{right:-1px!important;height:230px!important;padding-bottom:12px!important;padding-top:0!important;background:0 0!important;border-radius:5px!important}
