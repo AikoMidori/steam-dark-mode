@@ -10,6 +10,7 @@
 #footer{display:none!important}
 }
 html{background:#1e1e1f!important}
+div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote{border-radius:10px!important;background:#1e1e1f!important;border:0px!important}
 #modalContent.modal.frame{position:absolute!important;border-radius:4px!important;width:100%!important;height:100%!important;margin:0!important;display:flex!important}
 .store_nav .tab img.foryou_avatar{border-radius:35px!important}
 .store_nav .tab{border-right:0!important}
@@ -23,7 +24,6 @@ html{background:#1e1e1f!important}
 .curator_featured .contents{border-radius:4px!important}
 .ds_options > div{border-radius:10px!important}
 .tag_square{margin:2px!important}
-.blockquote.bb_blockquote, .bb_wysiwyg blockquote{border-radius:10px!important;background:#1e1e1f!important;border:0px!important}
 .broadcast_footer{background:transparent!important}
 .btnv6_white_transparent > span{border-radius:4px!important;color:#4F95BD!important;background:#2e2e2f!important;border:1px solid #2e2e2f!important}
 .btnv6_white_transparent > span:hover{border-radius:4px!important;color:black!important;background:#4F95BD!important;border:1px solid #4F95BD!important}
@@ -102,12 +102,8 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 .popup_block_new .popup_body{border:0!important;position:relative!important;background-color:#1a1a1a!important}
 div#global_header .submenuitem{background:#1a1a1a!important}
 .supernav_content{background:#1a1a1a!important}
-.home_category_ctn .see_more_link{bottom:-5px!important;background:#2e2e2f!important;border-radius:4px!important;padding:4px!important;color:#4f95bd!important}
-.home_category_ctn .see_more_link:hover{bottom:-5px!important;background:#4f95bd!important;border-radius:4px!important;padding:4px!important;color:black!important}
-.home_category_games_ctn .see_more_link{background:#2e2e2f!important;border-radius:4px!important;padding:4px!important;color:#4f95bd!important}
-.home_category_games_ctn .see_more_link:hover{background:#4f95bd!important;border-radius:4px!important;padding:4px!important;color:black!important}
-.home_discounts_ctn .see_more_link{background:#2e2e2f!important;border-radius:4px!important;padding:4px!important;color:#4f95bd!important;margin-right:2px!important}
-.home_discounts_ctn .see_more_link:hover{background:#4f95bd!important;border-radius:4px!important;padding:4px!important;color:black!important;margin-right:2px!important}
+.home_discounts_ctn .see_more_link, .home_category_games_ctn .see_more_link, .home_category_ctn .see_more_link{bottom:-5px!important;background:#2e2e2f!important;border-radius:4px!important;padding:4px!important;color:#4f95bd!important}
+.home_category_games_ctn .see_more_link:hover, .home_discounts_ctn .see_more_link:hover, .home_category_ctn .see_more_link:hover{bottom:-5px!important;background:#4f95bd!important;border-radius:4px!important;padding:4px!important;color:black!important}
 .hero_capsule{border-radius:4px!important}
 .hero_data{border-radius:4px!important;background:#151515!important}
 .hero_capsule .ds_flag{left:2px!important}
@@ -698,7 +694,7 @@ div.early_access_announcements .post .more:hover{color:#fff!important;padding-to
 .notice_box_content_blue_box{border-radius:4px!important}
 .group_tabs{width:950px!important;border-radius:4px!important;padding-left:2px!important}
 .group_tab{background:0 0!important;border-radius:4px!important;-moz-border-radius:4px!important}
-a.group_tab:hover{background:#282828!important;border-radius:4px!important}
+a.group_tab:hover{background:#67c1f5!important;border-radius:4px!important}
 .group_tab.active{height:35px!important;background:0 0!important;border-radius:4px!important}
 .group_tab.active>span{height:35px!important;background:rgba(102,192,244,.8)!important;border-radius:4px!important}
 .rightbox{border-radius:4px!important}
