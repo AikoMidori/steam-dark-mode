@@ -615,7 +615,8 @@ body.v6 #footer .rule{border-top:0 solid #29363d!important}
 .block a.linkbar{border-radius:4px!important}
 .glance_ctn{background:0 0!important;padding-bottom:13px!important;padding-left:5px!important;border-radius:4px!important}
 .sale_page_n_section .broadcast_wrapper .broadcastwrapper{border-radius:4px!important}
-.sale_page_n_section_block{background:#020202!important;border-radius:4px!important}
+.sale_page_n_section_block{border-radius:4px!important}
+.sale_page_n_section_button{border-radius:25px!important}
 .promotion_curator_container{border-radius:4px!important}
 .promotion_follow_controls{padding:1px 1px 1px 1px!important;border-radius:4px!important}
 .promotion_curator_socialmedia_accounts{border-radius:4px!important}
