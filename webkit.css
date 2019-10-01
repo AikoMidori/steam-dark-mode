@@ -1,4 +1,9 @@
 *{box-shadow:none!important}
+
+:root {/* Colors ( Only works with RGB ) */
+    --scrollbar: 102, 36, 226, 255;
+}
+
 @media only screen and (min-width:3000px){
 .responsive_page_content{-webkit-transform:scale(2)!important;-webkit-transform-origin:50% 00% 0!important}
 .modal_frame{width:66%!important;height:80%!important}
@@ -17,6 +22,7 @@ div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote{b
 .dailydeal_countdown{font-size:20px!important;background-color:#4f95bd!important;padding-top:5px!important;padding-bottom:3px!important}
 .light_container.bezel{background:#1e1e1f!important}
 .browse_ctn_background{background:#1e1e1f!important}
+.miniprofile_ingame{background:#2e2e2f!important;border-radius:4px!important;margin-top:5px!important}
 .home_page_body_ctn.has_takeover .page_background_holder{background-color:transparent!important}
 .curator_featured .screenshots>div{border-radius:4px!important}
 .lists_more_container .item>div div{background-color:#1e1e1f!important;border-radius:4px!important}
@@ -24,6 +30,12 @@ div.bb_code, .bb_wysiwyg pre, blockquote.bb_blockquote, .bb_wysiwyg blockquote{b
 .curator_featured .contents{border-radius:4px!important}
 .ds_options > div{border-radius:10px!important}
 .tag_square{margin:2px!important}
+.game_rating_area{border-radius:4px!important;margin-bottom: 15px!important}
+#package_header_container{border-radius:4px!important;margin-bottom:4px!important}
+.blotter_day_header_divider{display:none!important}
+.blotter_day_header_date{left:245px!important}
+.blotter_workshopitem.guide{background-image:none!important;background-color:#161616}
+.blotter_workshopitem{background-image:none!important}
 .broadcast_footer{background:transparent!important}
 .btnv6_white_transparent > span{border-radius:4px!important;color:#4F95BD!important;background:#2e2e2f!important;border:1px solid #2e2e2f!important}
 .btnv6_white_transparent > span:hover{border-radius:4px!important;color:black!important;background:#4F95BD!important;border:1px solid #4F95BD!important}
@@ -72,10 +84,13 @@ body.recommendgame #review_create{background:#1e1e1f!important;padding:16px!impo
 body.v6.summer2018_home .gutter_header a:hover .home_page_gutter_giftcard{background:#30343f00!important}
 body.v6.summer2018_home .home_page_gutter_giftcard{background:#1c202a00!important}
 .FeaturedBlock.First{background:#1e1e1f!important}
+.home_page_body_ctn{background:#1e1e1f!important}
 body.v6.summer2018_home .home_page_body_ctn{background:#1e1e1f!important}
 .responsive_page_content{background:#1e1e1f!important}
 .compact .wishlist_row .capsule img{width:162px!important;height:78px!important}
 .discovery_queue img{border-radius:4px!important}
+.home_ctn{background:#1e1e1f!important}
+.home_ctn.apps_recommended_by_curators_ctn{background:#1e1e1f!important}
 .home_ctn.discovery_queue_ctn{background:#161617!important;border-radius:4px!important}
 .home_ctn.tab_container{background:#161617!important}
 body.v6 .page_content_ctn.dark{background:#1e1e1f!important}
@@ -167,7 +182,7 @@ img.tab_item_cap_img{border-radius:4px!important}
 .tab_preview .screenshot{border-radius:4px!important}
 .tab_preview{border-radius:4px!important}
 .carousel_items.store_capsule_container{border-radius:4px!important}
-.screenshot_container{display:none!important;}
+.screenshot_container{display:none!important}
 .share{border-radius:4px!important}
 .newshr{background-image:none!important}
 .apphub_Card.interactable{border-radius:4px!important}
@@ -485,6 +500,8 @@ body.v6 .wishlist_header h2{margin-top:2px!important}
 .wishlist_row .capsule img{border-radius:4px!important}
 .wishlist_row .purchase_area{border-radius:4px!important;background-color:rgba(0,0,0,0)!important}
 .discount_block{border-radius:4px!important}
+.game_area_purchase_game_dropdown_selection{background:transparent!important;line-height:36px!important}
+.steamawards_app_banner_ctn{border:1px solid #1e1e1f!important;border-radius:4px!important}
 .discount_block.no_discount .discount_prices{border-radius:4px!important;background:0 0!important}
 .discount_block_large .discount_prices{border-radius:4px!important}
 .discount_block .discount_prices{background:0 0!important;border-radius:4px!important;vertical-align:0px!important}
@@ -542,8 +559,9 @@ body.flat_page #footer_spacer,body.headerless_page #footer_spacer{border-radius:
 .recentAchievementsImg{border-radius:4px!important}
 .game_purchase_action_bg{height:35px!important;background-color:#252525!important;padding:1px 1px 2px 0!important;border-radius:6px!important;-moz-border-radius:2px!important}
 .game_purchase_action_bg>*{margin-left:1px!important}
-.game_purchase_discount .discount_prices{background:#252525!important}
-.game_purchase_discount .bundle_base_discount,.game_purchase_discount .discount_pct{border-radius:4px!important;height:32px!important;line-height:32px!important}
+.game_purchase_discount .discount_prices{background:#252525!important;vertical-align:6px!important}
+.game_purchase_discount{height:36px!important}
+.game_purchase_discount .bundle_base_discount,.game_purchase_discount .discount_pct{border-radius:4px!important;height:36px!important;line-height:32px!important}
 .game_purchase_action .game_purchase_price{background-color:transparent!important;color:#fff!important}
 .highlight_movie{border-radius:4px!important;background-color:transparent!important}
 .highlight_player_item img{border-radius:4px!important}
@@ -598,6 +616,7 @@ body.v6 #footer .rule{border-top:0 solid #29363d!important}
 .btn_next_in_queue:hover span{color:#ffcc6a!important}
 .game_area_comingsoon{border-radius:4px!important}
 .game_page_autocollapse_fade{background:0 0!important}
+.game_purchase_action_bg > *{border-radius:4px!important}
 .game_page_autocollapse_readmore{background:rgba(47,137,188,1)!important;color:#a4d7f5!important;padding-left:5px!important;padding-right:5px!important;border-radius:4px!important}
 .game_page_autocollapse_readmore:hover{background:rgba(23,67,92,1)!important;color:#fff!important;padding-left:5px!important;padding-right:5px!important;border-radius:4px!important}
 .game_page_autocollapse_ctn.collapsed{padding-bottom:25px!important}
@@ -608,6 +627,8 @@ body.v6 #footer .rule{border-top:0 solid #29363d!important}
 .slider_ctn.store_autoslider{background:0 0!important;border-radius:4px!important}
 .highlight_ctn .slider .handle,.highlight_ctn .slider_ctn .slider_left,.highlight_ctn .slider_ctn .slider_right{background-color:rgba(0,0,0,.4)!important;border-radius:4px!important}
 .game_area_details_specs{border-radius:4px!important}
+.game_area_details_specs a.name{color:white!important;background:#1e1e1f!important;border-radius:4px!important}
+.game_area_details_specs a.name:hover{background:#151515!important}
 .DRM_notice{border-radius:4px!important}
 .block a.linkbar{border-radius:4px!important}
 .glance_ctn{background:0 0!important;padding-bottom:13px!important;padding-left:5px!important;border-radius:4px!important}
@@ -829,10 +850,10 @@ span.bb_spoiler{border-radius:4px!important}
 .tradeoffer_items_banner.accepted{border-radius:4px!important}
 .quote_arrow{background-image:none!important}
 .rightcol_controls_rule{height:0!important;border-top:0!important}
-::-webkit-scrollbar-track{background-color:#1e1e1f!important;visibility:hidden!important}
-::-webkit-scrollbar-thumb{background-color:#151515!important;border:0!important}
-::-webkit-scrollbar-thumb:hover{background-color:#151515!important}
-::-webkit-scrollbar{width:18px!important}
+::-webkit-scrollbar-track{background-color:#1e1e1f!important;visibility:hidden!important;border-radius:10px!important}
+::-webkit-scrollbar-thumb{background-color:rgb(var(--scrollbar))!important;border:5px solid #1e1e1f!important;border-radius:10px!important}
+::-webkit-scrollbar-thumb:hover{background-color:rgb(var(--scrollbar))!important;border:5px solid #1e1e1f !important;border-radius:10px!important}
+::-webkit-scrollbar{width:18px!important;border-radius:10px!important}
 .DialogBody::-webkit-scrollbar{display:none!important}
 .maincontent{background-image:none!important;background-color:#1e1e1f!important}
 .maincontent #topSummaryBoxContent{background-color:#161617!important;padding:10px 10px 20px 20px!important;margin:0 0 20px 0!important;border-radius:4px!important}
