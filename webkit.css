@@ -851,10 +851,10 @@ span.bb_spoiler{border-radius:4px!important}
 .quote_arrow{background-image:none!important}
 .rightcol_controls_rule{height:0!important;border-top:0!important}
 ::-webkit-scrollbar-track{background-color:#1e1e1f!important;visibility:hidden!important;border-radius:10px!important}
-::-webkit-scrollbar-thumb{background-color:rgb(var(--scrollbar))!important;border:5px solid transparent !important;border-radius:10px!important}
-::-webkit-scrollbar-thumb:hover{background-color:rgb(var(--scrollbar))!important;border:5px solid transparent !important;border-radius:10px!important}
-::-webkit-scrollbar{width:18px!important;border-radius:10px!important}
-.DialogBody::-webkit-scrollbar{display:none!important}
+::-webkit-scrollbar-thumb{background-color:rgb(var(--scrollbar))!important;border:5px solid transparent!important;border-radius:10px!important}
+::-webkit-scrollbar-thumb:hover{background-color:rgb(var(--scrollbar))!important;border:5px solid transparent!important;border-radius:10px!important}
+::-webkit-scrollbar{width:10px!important;border-radius:10px!important;border:5px solid transparent!important}
+.DialogBody::-webkit-scrollbar{display:none!important;border:5px solid transparent!important}
 .maincontent{background-image:none!important;background-color:#1e1e1f!important}
 .maincontent #topSummaryBoxContent{background-color:#161617!important;padding:10px 10px 20px 20px!important;margin:0 0 20px 0!important;border-radius:4px!important}
 #subtabs{background:0 0!important;height:10px!important}
