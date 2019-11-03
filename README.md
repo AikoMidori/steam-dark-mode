@@ -26,7 +26,7 @@ The updater and installer are made with much love by **PhantomGamers.**
     
 ------------------------------------------------------------------------------------------------------------------
 
-### Beta Update 2.1
+### Beta Update 2.2
 
 **What's New?**
 
@@ -34,6 +34,7 @@ The updater and installer are made with much love by **PhantomGamers.**
     The Code has been cleaned up, and shrink the file size down to 60%.
     Increased the loading times and overall usability on the file.
     Added a new Lite version of Dark Mode, It's Dark Mode without extras. Credits to PhantomGamers
+    Fixed the Ingame Browser Overlay and changed some scrollbar elements :)
     
 
 *Made with love by* ***Shiina♪***
