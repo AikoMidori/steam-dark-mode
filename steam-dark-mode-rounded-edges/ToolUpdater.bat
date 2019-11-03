@@ -3,7 +3,7 @@ title Steam Dark Mode Tool Updater
 
 echo Welcome to the Steam Dark Mode Tool Updater.
 echo Made by Shiina.
-echo Version 2.0 (Hard Edges Lite)
+echo Version 2.0
 echo.
 echo This tool helps you update the SteamDarkModeTool!
 echo If you have any questions, Leave a message on our Discord: https://discord.gg/UZvkvkh
@@ -24,7 +24,7 @@ goto:start
 :update
 echo.
 echo Updating Files to current folder... 
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-hard-edges-lite/SteamDarkModeTool.bat',    'SteamDarkModeTool.bat')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/SteamDarkModeTool.bat',    'SteamDarkModeTool.bat')}Catch{Write-Warning $($error[0]);pause}"
 echo Tool updated, now closing!
 echo.
 goto:eof

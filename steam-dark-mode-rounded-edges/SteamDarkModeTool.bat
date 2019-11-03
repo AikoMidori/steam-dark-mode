@@ -3,7 +3,7 @@ title Steam Dark Mode Tool
 
 echo Welcome to the Steam Dark Mode Tool.
 echo Made by PhantomGamers and Shiina.
-echo Version 2.0 (Hard Edges Lite)
+echo Version 2.0 (Soft Edges)
 echo.
 echo This tool helps you update and install the Dark Mode for Steam!
 echo It also creates a skin for you if you didn't had one yet.
@@ -36,10 +36,10 @@ goto:start
 :update
 echo.
 echo Updating Files to current folder... 
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-hard-edges-lite/webkit.css',    'webkit.css')}Catch{Write-Warning $($error[0]);pause}"
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-hard-edges-lite/README.md',     'README.md')}Catch{Write-Warning $($error[0]);pause}"
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-hard-edges-lite/Changes.txt',   'Changes.txt')}Catch{Write-Warning $($error[0]);pause}"
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-hard-edges-lite/ToolUpdater.bat',   'ToolUpdater.bat')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/webkit.css',    'webkit.css')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/README.md',     'README.md')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/Changes.txt',   'Changes.txt')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/ToolUpdater.bat',   'ToolUpdater.bat')}Catch{Write-Warning $($error[0]);pause}"
 echo Files updated!
 echo.
 goto:start
@@ -77,10 +77,10 @@ goto:start
 :updatereplace
 echo.
 echo Updating Files to current folder... 
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-hard-edges-lite/webkit.css',    'webkit.css')}Catch{Write-Warning $($error[0]);pause}"
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-hard-edges-lite/README.md',     'README.md')}Catch{Write-Warning $($error[0]);pause}"
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-hard-edges-lite/Changes.txt',   'Changes.txt')}Catch{Write-Warning $($error[0]);pause}"
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-hard-edges-lite/ToolUpdater.bat',   'ToolUpdater.bat')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/webkit.css',    'webkit.css')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/README.md',     'README.md')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/Changes.txt',   'Changes.txt')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/ToolUpdater.bat',   'ToolUpdater.bat')}Catch{Write-Warning $($error[0]);pause}"
 echo Files updated!
 echo.
 
@@ -104,9 +104,9 @@ echo Downloading Steam Dark Mode skin to Skin directory...
 if [%SteamSkin%]==[] (
     reg add HKEY_CURRENT_USER\Software\Valve\Steam /v SkinV4 /t REG_SZ /d "SteamDarkMode" /f >nul
     mkdir "%SteamPath%/skins/SteamDarkMode/resource" >nul
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-hard-edges-lite/webkit.css', '%WebkitPath%')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/webkit.css', '%WebkitPath%')}Catch{Write-Warning $($error[0]);pause}"
 )
-if not [%SteamSkin%]==[] powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-hard-edges-lite/webkit.css', '%WebkitPath%')}Catch{Write-Warning $($error[0]);pause}"
+if not [%SteamSkin%]==[] powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/webkit.css', '%WebkitPath%')}Catch{Write-Warning $($error[0]);pause}"
 echo.
 goto:start
 
