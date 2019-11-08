@@ -24,7 +24,7 @@ goto:start
 :update
 echo.
 echo Updating Files to current folder... 
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/SteamDarkModeTool.bat',    'SteamDarkModeTool.bat')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-rounded-edges/SteamDarkModeTool.bat',    'SteamDarkModeTool.bat')}Catch{Write-Warning $($error[0]);pause}"
 echo Tool updated, now closing!
 echo.
 goto:eof
