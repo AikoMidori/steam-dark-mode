@@ -37,7 +37,6 @@ goto:start
 echo.
 echo Updating Files to current folder... 
     powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-rounded-edges/webkit.css',    'webkit.css')}Catch{Write-Warning $($error[0]);pause}"
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-rounded-edges/README.md',     'README.md')}Catch{Write-Warning $($error[0]);pause}"
     powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-rounded-edges/ToolUpdater.bat',   'ToolUpdater.bat')}Catch{Write-Warning $($error[0]);pause}"
 echo Files updated!
 echo.
@@ -77,7 +76,6 @@ goto:start
 echo.
 echo Updating Files to current folder... 
     powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-rounded-edges/webkit.css',    'webkit.css')}Catch{Write-Warning $($error[0]);pause}"
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-rounded-edges/README.md',     'README.md')}Catch{Write-Warning $($error[0]);pause}"
     powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/steam-dark-mode-rounded-edges/ToolUpdater.bat',   'ToolUpdater.bat')}Catch{Write-Warning $($error[0]);pause}"
 echo Files updated!
 echo.
