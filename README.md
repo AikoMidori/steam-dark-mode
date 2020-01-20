@@ -26,15 +26,17 @@ The updater and installer are made with much love by **PhantomGamers.**
     
 ------------------------------------------------------------------------------------------------------------------
 
-### Beta Update 2.2
+### Beta Update 3.0
 
 **What's New?**
 
+    Removed Soft and Hard Edges version, now all in 1 file.
     A complete new release of the Dark Mode with many features form user requests.
-    The Code has been cleaned up, and shrink the file size down to 60%.
+    The Code has been cleaned up, and shrink the file size down to 20%.
     Increased the loading times and overall usability on the file.
-    Added a new Lite version of Dark Mode, It's Dark Mode without extras. Credits to PhantomGamers
     Fixed the Ingame Browser Overlay and changed some scrollbar elements :)
+    A complete overview of the colors used, and option to switch between Soft and Hard Edges.
+    
     
 
 *Made with love by* ***Shiina♪***
