@@ -43,7 +43,7 @@ The updater and installer are made with much love by **PhantomGamers.**
     Switching Guide
     
     Within the file on the top, there are a few lines named border0-border8.
-    Setting those ..px to 0px will make you swiycg to Hard Edges version.
+    Setting those ..px to 0px will make you switch to Hard Edges version.
     If you ever want to switch back, the default properties are written behind the lines.
 
 *Made with love by* ***Shiina♪***
