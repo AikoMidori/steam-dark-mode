@@ -456,8 +456,8 @@ div#headerSearch.friend_activity_header_search{border-radius:var(--border0)!impo
 .profile_header_badgeinfo_badge_area{width:268px!important}
 .profile_header_badge{border:0!important;border-radius:var(--border1)!important;background-color:transparent!important;height:70px!important;margin-bottom:13px!important}
 .profile_header_actions{white-space:nowrap!important}
-.btn_profile_action.btn_medium{margin-right:10px!important;border-radius:var(--border25)!important;text-align:center!important;background:var(--darkgrey)!important;border:0!important}
-.btn_profile_action.btn_medium:hover{margin-right:10px!important;border-radius:var(--border25)!important;text-align:center!important;background:var(--blue)!important;border:0!important}
+.btn_profile_action.btn_medium{margin-right:10px!important;border-radius:25px!important;text-align:center!important;background:var(--darkgrey)!important;border:0!important}
+.btn_profile_action.btn_medium:hover{margin-right:10px!important;border-radius:25px!important;text-align:center!important;background:var(--blue)!important;border:0!important}
 .groupadmin_content .rightbox_content_header{border-top-left-radius:var(--border0)!important;border-top-right-radius:var(--border0)!important}
 .profile_background_current{border-radius:var(--border0)!important;border-top:0!important;border-right:0!important;border-left:0!important;border-bottom:0!important}
 .btn_profile_action>span{background:transparent!important}
@@ -592,7 +592,7 @@ a.activetrigger,a.trigger{border-radius:var(--border0)!important;background:0 0!
 .workshop_showcase_item img.workshop_showcase_item_image{border-radius:var(--border0)!important}
 .guide_showcase_appinfo .workshop_showcase_app img{border-radius:var(--border0)!important}
 .favoritegroup_showcase_group .favoritegroup_avatar img{border-radius:var(--border0)!important}
-.recent_game{background-color:var(--littlegrey)!important}
+.recent_game{background-color:rgba( 0, 0, 0, 0.3 )!important;backdrop-filter:blur(10px)!important}
 .game_info .game_info_cap img{border-radius:var(--border0)!important}
 .favoritegame_showcase .game_info_stats,.recent_game .game_info_stats{background-color:transparent!important;border-radius:var(--border0)!important;border-top:0!important}
 .game_info_achievements_badge .game_info_badge_border{border-radius:var(--border0)!important}
@@ -602,7 +602,8 @@ a.activetrigger,a.trigger{border-radius:var(--border0)!important;background:0 0!
 .game_info_achievement{border-radius:var(--border0)!important}
 .game_info_stats_rule{border-top:0!important;background-color:rgba(0,0,0,0)!important;height:0!important}
 .screenshot_showcase_screenshot{border-radius:var(--border0)!important;border:1px transparent solid!important}
-.showcase_content_bg{border-radius:var(--border0)!important;background-color:var(--littlegrey)!important}
+.showcase_content_bg{border-radius:4px!important;backdrop-filter:blur(10px)!important;background-color:rgba( 0, 0, 0, 0.3 )!important}
+.showcase_content_bg:last-child{border-radius:4px!important}
 .showcase_gamecollector_game img.game_capsule{border-radius:var(--border0)!important}
 .commentthread_header,.profile_leftcol_header{border-bottom:0!important;border-radius:var(--border0)!important;background-color:transparent!important}
 .commentthread_subscribe_checkbox{border:0!important;border-radius:var(--border0)!important;background:var(--littlegrey)!important;margin-bottom:2px!important}
