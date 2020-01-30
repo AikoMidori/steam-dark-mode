@@ -371,8 +371,10 @@ body.v6 div#global_header .content{background:var(--bedarkgrey)!important}
 .btn_grey_grey_outer_bevel>span{background:0 0!important;border-radius:var(--border0)!important}
 .btn_grey_grey_outer_bevel:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{border-radius:var(--border0)!important;background:var(--lightgrey)!important;color:var(--white)!important}
 .apphub_background{background:var(--darkgrey)!important}
-.popup_block .popup_body{background-color:var(--realblack)!important}
-div#game_select_suggestions_ctn{background:var(--realblack)00!important}
+.popup_block .popup_body{background:var(--darkergrey)!important}
+.btn_profile_action .btn_medium .img{transform: rotate(180deg) scaleX(1)!important}
+#profile_action_dropdown{top:-35px!important;left:720px!important;background:var(--darkergrey)!important;border-radius:var(--border0)!important}
+div#game_select_suggestions_ctn{background:var(--realblack)!important}
 .apphub_Card{background-color:var(--bedarkgrey)!important}
 .apphub_CardContentNewsFade{background-image:none!important;background:linear-gradient(to bottom,var(--bedarkgrey)00,var(--bedarkgrey))!important}
 .apphub_CardContentMain .UserReviewCardContent_Footer .gradient{background:linear-gradient(to bottom,var(--bedarkgrey)00,var(--bedarkgrey))!important}
@@ -472,7 +474,7 @@ div#headerSearch.friend_activity_header_search{border-radius:var(--border0)!impo
 .friendBlock.persona.in-game:hover{background:0 0!important;color:var(--ingame)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:rgba(84,133,183,.2)!important;border-radius:var(--border0)!important}
 .friendBlock.persona.online:hover{background:0 0!important;color:var(--online)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:rgba(84,133,183,.2)!important;border-radius:var(--border0)!important}
 .friendBlock.persona.offline:hover{background:0 0!important;color:var(--offline)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:rgba(84,133,183,.2)!important;border-radius:var(--border0)!important}
-.profile_content.has_profile_background{z-index:-1!important;margin-top:0px!important;padding-top:5px!important;background:rgba(23, 23, 23, 0.85)!important;backdrop-filter:var(--blur)!important;border-radius:var(--border1)!important}
+.profile_content.has_profile_background{z-index:0!important;margin-top:0px!important;padding-top:5px!important;background:rgba(23, 23, 23, 0.85)!important;backdrop-filter:var(--blur)!important;border-radius:var(--border1)!important}
 .workshop_showcase_details_row{background-image:none!important}
 .profile_header_content{padding-top:0px!important}
 .workshop_showcase_details_content{background-color:transparent!important}
@@ -588,6 +590,7 @@ a.activetrigger,a.trigger{border-radius:var(--border0)!important;background:0 0!
 .dselect_container a,.dselect_container a:active,.dselect_container a:hover,.dselect_container a:visited{border-bottom-left-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
 .block_content.block_content_inner.dark{border-radius:var(--border0)!important}
 .popup_body.popup_menu.shadow_content{border-radius:var(--border0)!important;z-index:200!important}
+#profile_action_dropdown .popup_menu_item{padding: 2px 12px!important}
 .profile_customization{border-radius:var(--border0)!important;background-image:none!important;background-color:transparent!important}
 .workshop_showcase_item img.workshop_showcase_item_image{border-radius:var(--border0)!important}
 .guide_showcase_appinfo .workshop_showcase_app img{border-radius:var(--border0)!important}
@@ -979,3 +982,4 @@ div.profile_page.has_profile_background{z-index:0!important}
 
 
 /* Future Updates and Changes */
+.top_new_releases_background{background-image:none!important;}
