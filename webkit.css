@@ -5,7 +5,7 @@
     --trans: transparent;
     --black: #000000;
     --black-ish: #2a3f5a00;
-    --realblack: #1a1a1a;
+    --realblack: #101010;
     --blacker-ish: #1b1b1b;
     --blacker: #1c1c1c;
     --lightblack: #121212;
@@ -251,6 +251,7 @@ img.tab_item_cap_img{border-radius:var(--border0)!important}
 .screenshot_container{display:none!important}
 .share{border-radius:var(--border0)!important}
 .newshr{background-image:none!important}
+img.member_tile{border-radius:var(--border5)!important;padding:10px!important;}
 .apphub_Card.interactable{border-radius:var(--border0)!important}
 .apphub_Card.interactable:hover{border:1px solid transparent!important}
 .apphub_Card.interactable:hover .apphub_CardContentAuthorBlock{background-color:transparent!important}
@@ -468,12 +469,9 @@ div#headerSearch.friend_activity_header_search{border-radius:var(--border0)!impo
 .profile_count_link.ellipsis{font-size:14px!important;margin-bottom:4px!important;min-height:29px!important;overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important}
 .profile_in_common.responsive_hidden{margin-bottom:6px!important}
 .profile_topfriends.profile_count_link_preview{display:block!important}
-.friendBlock.persona.in-game{background:0 0!important;color:var(--ingame)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:rgba(0,0,0,0)!important}
-.friendBlock.persona.online{background:0 0!important;color:var(--online)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:rgba(0,0,0,0)!important}
-.friendBlock.persona.offline{background:0 0!important;color:var(--offline)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:rgba(0,0,0,0)!important}
-.friendBlock.persona.in-game:hover{background:0 0!important;color:var(--ingame)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:rgba(84,133,183,.2)!important;border-radius:var(--border0)!important}
-.friendBlock.persona.online:hover{background:0 0!important;color:var(--online)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:rgba(84,133,183,.2)!important;border-radius:var(--border0)!important}
-.friendBlock.persona.offline:hover{background:0 0!important;color:var(--offline)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important;background-color:rgba(84,133,183,.2)!important;border-radius:var(--border0)!important}
+.friendBlock.persona.in-game{color:var(--ingame)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
+.friendBlock.persona.online{color:var(--online)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
+.friendBlock.persona.offline{color:var(--offline)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
 .profile_content.has_profile_background{z-index:0!important;margin-top:0px!important;padding-top:5px!important;background:rgba(23, 23, 23, 0.85)!important;backdrop-filter:var(--blur)!important;border-radius:var(--border1)!important}
 .workshop_showcase_details_row{background-image:none!important}
 .profile_header_content{padding-top:0px!important}
@@ -503,8 +501,8 @@ div#headerSearch.friend_activity_header_search{border-radius:var(--border0)!impo
 .friends_header_avatar{border-radius:var(--border35)!important}
 .friends_header_avatar img{border-radius:var(--border35)!important}
 .friends_header_name{padding-top:12px!important}
-.friends_nav a.active{background-color:rgba(255,255,255,.1)!important;border-radius:var(--border0)!important}
-.friends_nav a:hover{background-color:rgba(255,255,255,.1)!important;border-radius:var(--border0)!important}
+.friends_nav a.active{background-color:var(--darkergrey)!important;border-radius:var(--border0)!important}
+.friends_nav a:hover{background-color:var(--realblack)!important;border-radius:var(--border0)!important}
 .friends_nav a{margin-bottom:2px!important;border-radius:var(--border0)!important}
 .group_block{background:var(--begrey)!important}
 .profile_friends.title_bar,.profile_groups.title_bar{margin-top:4px!important;border-radius:var(--border0)!important}
@@ -775,12 +773,6 @@ div.early_access_announcements .post .more:hover{color:var(--white)!important;pa
 .forum_topic_overlay{border-radius:var(--border0)!important}
 .forum_topic_overlay:hover{background:var(--darkergrey)63!important}
 .forum_topic{border-radius:var(--border0)!important}
-.grouppage_membertiles_overlay{top:0!important;padding-bottom:12px!important;background:var(--darkgrey)!important;opacity:.9!important}
-.grouppage_member_tiles{right:-1px!important;height:230px!important;padding-bottom:12px!important;padding-top:0!important;background:0 0!important;border-radius:var(--border0)!important}
-.grouppage_header{border-bottom:4px!important;background:0 0!important}
-.grouppage_header_name{border-top-right-radius:var(--border0)!important;border-bottom-right-radius:var(--border0)!important}
-.grouppage_header_label{background-color:rgba(0,0,0,.6)!important;border-top-right-radius:var(--border0)!important}
-.grouppage_friendsingroup{top:125px!important;padding:1px!important;background-color:rgba(0,0,0,.6)!important;border-top-left-radius:var(--border0)!important;border-bottom-left-radius:var(--border0)!important}
 .btn_blue_white_innerfade{border-radius:var(--border0)!important;border:1px var(--littlegrey)!important;text-decoration:none!important;color:var(--blacker-ish)!important;background:rgba(102,192,244,.8)!important}
 .btn_blue_white_innerfade>span{border-radius:var(--border0)!important;background:rgba(102,192,244,.8)!important;color:var(--blacker-ish)!important;border:1px var(--littlegrey)!important}
 .btn_blue_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover{text-decoration:none!important;color:var(--white)!important;border-radius:var(--border0)!important;background:var(--darkblue)!important;border:1px var(--littlegrey)!important}
@@ -792,7 +784,7 @@ div.early_access_announcements .post .more:hover{color:var(--white)!important;pa
 a.group_tab:hover{background:var(--blu)!important;border-radius:var(--border0)!important}
 .group_tab.active{height:35px!important;background:0 0!important;border-radius:var(--border0)!important}
 .group_tab.active>span{height:35px!important;background:rgba(102,192,244,.8)!important;border-radius:var(--border0)!important}
-.rightbox{border-radius:var(--border0)!important}
+.rightbox{border-radius:var(--border0)!important;background:var(--darkergrey)!important;}
 .joinchat_bg{position:relative;width:257px!important;height:36px!important;background:var(--blacker)!important;border-radius:var(--border0)!important}
 .joinchat_bg .joinchat_button{top:2px!important;color:var(--white)!important;background:rgba(102,192,244,.8)!important;border-radius:var(--border0)!important}
 .joinchat_bg .joinchat_membercount{top:1px!important;color:var(--blu)!important}
@@ -977,6 +969,28 @@ body.v6.winter_sale_home h2.winter{margin-left:-40px!important}
 .community_recommendation_app > .right_col{background:var(--darkergrey)!important;border-radius:var(--border0)!important}
 .community_recommendation_app:hover > .right_col{background:var(--darkergrey)!important;border-radius:var(--border0)!important}
 div.profile_page.has_profile_background{z-index:0!important}
+.profile_friends .friend_block_v2{width:280px!important;background:var(--darkergrey)!important;border-radius:var(--border5)!important}
+.profile_friends .friend_block_v2:hover{background:var(--realblack)!important;border-radius:var(--border5)!important}
+.friend_block_v2 .player_avatar{margin-top:2px!important}
+.friendBlock .friendPlayerLevel{margin: 1px 6px 5px 5px!important}
+.referring_curator_ctn{margin-top:-20px!important;margin-bottom:0px!important}
+.queue_overflow_ctn{margin-top:-20px!important}
+
+/* This is the part for the Group page Banner */
+.grouppage_membertiles_overlay{top:0!important;padding-bottom:12px!important;background:var(--darkgrey)!important;opacity:.9!important}
+.grouppage_member_tiles{right:-1px!important;height:230px!important;padding-bottom:12px!important;padding-top:0!important;background:0 0!important;border-radius:var(--border0)!important}
+.grouppage_header{border-bottom:4px!important;background:0 0!important}
+.grouppage_header_name{background:rgba(0, 0, 0, 0.2)!important;backdrop-filter:blur(10px)!important;position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:50%!important;top:30%!important;background-color:transparent!important}
+.grouppage_header_label{border-top-left-radius:var(--border1)!important;border-top-right-radius:var(--border1)!important;background:rgba(0, 0, 0, 0.2)!important;backdrop-filter:blur(10px)!important;position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:50%!important;top:15%!important;background-color:transparent!important}
+
+/* User Avatars Row */
+.grouppage_friendsingroup{position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:50%!important;top:50%!important;background-color:transparent!important}
+
+/* x Friends in group Button (this is fine) */
+.grouppage_friendsingroup_title{border-radius:var(--border1)!important;background:rgba(0, 0, 0, 0.2)!important;backdrop-filter:blur(10px)!important;position:absolute!important;transform:translate(-50%, -50%)!important;display:inline-block!important;text-align:center!important;right:auto!important;left:1%!important;top:-130%!important;background-color:transparent!important}
+
+/* User Avatars */
+.grouppage_friendsingroup .friendavatar{float:left!important;padding:4px!important;border-radius:var(--border5)!important}
 
 
 
