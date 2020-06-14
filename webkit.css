@@ -164,8 +164,8 @@ body.v6.infinite_scrolling #footer.small_footer{background:var(--bedarkgrey)!imp
 body.v6 #footer{background:var(--bedarkgrey)!important}
 .curator_buttons_ctn{background:var(--bedarkgrey)!important}
 body.flat_page #footer{background:var(--bedarkgrey)!important}
-div#global_header{max-height:74px!important}
-div#global_header .content{height:74px!important;left:-1%!important}
+div#global_header{max-height:74px!important;background:var(--bedarkgrey)!important}
+div#global_header .content{height:74px!important;left:-1%!important;background:var(--bedarkgrey)!important}
 div#global_header div.logo{padding-top:15px!important}
 div#global_header .menuitem{padding-top:29px!important}
 div#global_actions #global_action_menu{padding-top:18px!important}
