@@ -1,0 +1,621 @@
+/* -------------------------USER PROFILE------------------------- */
+/* Header */
+.profile_header_bg_texture {
+  min-height: 226px !important;
+  backdrop-filter: blur(20px) !important;
+  border-radius: 10px !important;
+}
+
+/* Header Background */
+.profile_header_bg {
+  z-index: 1 !important;
+  padding: 10px 0 10px 0 !important;
+}
+
+/* Header Background Position Fix */
+.profile_header_badge {
+  border-radius: 10px !important;
+}
+
+/* Badge Background */
+.profile_header .profile_summary {
+  color: var(--white) !important;
+}
+
+/* Btn Text Color */
+.btn_profile_action {
+  border-radius: 10px !important;
+  color: var(--black) !important;
+}
+
+/* Btn Text Color Hover */
+.btn_profile_action:hover > span, .btn_profile_action.focus > span {
+  color: var(--black) !important;
+}
+
+/* Btn Text Color Hover */
+.btn_profile_action > span {
+  border-radius: 10px !important;
+  color: var(--black) !important;
+}
+
+/* Btn Text Color Hover */
+.header_real_name {
+  color: var(--white) !important;
+}
+
+/* Name Text Color */
+.playerAvatar.profile_header_size .playerAvatarAutoSizeInner .profile_avatar_frame > img {
+  display: none !important;
+}
+
+/* Hides New Avatar Frame */
+.popup_block_new .popup_body {
+  border-radius: 10px !important;
+  background-color: #1e1e1f !important;
+  border: 1px solid #1e1e1f !important;
+}
+
+/* Profile Names Dropdown */
+/* Right Column */
+.profile_rightcol {
+  backdrop-filter: none !important;
+  border-radius: 10px !important;
+  background-color: transparent !important;
+}
+
+/* Right Column Background */
+.profile_topfriends .friendBlock:hover {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  border-radius: 10px !important;
+}
+
+/* Friends Hover */
+.profile_group_avatar img {
+  border-radius: 10px !important;
+}
+
+/* Group Img */
+/* Left Column */
+.profile_content.has_profile_background {
+  backdrop-filter: blur(20px) !important;
+  border-radius: 10px !important;
+}
+
+/* Left Column Background */
+.profile_customization {
+  backdrop-filter: none !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  border-radius: 10px !important;
+}
+
+/* Left Column Containers */
+.profile_customization.customization_edit.none_selected {
+  border: 1px solid transparent !important;
+}
+
+/* Add Showcase */
+.profile_customization_area .profile_customization.customization_edit.none_selected:hover {
+  background: #2e2e2f !important;
+}
+
+/* Add Showcase Hover */
+.screenshot_showcase_screenshot {
+  border: 1px solid transparent !important;
+  border-radius: 10px !important;
+}
+
+/* Screenshot Showcase Img */
+.screenshot_showcase_screenshot:hover {
+  border: 1px solid transparent !important;
+}
+
+/* Screenshot Showcase Hover Img */
+.screenshot_showcase_smallscreenshot {
+  border-radius: 10px !important;
+}
+
+/* Screenshot Showcase Small Img */
+.game_info_stats_rule {
+  display: none !important;
+}
+
+/* Game Info Line */
+.game_info_badge_border {
+  border: 1px solid transparent !important;
+  background-color: transparent !important;
+  border-radius: 10px !important;
+}
+
+/* Game Info Badge Border */
+.favoritegroup_showcase_group .favoritegroup_avatar img {
+  border-radius: 10px !important;
+}
+
+/* Favorite Group Img */
+.favoritegame_showcase_game .favorite_game_cap, .favoritegame_showcase_game .favorite_game_cap img {
+  border-radius: 10px !important;
+}
+
+/* Favorite Game Img */
+.profile_comment_area .commentthread_footer {
+  border-top: 0px !important;
+}
+
+/* Profile Comment Footer Line */
+.profile_comment_area .commentthread_comment_container {
+  border-bottom: 0px !important;
+}
+
+/* Profile Comment Container Line */
+.profile_comment_area .commentthread_header {
+  backdrop-filter: none !important;
+  background-color: transparent !important;
+}
+
+/* Comment Header Background */
+.profile_leftcol_header {
+  border-radius: 10px !important;
+}
+
+/* Column Headers */
+.commentthread_footer {
+  border-top: 0px !important;
+}
+
+/* Footer Line */
+.recent_game {
+  border-radius: 10px !important;
+}
+
+/* Recent Game */
+.recent_game .game_info .game_info_cap img {
+  border-radius: 10px !important;
+}
+
+/* Recent Game Img */
+.recent_game .game_info_stats, .favoritegame_showcase .game_info_stats {
+  border-radius: 10px !important;
+  background-color: transparent !important;
+}
+
+/* Recent Game Background */
+.workshop_showcase_details_content {
+  background-color: transparent !important;
+}
+
+/* Workshop Showcase Panel Content */
+.workshop_showcase_details_row {
+  background-image: none !important;
+}
+
+/* Workshop Showcase Panel Row */
+.workshop_showcase_item img.workshop_showcase_item_image {
+  border-radius: 10px !important;
+}
+
+/* Workshop Showcase Group Img */
+.showcase_content_bg {
+  border-radius: 10px !important;
+  background: transparent !important;
+}
+
+/* Showcase Content Background */
+.showcase_gamecollector_game img.game_capsule {
+  border-radius: 10px !important;
+}
+
+/* Game Collector Img */
+.achievement_progress_bar_ctn {
+  border: 0px !important;
+}
+
+.achievement_progress_bar_ctn .progress_bar {
+  background: var(--progressbar) !important;
+}
+
+/* Progres Bar */
+.game_info_achievement, .game_info_achievement img {
+  border-radius: 10px !important;
+}
+
+/* Acheievement Img */
+* {
+  box-shadow: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+/* -------------------------GROUPS PAGES------------------------- */
+/* This is the part for the Group page Banner */
+.grouppage_membertiles_overlay {
+  top: 0 !important;
+  padding-bottom: 12px !important;
+  background: var(--darkgrey) !important;
+  opacity: 0.9 !important;
+}
+
+.grouppage_member_tiles {
+  right: -1px !important;
+  height: 230px !important;
+  padding-bottom: 12px !important;
+  padding-top: 0 !important;
+  background: 0 0 !important;
+  border-radius: var(--border0) !important;
+}
+
+.grouppage_header {
+  border-bottom: 4px !important;
+  background: 0 0 !important;
+}
+
+.grouppage_header_name {
+  background: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  position: absolute !important;
+  transform: translate(-50%, -50%) !important;
+  display: inline-block !important;
+  text-align: center !important;
+  right: auto !important;
+  left: 50% !important;
+  top: 30% !important;
+  background-color: transparent !important;
+}
+
+.grouppage_header_label {
+  border-top-left-radius: var(--border1) !important;
+  border-top-right-radius: var(--border1) !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  position: absolute !important;
+  transform: translate(-50%, -50%) !important;
+  display: inline-block !important;
+  text-align: center !important;
+  right: auto !important;
+  left: 50% !important;
+  top: 15% !important;
+  background-color: transparent !important;
+}
+
+/* User Avatars Row */
+.grouppage_friendsingroup {
+  position: absolute !important;
+  transform: translate(-50%, -50%) !important;
+  display: inline-block !important;
+  text-align: center !important;
+  right: auto !important;
+  left: 50% !important;
+  top: 50% !important;
+  background-color: transparent !important;
+}
+
+/* x Friends in group Button (this is fine) */
+.grouppage_friendsingroup_title {
+  border-radius: var(--border1) !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  position: absolute !important;
+  transform: translate(-50%, -50%) !important;
+  display: inline-block !important;
+  text-align: center !important;
+  right: auto !important;
+  left: 1% !important;
+  top: -130% !important;
+  background-color: transparent !important;
+}
+
+/* User Avatars */
+.grouppage_friendsingroup .friendavatar {
+  float: left !important;
+  padding: 4px !important;
+  border-radius: var(--border5) !important;
+}
+
+/* Future Updates and Changes */
+.top_new_releases_background {
+  background-image: none !important;
+}
+
+/* -------------------------STORE FEATURED------------------------- */
+:root {
+  /* Main Backgrounds Colors */
+  --background: #1e1e1f;
+  --scrollbar: #6624e2;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar-thumb {
+  background-clip: padding-box !important;
+  -webkit-box-shadow: none !important;
+  background-color: var(--scrollbar) !important;
+  border: 5px solid var(--darkgrey) !important;
+  border-radius: var(--border1) !important;
+  width: 25px !important;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: none !important;
+  background: var(--darkgrey) !important;
+}
+
+body::-webkit-scrollbar {
+  background-clip: padding-box !important;
+  border: 5px solid transparent !important;
+  background-color: transparent !important;
+}
+
+.DialogBody::-webkit-scrollbar {
+  display: none !important;
+  border: 5px solid transparent !important;
+}
+
+/* Resolution Fix */
+@media only screen and (min-width: 3000px) {
+  .responsive_page_content {
+    -webkit-transform: scale(2) !important;
+    -webkit-transform-origin: 50% 0% 0 !important;
+  }
+
+  .modal_frame {
+    width: 66% !important;
+    height: 80% !important;
+  }
+
+  #footer {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 3400px) {
+  .responsive_page_content {
+    -webkit-transform: scale(1) !important;
+    -webkit-transform-origin: 50% 0% 0 !important;
+  }
+
+  .modal_frame {
+    width: 66% !important;
+    height: 80% !important;
+  }
+
+  #footer {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 4000px) {
+  .responsive_page_content {
+    -webkit-transform: scale(2) !important;
+    -webkit-transform-origin: 50% 0% 0 !important;
+  }
+
+  .modal_frame {
+    width: 66% !important;
+    height: 80% !important;
+  }
+
+  #footer {
+    display: none !important;
+  }
+}
+/* Main Backgrounds */
+html {
+  /* Background */
+  background: var(--background) !important;
+}
+
+body {
+  /* Background */
+  background: var(--background) !important;
+}
+
+body.v6 {
+  /* Background */
+  background: var(--background) !important;
+}
+
+.home_page_body_ctn {
+  /* Background */
+  background: var(--background) !important;
+}
+
+#MessageContent {
+  /* Background */
+  background: var(--background) !important;
+}
+
+div.profile_page.has_profile_background {
+  /* Background */
+  background-color: var(--background) !important;
+}
+
+body.profile_page #footer {
+  /* Background */
+  background: var(--background) !important;
+}
+
+.labs_cluster {
+  /* Background */
+  background: var(--background) !important;
+}
+
+.home_ctn.discovery_queue_ctn {
+  /* Background */
+  background-color: var(--background) !important;
+}
+
+.home_ctn.apps_recommended_by_curators_ctn {
+  /* Background */
+  background: var(--background) !important;
+}
+
+.home_ctn.tab_container {
+  /* Background */
+  background: var(--background) !important;
+}
+
+/* Header */
+div.store_header_btn {
+  /* Header wishlist buttons */
+  border-radius: 10px !important;
+  margin-left: 10px !important;
+}
+
+div.store_header_btn:hover {
+  /* Buttons */
+  border-radius: 10px !important;
+  margin-left: 10px !important;
+}
+
+a.store_header_btn_content {
+  /* Header wishlist buttons */
+  border-radius: 10px !important;
+}
+
+#store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
+  /* Header */
+  background: #3e3e3f !important;
+  border-radius: 20px !important;
+}
+
+.store_nav .tab:hover > span,
+.store_nav .tab:hover,
+.store_nav .tab.focus > span,
+.store_nav .tab.focus {
+  /* Header Hover */
+  background: #4e4e4f !important;
+  border-radius: 20px !important;
+  color: white !important;
+}
+
+.store_nav .tab {
+  /* Remove Header Lines */
+  border-right: 0px !important;
+}
+
+.searchbox {
+  /* Searchbox Hover */
+  background-color: #1e1e1f !important;
+  border-radius: 20px !important;
+  border: 1px solid #1e1e1f !important;
+}
+
+.searchbox:hover {
+  border: 1px solid #1e1e1f !important;
+}
+
+.searchbox input.default {
+  /* Searchbox Search Placeholder */
+  display: none !important;
+}
+
+a#store_search_link img {
+  /* Hides Search Icon */
+  display: none !important;
+}
+
+/* Store Featured and Recommended */
+.store_main_capsule, .store_main_capsule:hover {
+  background-image: none !important;
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+
+.store_main_capsule .capsule {
+  border-radius: 10px !important;
+}
+
+.carousel_container.maincap .capsule .screenshot {
+  border-radius: 10px !important;
+}
+
+.store_main_capsule .screenshots > div > div {
+  border-radius: 10px !important;
+}
+
+.home_category_games_ctn {
+  background: none !important;
+}
+
+.carousel_container .arrow {
+  /* Arrows Background */
+  background: transparent !important;
+}
+
+.carousel_container .arrow.left, .carousel_container .arrow.right {
+  /* All Arrows */
+  background: transparent !important;
+}
+
+.carousel_container .arrow.left:hover, .carousel_container .arrow.right:hover {
+  background: transparent !important;
+}
+
+body.v6.infinite_scrolling #footer.small_footer {
+  /* Small Footer */
+  background: #1e1e1f !important;
+}
+
+body.v6 .page_content_ctn.dark {
+  background: #1e1e1f !important;
+}
+
+.sale_capsule .discount_block_inline .discount_prices {
+  background: transparent !important;
+}
+
+body.v6 .discount_block {
+  background: transparent !important;
+}
+
+body.v6 .discount_pct {
+  border-radius: 10px !important;
+}
+
+.discount_block > .discount_prices {
+  background-color: transparent !important;
+}
+
+.home_content.single {
+  background: #151515 !important;
+  border-radius: 10px !important;
+}
+
+/* Special Offers */
+.home_area_spotlight {
+  /* Removes Image from Background */
+  background-image: none !important;
+}
+
+.spotlight_img {
+  /* Image */
+  border-radius: 10px !important;
+}
+
+.spotlight_content {
+  /* Price Background */
+  border-radius: 10px !important;
+  background-image: none !important;
+  background: #121212 !important;
+}
+
+.carousel_container.spotlight .carousel_items > * .store_capsule {
+  /* Removes Image from Background */
+  background-image: none !important;
+}
+
+.carousel_container.spotlight .carousel_items > * .store_capsule:hover {
+  background: #121212 !important;
+}
+
+.store_capsule .capsule > img {
+  /* Image */
+  border-radius: 10px !important;
+}
+
+.store_capsule {
+  /* Price Background */
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+
+/*# sourceMappingURL=webkit.css.map */

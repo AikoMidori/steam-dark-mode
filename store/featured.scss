@@ -1,0 +1,295 @@
+/* -------------------------STORE FEATURED------------------------- */
+:root {
+  /* Main Backgrounds Colors */
+  --background: #1e1e1f;
+  --scrollbar: #6624e2;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar-thumb {
+  background-clip: padding-box !important;
+  -webkit-box-shadow: none !important;
+  background-color: var(--scrollbar) !important;
+  border: 5px solid var(--darkgrey) !important;
+  border-radius: var(--border1) !important;
+  width: 25px !important;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: none !important;
+  background: var(--darkgrey) !important;
+}
+
+body::-webkit-scrollbar {
+  background-clip: padding-box !important;
+  border: 5px solid transparent !important;
+  background-color: transparent !important;
+}
+
+.DialogBody::-webkit-scrollbar {
+  display: none !important;
+  border: 5px solid transparent !important;
+}
+
+/* Resolution Fix */
+@media only screen and (min-width: 3000px) {
+  .responsive_page_content {
+    -webkit-transform: scale(2) !important;
+    -webkit-transform-origin: 50% 0% 0 !important;
+  }
+
+  .modal_frame {
+    width: 66% !important;
+    height: 80% !important;
+  }
+
+  #footer {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 3400px) {
+  .responsive_page_content {
+    -webkit-transform: scale(1) !important;
+    -webkit-transform-origin: 50% 0% 0 !important;
+  }
+
+  .modal_frame {
+    width: 66% !important;
+    height: 80% !important;
+  }
+
+  #footer {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 4000px) {
+  .responsive_page_content {
+    -webkit-transform: scale(2) !important;
+    -webkit-transform-origin: 50% 0% 0 !important;
+  }
+
+  .modal_frame {
+    width: 66% !important;
+    height: 80% !important;
+  }
+
+  #footer {
+    display: none !important;
+  }
+}
+/* Main Backgrounds */
+html {
+  /* Background */
+  background: var(--background) !important;
+}
+
+body {
+  /* Background */
+  background: var(--background) !important;
+}
+
+body.v6 {
+  /* Background */
+  background: var(--background) !important;
+}
+
+.home_page_body_ctn {
+  /* Background */
+  background: var(--background) !important;
+}
+
+#MessageContent {
+  /* Background */
+  background: var(--background) !important;
+}
+
+div.profile_page.has_profile_background {
+  /* Background */
+  background-color: var(--background) !important;
+}
+
+body.profile_page #footer {
+  /* Background */
+  background: var(--background) !important;
+}
+
+.labs_cluster {
+  /* Background */
+  background: var(--background) !important;
+}
+
+.home_ctn.discovery_queue_ctn {
+  /* Background */
+  background-color: var(--background) !important;
+}
+
+.home_ctn.apps_recommended_by_curators_ctn {
+  /* Background */
+  background: var(--background) !important;
+}
+
+.home_ctn.tab_container {
+  /* Background */
+  background: var(--background) !important;
+}
+
+/* Header */
+div.store_header_btn {
+  /* Header wishlist buttons */
+  border-radius: 10px !important;
+  margin-left: 10px !important;
+}
+div.store_header_btn:hover {
+  /* Buttons */
+  border-radius: 10px !important;
+  margin-left: 10px !important;
+}
+
+a.store_header_btn_content {
+  /* Header wishlist buttons */
+  border-radius: 10px !important;
+}
+
+#store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
+  /* Header */
+  background: #3e3e3f !important;
+  border-radius: 20px !important;
+}
+
+.store_nav .tab:hover > span,
+.store_nav .tab:hover,
+.store_nav .tab.focus > span,
+.store_nav .tab.focus {
+  /* Header Hover */
+  background: #4e4e4f !important;
+  border-radius: 20px !important;
+  color: white !important;
+}
+
+.store_nav .tab {
+  /* Remove Header Lines */
+  border-right: 0px !important;
+}
+
+.searchbox {
+  /* Searchbox Hover */
+  background-color: #1e1e1f !important;
+  border-radius: 20px !important;
+  border: 1px solid #1e1e1f !important;
+}
+.searchbox:hover {
+  border: 1px solid #1e1e1f !important;
+}
+
+.searchbox input.default {
+  /* Searchbox Search Placeholder */
+  display: none !important;
+}
+
+a#store_search_link img {
+  /* Hides Search Icon */
+  display: none !important;
+}
+
+/* Store Featured and Recommended */
+.store_main_capsule, .store_main_capsule:hover {
+  background-image: none !important;
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+
+.store_main_capsule .capsule {
+  border-radius: 10px !important;
+}
+
+.carousel_container.maincap .capsule .screenshot {
+  border-radius: 10px !important;
+}
+
+.store_main_capsule .screenshots > div > div {
+  border-radius: 10px !important;
+}
+
+.home_category_games_ctn {
+  background: none !important;
+}
+
+.carousel_container .arrow {
+  /* Arrows Background */
+  background: transparent !important;
+}
+
+.carousel_container .arrow.left, .carousel_container .arrow.right {
+  /* All Arrows */
+  background: transparent !important;
+}
+.carousel_container .arrow.left:hover, .carousel_container .arrow.right:hover {
+  background: transparent !important;
+}
+
+body.v6.infinite_scrolling #footer.small_footer {
+  /* Small Footer */
+  background: #1e1e1f !important;
+}
+
+body.v6 .page_content_ctn.dark {
+  background: #1e1e1f !important;
+}
+
+.sale_capsule .discount_block_inline .discount_prices {
+  background: transparent !important;
+}
+
+body.v6 .discount_block {
+  background: transparent !important;
+}
+
+body.v6 .discount_pct {
+  border-radius: 10px !important;
+}
+
+.discount_block > .discount_prices {
+  background-color: transparent !important;
+}
+
+.home_content.single {
+  background: #151515 !important;
+  border-radius: 10px !important;
+}
+
+/* Special Offers */
+.home_area_spotlight {
+  /* Removes Image from Background */
+  background-image: none !important;
+}
+
+.spotlight_img {
+  /* Image */
+  border-radius: 10px !important;
+}
+
+.spotlight_content {
+  /* Price Background */
+  border-radius: 10px !important;
+  background-image: none !important;
+  background: #121212 !important;
+}
+
+.carousel_container.spotlight .carousel_items > * .store_capsule {
+  /* Removes Image from Background */
+  background-image: none !important;
+}
+.carousel_container.spotlight .carousel_items > * .store_capsule:hover {
+  background: #121212 !important;
+}
+
+.store_capsule .capsule > img {
+  /* Image */
+  border-radius: 10px !important;
+}
+
+.store_capsule {
+  /* Price Background */
+  background: #121212 !important;
+  border-radius: 10px !important;
+}

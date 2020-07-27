@@ -1,0 +1,229 @@
+/* -------------------------USER PROFILE------------------------- */
+/* Header */
+.profile_header_bg_texture {
+  min-height: 226px !important;
+  backdrop-filter: blur(20px) !important;
+  border-radius: 10px !important;
+}
+
+/* Header Background */
+.profile_header_bg {
+  z-index: 1 !important;
+  padding: 10px 0 10px 0 !important;
+}
+
+/* Header Background Position Fix */
+.profile_header_badge {
+  border-radius: 10px !important;
+}
+
+/* Badge Background */
+.profile_header .profile_summary {
+  color: var(--white) !important;
+}
+
+/* Btn Text Color */
+.btn_profile_action {
+  border-radius: 10px !important;
+  color: var(--black) !important;
+}
+
+/* Btn Text Color Hover */
+.btn_profile_action:hover > span, .btn_profile_action.focus > span {
+  color: var(--black) !important;
+}
+
+/* Btn Text Color Hover */
+.btn_profile_action > span {
+  border-radius: 10px !important;
+  color: var(--black) !important;
+}
+
+/* Btn Text Color Hover */
+.header_real_name {
+  color: var(--white) !important;
+}
+
+/* Name Text Color */
+.playerAvatar.profile_header_size .playerAvatarAutoSizeInner .profile_avatar_frame > img {
+  display: none !important;
+}
+
+/* Hides New Avatar Frame */
+.popup_block_new .popup_body {
+  border-radius: 10px !important;
+  background-color: #1e1e1f !important;
+  border: 1px solid #1e1e1f !important;
+}
+
+/* Profile Names Dropdown */
+/* Right Column */
+.profile_rightcol {
+  backdrop-filter: none !important;
+  border-radius: 10px !important;
+  background-color: transparent !important;
+}
+
+/* Right Column Background */
+.profile_topfriends .friendBlock:hover {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  border-radius: 10px !important;
+}
+
+/* Friends Hover */
+.profile_group_avatar img {
+  border-radius: 10px !important;
+}
+
+/* Group Img */
+/* Left Column */
+.profile_content.has_profile_background {
+  backdrop-filter: blur(20px) !important;
+  border-radius: 10px !important;
+}
+
+/* Left Column Background */
+.profile_customization {
+  backdrop-filter: none !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  border-radius: 10px !important;
+}
+
+/* Left Column Containers */
+.profile_customization.customization_edit.none_selected {
+  border: 1px solid transparent !important;
+}
+
+/* Add Showcase */
+.profile_customization_area .profile_customization.customization_edit.none_selected:hover {
+  background: #2e2e2f !important;
+}
+
+/* Add Showcase Hover */
+.screenshot_showcase_screenshot {
+  border: 1px solid transparent !important;
+  border-radius: 10px !important;
+}
+
+/* Screenshot Showcase Img */
+.screenshot_showcase_screenshot:hover {
+  border: 1px solid transparent !important;
+}
+
+/* Screenshot Showcase Hover Img */
+.screenshot_showcase_smallscreenshot {
+  border-radius: 10px !important;
+}
+
+/* Screenshot Showcase Small Img */
+.game_info_stats_rule {
+  display: none !important;
+}
+
+/* Game Info Line */
+.game_info_badge_border {
+  border: 1px solid transparent !important;
+  background-color: transparent !important;
+  border-radius: 10px !important;
+}
+
+/* Game Info Badge Border */
+.favoritegroup_showcase_group .favoritegroup_avatar img {
+  border-radius: 10px !important;
+}
+
+/* Favorite Group Img */
+.favoritegame_showcase_game .favorite_game_cap, .favoritegame_showcase_game .favorite_game_cap img {
+  border-radius: 10px !important;
+}
+
+/* Favorite Game Img */
+.profile_comment_area .commentthread_footer {
+  border-top: 0px !important;
+}
+
+/* Profile Comment Footer Line */
+.profile_comment_area .commentthread_comment_container {
+  border-bottom: 0px !important;
+}
+
+/* Profile Comment Container Line */
+.profile_comment_area .commentthread_header {
+  backdrop-filter: none !important;
+  background-color: transparent !important;
+}
+
+/* Comment Header Background */
+.profile_leftcol_header {
+  border-radius: 10px !important;
+}
+
+/* Column Headers */
+.commentthread_footer {
+  border-top: 0px !important;
+}
+
+/* Footer Line */
+.recent_game {
+  border-radius: 10px !important;
+}
+
+/* Recent Game */
+.recent_game .game_info .game_info_cap img {
+  border-radius: 10px !important;
+}
+
+/* Recent Game Img */
+.recent_game .game_info_stats, .favoritegame_showcase .game_info_stats {
+  border-radius: 10px !important;
+  background-color: transparent !important;
+}
+
+/* Recent Game Background */
+.workshop_showcase_details_content {
+  background-color: transparent !important;
+}
+
+/* Workshop Showcase Panel Content */
+.workshop_showcase_details_row {
+  background-image: none !important;
+}
+
+/* Workshop Showcase Panel Row */
+.workshop_showcase_item img.workshop_showcase_item_image {
+  border-radius: 10px !important;
+}
+
+/* Workshop Showcase Group Img */
+.showcase_content_bg {
+  border-radius: 10px !important;
+  background: transparent !important;
+}
+
+/* Showcase Content Background */
+.showcase_gamecollector_game img.game_capsule {
+  border-radius: 10px !important;
+}
+
+/* Game Collector Img */
+.achievement_progress_bar_ctn {
+  border: 0px !important;
+}
+
+.achievement_progress_bar_ctn .progress_bar {
+  background: var(--progressbar) !important;
+}
+
+/* Progres Bar */
+.game_info_achievement, .game_info_achievement img {
+  border-radius: 10px !important;
+}
+
+/* Acheievement Img */
+* {
+  box-shadow: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
