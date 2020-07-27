@@ -3,6 +3,9 @@
   /* Main Backgrounds Colors */
   --background: #1e1e1f;
   --scrollbar: #6624e2;
+  --header: #3e3e3f;
+  --border1: 10px;
+  --text: #ffffff;
 }
 
 /* Scrollbar */
@@ -116,6 +119,22 @@ div.store_header_btn {
   }
 }
 
+body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_block_new .popup_body {
+  background: #121212 !important;
+}
+
+.store_nav .popup_menu .popup_menu_item, .creator .responsive_page_template_content .popup_menu .popup_menu_item, .curator .responsive_page_template_content .popup_menu .popup_menu_item, .footer_content .popup_menu .popup_menu_item, .search_area .popup_body .match, .search_area .popup_body .match .match_name {
+  color: var(--text) !important;
+}
+
+.popup_menu .popup_menu_item {
+  border-radius: 10px !important;
+
+  &:hover {
+    background: #6624e2 !important;
+  }
+}
+
 a.store_header_btn_content {
   /* Header wishlist buttons */
   border-radius: 10px !important;
@@ -123,7 +142,7 @@ a.store_header_btn_content {
 
 #store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
   /* Header */
-  background: #3e3e3f !important;
+  background: var(--header) !important;
   border-radius: 20px !important;
 }
 
@@ -134,7 +153,7 @@ a.store_header_btn_content {
   /* Header Hover */
   background: #4e4e4f !important;
   border-radius: 20px !important;
-  color: white !important;
+  color: var(--text) !important;
 }
 
 .store_nav .tab {
@@ -197,6 +216,22 @@ a#store_search_link img {
 
   &:hover {
     background: transparent !important;
+  }
+}
+
+.carousel_container .carousel_thumbs > div {
+  /* Gamepage Dots */
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 20px !important;
+  background-color: var(--scrollbar) !important;
+
+  &:hover {
+    background-color: red !important;
+  }
+
+  &.focus {
+    background-color: pink !important;
   }
 }
 
@@ -264,6 +299,75 @@ body.v6 .discount_pct {
 
 .store_capsule {
   /* Price Background */
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+
+
+
+/* THE COMMUNITY RECOMMENDS */
+
+/* These Games Today */
+.community_recommendation_app > .right_col {
+  /* Right Text Column Background */
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+
+.community_recommendation_app > .community_recommendation_capsule > .capsule > img,
+.community_recommendation_app .microtrailer_video {
+  /* Rounds the Image & Video */
+  border-radius: 10px !important;
+}
+
+/* Your Discovery Queue */
+.community_recommendation_app .reviewed_app_small_image {
+  /* Hide small Game Image */
+  display: none !important;
+}
+
+.discovery_queue_ctn .begin_exploring {
+  /* Hide Discovery Text */
+  display: none !important;
+}
+
+.dq_item, .dq_item div, .dq_item img {
+  /* Rounds the Images */
+  border-radius: 10px !important;
+}
+
+.valveindex_banner {
+  /* Valve Index Banner */
+  display: flex !important;
+  border-radius: 10px !important;
+}
+
+.big_button {
+  /* Browse Steam Buttons */
+  background-image: none !important;
+  border-radius: 10px !important;
+}
+
+.store_capsule_frame {
+  /* Curator Recommendation Background */
+  background: transparent !important;
+}
+
+.curator_giant_capsule {
+  /* Curator Recommendation Image */
+  border-radius: 10px !important;
+}
+
+.curator_giant_capsule .curator_block {
+  /* Curator Recommendation Group */
+  background-color: #12121290 !important;
+  backdrop-filter: blur(20px) !important;
+  border-radius: 10px !important;
+}
+
+/* FROM DEVELOPERS AND PUBLISHERS THAT YOU KNOW */
+.recommended_creators_ctn .recommended_creators_container {
+  /* groups sections */
   background: #121212 !important;
   border-radius: 10px !important;
 }
