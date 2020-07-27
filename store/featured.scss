@@ -345,6 +345,7 @@ body.v6 .discount_pct {
 .big_button {
   /* Browse Steam Buttons */
   background-image: none !important;
+  background: var(--scrollbar) !important;
   border-radius: 10px !important;
 }
 
