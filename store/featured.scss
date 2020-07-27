@@ -224,14 +224,14 @@ a#store_search_link img {
   width: 20px !important;
   height: 20px !important;
   border-radius: 20px !important;
-  background-color: var(--scrollbar) !important;
+  background-color: #121212 !important;
 
   &:hover {
-    background-color: red !important;
+    background-color: var(--scrollbar) !important;
   }
 
   &.focus {
-    background-color: pink !important;
+    background-color: var(--scrollbar) !important;
   }
 }
 
@@ -367,9 +367,142 @@ body.v6 .discount_pct {
   border-radius: 10px !important;
 }
 
+.curator_giant_capsule .curator_block img {
+  /* Curator Recommendation Group Image */
+  border-radius: 10px !important;
+}
+
 /* FROM DEVELOPERS AND PUBLISHERS THAT YOU KNOW */
 .recommended_creators_ctn .recommended_creators_container {
   /* groups sections */
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+
+/* Tab Items */
+.tab_item {
+  /* Tab Item Background */
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+
+.tab_item.focus {
+  /* Tab Item Size Fix */
+  background: var(--scrollbar) !important;
+  margin-right: 0px !important;
+  padding-right: 0px !important;
+}
+
+.tab_item:hover {
+  /* Tab Item Size Fix */
+  background: var(--scrollbar) !important;
+}
+
+.tab_item_cap img {
+  /* Image Roundness */
+  border-radius: 10px !important;
+}
+
+.tab_item.focus .tab_item_name, .tab_item_details {
+  /* Text Color */
+  color: white !important;
+
+  &:hover {
+    color: white !important;
+  } 
+}
+
+.discount_block .discount_original_price, .discount_block .discount_final_price {
+  /* Prices Text Color */
+  color: white !important;
+
+  &:hover {
+    color: white !important;
+  } 
+}
+
+#tab_preview_container {
+  /* Tab right Container Background */
+  background: #121212 !important;
+  border-radius: 10px !important;;
+}
+
+body.v6 .home_rightcol .tab_preview h2 {
+  /* Text Color */
+  color: white !important;
+}
+
+.tab_preview .tags > a {
+  /* Genre Tags */
+  background-color: var(--scrollbar) !important;
+  border-radius: 10px !important;
+}
+
+.tab_review_summary {
+  /* Summary background */
+  background-color: transparent !important;
+}
+
+.tab_preview .screenshot {
+  /* Screenshot Images Roundness */
+  border-radius: 10px !important;
+}
+
+.tab_controls, .tab_see_more {
+  /* Tab Items Bottom Bar (See More) */
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+
+/* Top Steam Releases Banner */
+.top_new_releases_banner_click > img{
+  /* Top Steam Releases Banner Roundness */
+  border-radius: 10px !important;
+}
+
+/* Trending Among Friends */
+.friends_recently_purchased .friends_container {
+  /* Image Background */
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+
+/* Updated & Offers */
+.home_marketing_message, .home_marketing_message:hover {
+  /* Image Background */
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+
+.home_marketing_message > span {
+  /* Image Roundness */
+  border-radius: 10px !important;
+}
+
+
+/* Under Footer Section */
+.home_content a.home_content_item img, .home_content .item img {
+  /* Game Image Roundness */
+  border-radius: 10px !important;
+}
+
+.home_content.single .capsule {
+  /* Game Image Roundness */
+  border-radius: 10px !important;
+}
+
+.home_content.single a.screenshot {
+  /* Removes Black Bar */
+  background: transparent !important;
+}
+
+.home_content.single a.screenshot img {
+  /* rounds the other Images */
+  border-radius: 10px !important;
+}
+
+.home_content.single_buttonbar {
+  /* Under Footer Section Footer */
   background: #121212 !important;
   border-radius: 10px !important;
 }
