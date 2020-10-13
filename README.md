@@ -26,7 +26,7 @@ The updater and installer are made with much love by **PhantomGamers.**
     
 ------------------------------------------------------------------------------------------------------------------
 
-### Beta Update 3.0
+### Beta Update 0.1.0
 
 **What's New?**
 
