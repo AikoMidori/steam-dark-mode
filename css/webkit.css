@@ -819,6 +819,21 @@ body.v6 .home_rightcol .tab_preview h2 {
   background: var(--grey) !important;
 }
 
+/* Thread comment placeholder */
+.commentthread_textarea::-webkit-input-placeholder {
+  font-style: normal !important;
+  font-weight: bold !important;
+  color: #ffffff99 !important;
+}
+
+#friendactivity_right_column .box,
+.friends_add_block,
+#friendactivity_right_column .box,
+.blotter_eventsblock {
+  background: var(--bgcolor) !important;
+  border-radius: 10px !important;
+}
+
 /* -------------------------GROUPS PAGES------------------------- */
 /* This is the part for the Group page Banner */
 .grouppage_membertiles_overlay {
