@@ -826,6 +826,7 @@ body.v6 .home_rightcol .tab_preview h2 {
   color: #ffffff99 !important;
 }
 
+/* Right column background */
 #friendactivity_right_column .box,
 .friends_add_block,
 #friendactivity_right_column .box,
@@ -841,6 +842,14 @@ body.v6 .home_rightcol .tab_preview h2 {
   padding-bottom: 12px !important;
   background: var(--darkgrey) !important;
   opacity: 0.9 !important;
+}
+
+/* Header avatars group background */
+img.member_tile {
+  border-radius: 50% !important;
+  margin: 7px !important;
+  width: 65px !important;
+  height: 65px !important;
 }
 
 .grouppage_member_tiles {

@@ -7,6 +7,14 @@
   opacity: 0.9 !important;
 }
 
+/* Header avatars group background */
+img.member_tile {
+  border-radius: 50% !important;
+  margin: 7px !important;
+  width: 65px !important;
+  height: 65px !important;
+}
+
 .grouppage_member_tiles {
   right: -1px !important;
   height: 230px !important;
