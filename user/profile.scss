@@ -2,6 +2,7 @@
 /* Header */
 .profile_header_bg_texture {
   min-height: 226px !important;
+  background-color: #15151580 !important;
   backdrop-filter: blur(20px) !important;
   border-radius: 10px !important;
 }
@@ -79,14 +80,20 @@
 /* Left Column */
 .profile_content.has_profile_background {
   backdrop-filter: blur(20px) !important;
+  background: #15151580 !important;
   border-radius: 10px !important;
 }
 
 /* Left Column Background */
 .profile_customization {
   backdrop-filter: none !important;
-  background-color: rgba(0, 0, 0, 0.3) !important;
+  background: rgba(0, 0, 0, 0.3) !important;
   border-radius: 10px !important;
+}
+
+/* Showcase Art Background */
+.profile_customization.myart {
+  background: rgba(0, 0, 0, 0) !important;
 }
 
 /* Left Column Containers */
@@ -125,6 +132,11 @@
   border: 1px solid transparent !important;
   background-color: transparent !important;
   border-radius: 10px !important;
+}
+
+/* Column Header */
+.profile_customization_header {
+  background: transparent !important;
 }
 
 /* Game Info Badge Border */

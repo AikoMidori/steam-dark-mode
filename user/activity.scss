@@ -1,0 +1,50 @@
+:root {
+    /* Main Backgrounds Colors */
+    --bgcolor: #121212;
+    --trans: transparent;
+    --grey: #2e2e2f;
+}
+
+.commentthread_entry {
+    background: var(--bgcolor) !important;
+    border-radius: 10px !important;
+}
+
+.blotter_block {
+    background: var(--bgcolor) !important;
+    border-radius: 10px !important;
+}
+
+.blotter_author_block {
+    background: var(--trans) !important;
+}
+
+.blotter_comment_thread {
+    background: var(--trans) !important;
+}
+
+.blotter_group_announcement_header {
+    background: var(--trans) !important;
+}
+
+.dynamiclink_box {
+    background: var(--grey) !important;
+}
+
+.blotter_status_entry .commentthread_entry_quotebox {
+    background: var(--grey) !important;
+}
+
+.blotter_comment_thread .commentthread_entry_quotebox {
+    background: var(--grey) !important;
+}
+
+#widget {
+    border: none !important;
+    background: var(--grey) !important;
+    border-radius: 4px !important;
+}
+
+.blotter_comment_thread .commentthread_entry {
+    border-radius: 10px !important;
+}
