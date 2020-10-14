@@ -1,3 +1,5 @@
+@use 'styles';
+
 /* -------------------------USER PROFILE------------------------- */
 /* Header */
 .profile_header_bg_texture {
@@ -67,7 +69,7 @@
 
 /* Right Column Background */
 .profile_topfriends .friendBlock:hover {
-  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-color: #121212 !important;
   border-radius: 10px !important;
 }
 
@@ -87,13 +89,13 @@
 /* Left Column Background */
 .profile_customization {
   backdrop-filter: none !important;
-  background: rgba(0, 0, 0, 0.3) !important;
+  background: #121212 !important;
   border-radius: 10px !important;
 }
 
 /* Showcase Art Background */
 .profile_customization.myart {
-  background: rgba(0, 0, 0, 0) !important;
+  background: transparent !important;
 }
 
 /* Left Column Containers */
@@ -137,6 +139,8 @@
 /* Column Header */
 .profile_customization_header {
   background: transparent !important;
+  font-weight: bold !important;
+  color: styles.$txtcolor !important;
 }
 
 /* Game Info Badge Border */
@@ -146,6 +150,12 @@
 
 /* Favorite Group Img */
 .favoritegame_showcase_game .favorite_game_cap, .favoritegame_showcase_game .favorite_game_cap img {
+  border-radius: 10px !important;
+}
+
+
+.showcase_stat.favoritegroup_inchat {
+  background-color: styles.$customcolor !important;
   border-radius: 10px !important;
 }
 
@@ -160,13 +170,9 @@
 }
 
 /* Profile Comment Container Line */
-.profile_comment_area .commentthread_header {
+.profile_comment_area .commentthread_header, .profile_leftcol_header {
   backdrop-filter: none !important;
-  background-color: transparent !important;
-}
-
-/* Comment Header Background */
-.profile_leftcol_header {
+  background-color: #121212 !important;
   border-radius: 10px !important;
 }
 
@@ -178,6 +184,8 @@
 /* Footer Line */
 .recent_game {
   border-radius: 10px !important;
+  background: #121212 !important;
+  backdrop-filter: none !important;
 }
 
 /* Recent Game */
@@ -209,7 +217,7 @@
 /* Workshop Showcase Group Img */
 .showcase_content_bg {
   border-radius: 10px !important;
-  background: transparent !important;
+  background: #121212 !important;
 }
 
 /* Showcase Content Background */
@@ -220,15 +228,42 @@
 /* Game Collector Img */
 .achievement_progress_bar_ctn {
   border: 0px !important;
+  background: #2e2e2f !important;
 }
 
-.achievement_progress_bar_ctn .progress_bar {
-  background: var(--progressbar) !important;
+.progress_bar {
+  background: styles.$progressbar !important;
 }
 
 /* Progres Bar */
 .game_info_achievement, .game_info_achievement img {
   border-radius: 10px !important;
+}
+
+/* Comment Area Background */
+.profile_comment_area .commentthread_entry {
+  background: transparent !important;
+}
+
+/* Commentbox Input Background */
+.profile_comment_area .commentthread_entry_quotebox {
+  background: #2e2e2f !important;
+  border-radius: 10px !important;
+}
+
+/* Commentbox Input Text Placeholder */
+.profile_comment_area .commentthread_textarea::-webkit-input-placeholder {
+	font-style: normal !important;
+	font-weight: bold !important;
+	color: #ffffff99 !important;
+}
+
+/* User Comments Hover */
+.detailBox .commentthread_comment:not(.hidden_post):hover,
+.group_comments .commentthread_comment:not(.hidden_post):hover,
+.profile_comment_area .commentthread_comment:not(.hidden_post):hover {
+	background: #121212 !important;
+	border-radius: 10px !important;
 }
 
 /* Acheievement Img */

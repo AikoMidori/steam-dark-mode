@@ -1,20 +1,11 @@
 /* -------------------------STORE FEATURED------------------------- */
-:root {
-  /* Main Backgrounds Colors */
-  --background: #1e1e1f;
-  --scrollbar: #6624e2;
-  --header: #3e3e3f;
-  --border1: 10px;
-  --text: #ffffff;
-}
-
 /* Scrollbar */
 body::-webkit-scrollbar-thumb {
   background-clip: padding-box !important;
   -webkit-box-shadow: none !important;
-  background-color: var(--scrollbar) !important;
+  background-color: #6624e2 !important;
   border: 5px solid var(--darkgrey) !important;
-  border-radius: var(--border1) !important;
+  border-radius: 10px !important;
   width: 25px !important;
 }
 
@@ -83,57 +74,57 @@ body::-webkit-scrollbar {
 /* Main Backgrounds */
 html {
   /* Background */
-  background: var(--background) !important;
+  background: #1e1e1f !important;
 }
 
 body {
   /* Background */
-  background: var(--background) !important;
+  background: #1e1e1f !important;
 }
 
 body.v6 {
   /* Background */
-  background: var(--background) !important;
+  background: #1e1e1f !important;
 }
 
 .home_page_body_ctn {
   /* Background */
-  background: var(--background) !important;
+  background: #1e1e1f !important;
 }
 
 #MessageContent {
   /* Background */
-  background: var(--background) !important;
+  background: #1e1e1f !important;
 }
 
 div.profile_page.has_profile_background {
   /* Background */
-  background-color: var(--background) !important;
+  background-color: #1e1e1f !important;
 }
 
 body.profile_page #footer {
   /* Background */
-  background: var(--background) !important;
+  background: #1e1e1f !important;
 }
 
 .labs_cluster {
   /* Background */
-  background: var(--background) !important;
+  background: #1e1e1f !important;
 }
 
 .home_ctn.discovery_queue_ctn {
   /* Background */
-  background-color: var(--background) !important;
+  background-color: #1e1e1f !important;
 }
 
 .home_ctn.apps_recommended_by_curators_ctn {
   /* Background */
-  background: var(--background) !important;
+  background: #1e1e1f !important;
 }
 
 .home_ctn.tab_container {
   /* Background */
-  background: var(--background) !important;
+  background: #1e1e1f !important;
 }
 
 /* Header */
@@ -152,7 +143,7 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
 }
 
 .store_nav .popup_menu .popup_menu_item, .creator .responsive_page_template_content .popup_menu .popup_menu_item, .curator .responsive_page_template_content .popup_menu .popup_menu_item, .footer_content .popup_menu .popup_menu_item, .search_area .popup_body .match, .search_area .popup_body .match .match_name {
-  color: var(--text) !important;
+  color: #ffffff !important;
 }
 
 .popup_menu .popup_menu_item {
@@ -180,7 +171,7 @@ a.store_header_btn_content {
   /* Header Hover */
   background: #4e4e4f !important;
   border-radius: 20px !important;
-  color: var(--text) !important;
+  color: #ffffff !important;
 }
 
 .store_nav .tab {
@@ -262,10 +253,10 @@ a#store_search_link img {
   background-color: #121212 !important;
 }
 .carousel_container .carousel_thumbs > div:hover {
-  background-color: var(--scrollbar) !important;
+  background-color: #6624e2 !important;
 }
 .carousel_container .carousel_thumbs > div.focus {
-  background-color: var(--scrollbar) !important;
+  background-color: #6624e2 !important;
 }
 
 body.v6.infinite_scrolling #footer.small_footer {
@@ -374,7 +365,7 @@ body.v6 .discount_pct {
 .big_button {
   /* Browse Steam Buttons */
   background-image: none !important;
-  background: var(--scrollbar) !important;
+  background: #6624e2 !important;
   color: var(--white) !important;
   border-radius: 10px !important;
 }
@@ -417,14 +408,14 @@ body.v6 .discount_pct {
 
 .tab_item.focus {
   /* Tab Item Size Fix */
-  background: var(--scrollbar) !important;
+  background: #6624e2 !important;
   margin-right: 0px !important;
   padding-right: 0px !important;
 }
 
 .tab_item:hover {
   /* Tab Item Size Fix */
-  background: var(--scrollbar) !important;
+  background: #6624e2 !important;
 }
 
 .tab_item_cap img {
@@ -461,7 +452,7 @@ body.v6 .home_rightcol .tab_preview h2 {
 
 .tab_preview .tags > a {
   /* Genre Tags */
-  background-color: var(--scrollbar) !important;
+  background-color: #6624e2 !important;
   border-radius: 10px !important;
 }
 
@@ -533,42 +524,35 @@ body.v6 .home_rightcol .tab_preview h2 {
   border-radius: 10px !important;
 }
 
-:root {
-  /* Main Backgrounds Colors */
-  --bgcolor: #121212;
-  --trans: transparent;
-  --grey: #2e2e2f;
-}
-
 /* New Thread background */
 .commentthread_entry {
-  background: var(--bgcolor) !important;
+  background: #121212 !important;
   border-radius: 10px !important;
 }
 
 .blotter_daily_rollup {
-  background-color: var(--trans) !important;
+  background-color: transparent !important;
 }
 
 /* Thread group header background */
 .blotter_group_announcement_header_ogg {
-  background: var(--trans) !important;
+  background: transparent !important;
 }
 
 /* Thread background */
 .blotter_block {
-  background: var(--bgcolor) !important;
+  background: #121212 !important;
   border-radius: 10px !important;
 }
 
 /* Thread header background */
 .blotter_author_block {
-  background: var(--trans) !important;
+  background: transparent !important;
 }
 
 /* Thread comment background */
 .blotter_comment_thread {
-  background: var(--trans) !important;
+  background: transparent !important;
 }
 
 /* Thread comment background roundness */
@@ -578,22 +562,22 @@ body.v6 .home_rightcol .tab_preview h2 {
 
 /* Thread group header background */
 .blotter_group_announcement_header {
-  background: var(--trans) !important;
+  background: transparent !important;
 }
 
 /* Commentbox background */
 .dynamiclink_box {
-  background: var(--grey) !important;
+  background: #2e2e2f !important;
 }
 
 /* Thread group comment background */
 .blotter_status_entry .commentthread_entry_quotebox {
-  background: var(--grey) !important;
+  background: #2e2e2f !important;
 }
 
 /* Thread group comment background */
 .blotter_comment_thread .commentthread_entry_quotebox {
-  background: var(--grey) !important;
+  background: #2e2e2f !important;
 }
 
 /* Thread comment placeholder */
@@ -617,18 +601,18 @@ input.gray_bevel:-moz-placeholder, textarea.gray_bevel:-moz-placeholder, .gray_b
 .friends_add_block,
 #friendactivity_right_column .box,
 .blotter_eventsblock {
-  background: var(--bgcolor) !important;
+  background: #121212 !important;
   border-radius: 10px !important;
 }
 
 /* New topic background */
 .forum_newtopic_header {
-  background: var(--trans) !important;
+  background: transparent !important;
 }
 
 /* New topic commentbox background */
 .forum_newtopic_box {
-  background: var(--trans) !important;
+  background: transparent !important;
 }
 
 /* Forum topics textbox entry background */
@@ -644,7 +628,7 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 
 /* Forum topics reply text background */
 .forum_paging {
-  background: var(--trans) !important;
+  background: transparent !important;
 }
 
 /* Forum topics comments background */
@@ -656,7 +640,13 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 
 /* Footer background */
 body.flat_page #footer {
-  background: var(--trans) !important;
+  background: transparent !important;
+}
+
+#widget {
+  border: 1px solid #1e1e1f !important;
+  border-radius: 10px !important;
+  background-color: #1e1e1f !important;
 }
 
 /* -------------------------USER PROFILE------------------------- */
@@ -728,7 +718,7 @@ body.flat_page #footer {
 
 /* Right Column Background */
 .profile_topfriends .friendBlock:hover {
-  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-color: #121212 !important;
   border-radius: 10px !important;
 }
 
@@ -748,13 +738,13 @@ body.flat_page #footer {
 /* Left Column Background */
 .profile_customization {
   backdrop-filter: none !important;
-  background: rgba(0, 0, 0, 0.3) !important;
+  background: #121212 !important;
   border-radius: 10px !important;
 }
 
 /* Showcase Art Background */
 .profile_customization.myart {
-  background: rgba(0, 0, 0, 0) !important;
+  background: transparent !important;
 }
 
 /* Left Column Containers */
@@ -798,6 +788,8 @@ body.flat_page #footer {
 /* Column Header */
 .profile_customization_header {
   background: transparent !important;
+  font-weight: bold !important;
+  color: #6624e2 !important;
 }
 
 /* Game Info Badge Border */
@@ -807,6 +799,11 @@ body.flat_page #footer {
 
 /* Favorite Group Img */
 .favoritegame_showcase_game .favorite_game_cap, .favoritegame_showcase_game .favorite_game_cap img {
+  border-radius: 10px !important;
+}
+
+.showcase_stat.favoritegroup_inchat {
+  background-color: #6624e2 !important;
   border-radius: 10px !important;
 }
 
@@ -821,13 +818,9 @@ body.flat_page #footer {
 }
 
 /* Profile Comment Container Line */
-.profile_comment_area .commentthread_header {
+.profile_comment_area .commentthread_header, .profile_leftcol_header {
   backdrop-filter: none !important;
-  background-color: transparent !important;
-}
-
-/* Comment Header Background */
-.profile_leftcol_header {
+  background-color: #121212 !important;
   border-radius: 10px !important;
 }
 
@@ -839,6 +832,8 @@ body.flat_page #footer {
 /* Footer Line */
 .recent_game {
   border-radius: 10px !important;
+  background: #121212 !important;
+  backdrop-filter: none !important;
 }
 
 /* Recent Game */
@@ -870,7 +865,7 @@ body.flat_page #footer {
 /* Workshop Showcase Group Img */
 .showcase_content_bg {
   border-radius: 10px !important;
-  background: transparent !important;
+  background: #121212 !important;
 }
 
 /* Showcase Content Background */
@@ -881,14 +876,41 @@ body.flat_page #footer {
 /* Game Collector Img */
 .achievement_progress_bar_ctn {
   border: 0px !important;
+  background: #2e2e2f !important;
 }
 
-.achievement_progress_bar_ctn .progress_bar {
-  background: var(--progressbar) !important;
+.progress_bar {
+  background: #6624e2 !important;
 }
 
 /* Progres Bar */
 .game_info_achievement, .game_info_achievement img {
+  border-radius: 10px !important;
+}
+
+/* Comment Area Background */
+.profile_comment_area .commentthread_entry {
+  background: transparent !important;
+}
+
+/* Commentbox Input Background */
+.profile_comment_area .commentthread_entry_quotebox {
+  background: #2e2e2f !important;
+  border-radius: 10px !important;
+}
+
+/* Commentbox Input Text Placeholder */
+.profile_comment_area .commentthread_textarea::-webkit-input-placeholder {
+  font-style: normal !important;
+  font-weight: bold !important;
+  color: #ffffff99 !important;
+}
+
+/* User Comments Hover */
+.detailBox .commentthread_comment:not(.hidden_post):hover,
+.group_comments .commentthread_comment:not(.hidden_post):hover,
+.profile_comment_area .commentthread_comment:not(.hidden_post):hover {
+  background: #121212 !important;
   border-radius: 10px !important;
 }
 
@@ -1023,6 +1045,42 @@ img.member_tile {
 /* removes new avatar picture frame */
 .playerAvatar .profile_avatar_frame > img {
   display: none !important;
+}
+
+/* ACTIVITY PAGE IMAGES */
+/* gamelogo header background */
+.gameLogo {
+  background: transparent !important;
+}
+
+/* gamelogo header image */
+.gameLogo img {
+  border-radius: 10px !important;
+}
+
+/* group announcement content image */
+.blotter_group_announcement_content img {
+  border-radius: 10px !important;
+}
+
+/* game purchase images */
+.blotter_gamepurchase_content img {
+  border-radius: 10px !important;
+}
+
+/* screenshot gallery images */
+.blotter_screenshot_gallery_image img, .blotter_screenshot_gallery_image_selected img {
+  border-radius: 10px !important;
+}
+
+/* group avatar image */
+.avatarMedium img {
+  border-radius: 10px !important;
+}
+
+/* dynamic link image */
+img.dynamiclink_preview {
+  border-radius: 10px !important;
 }
 
 /*# sourceMappingURL=webkit.css.map */

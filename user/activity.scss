@@ -1,39 +1,34 @@
-:root {
-    /* Main Backgrounds Colors */
-    --bgcolor: #121212;
-    --trans: transparent;
-    --grey: #2e2e2f;
-}
+@use 'styles';
 
 /* New Thread background */
 .commentthread_entry {
-    background: var(--bgcolor) !important;
+    background: styles.$bgcolor !important;
     border-radius: 10px !important;
 }
 
 .blotter_daily_rollup {
-    background-color: var(--trans) !important;
+    background-color: styles.$trans !important;
 }
 
 /* Thread group header background */
 .blotter_group_announcement_header_ogg {
-    background: var(--trans) !important;
+    background: styles.$trans !important;
 }
 
 /* Thread background */
 .blotter_block {
-    background: var(--bgcolor) !important;
+    background: styles.$bgcolor !important;
     border-radius: 10px !important;
 }
 
 /* Thread header background */
 .blotter_author_block {
-    background: var(--trans) !important;
+    background: styles.$trans !important;
 }
 
 /* Thread comment background */
 .blotter_comment_thread {
-    background: var(--trans) !important;
+    background: styles.$trans !important;
 }
 
 /* Thread comment background roundness */
@@ -43,22 +38,22 @@
 
 /* Thread group header background */
 .blotter_group_announcement_header {
-    background: var(--trans) !important;
+    background: styles.$trans !important;
 }
 
 /* Commentbox background */
 .dynamiclink_box {
-    background: var(--grey) !important;
+    background: styles.$grey !important;
 }
 
 /* Thread group comment background */
 .blotter_status_entry .commentthread_entry_quotebox {
-    background: var(--grey) !important;
+    background: styles.$grey !important;
 }
 
 /* Thread group comment background */
 .blotter_comment_thread .commentthread_entry_quotebox {
-    background: var(--grey) !important;
+    background: styles.$grey !important;
 }
 
 /* Thread comment placeholder */
@@ -82,18 +77,18 @@ input.gray_bevel:-moz-placeholder, textarea.gray_bevel:-moz-placeholder, .gray_b
 .friends_add_block,
 #friendactivity_right_column .box,
 .blotter_eventsblock {
-    background: var(--bgcolor) !important;
+    background: styles.$bgcolor !important;
     border-radius: 10px !important;
 }
 
 /* New topic background */
 .forum_newtopic_header {
-    background: var(--trans) !important;
+    background: styles.$trans !important;
 }
 
 /* New topic commentbox background */
 .forum_newtopic_box {
-    background: var(--trans) !important;
+    background: styles.$trans !important;
 }
 
 /* Forum topics textbox entry background */
@@ -109,7 +104,7 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 
 /* Forum topics reply text background */
 .forum_paging {
-    background: var(--trans) !important;
+    background: styles.$trans !important;
 }
 
 /* Forum topics comments background */
@@ -121,5 +116,11 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 
 /* Footer background */
 body.flat_page #footer {
-    background: var(--trans) !important;
+    background: styles.$trans !important;
+}
+
+#widget {
+    border: 1px solid #1e1e1f !important;
+    border-radius: 10px !important;
+    background-color: #1e1e1f !important;
 }

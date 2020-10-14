@@ -1,20 +1,13 @@
-/* -------------------------STORE FEATURED------------------------- */
-:root {
-  /* Main Backgrounds Colors */
-  --background: #1e1e1f;
-  --scrollbar: #6624e2;
-  --header: #3e3e3f;
-  --border1: 10px;
-  --text: #ffffff;
-}
+@use 'styles';
 
+/* -------------------------STORE FEATURED------------------------- */
 /* Scrollbar */
 body::-webkit-scrollbar-thumb {
   background-clip: padding-box !important;
   -webkit-box-shadow: none !important;
-  background-color: var(--scrollbar) !important;
+  background-color: styles.$scrollbar !important;
   border: 5px solid var(--darkgrey) !important;
-  border-radius: var(--border1) !important;
+  border-radius: styles.$border1 !important;
   width: 25px !important;
 }
 
@@ -54,57 +47,57 @@ body::-webkit-scrollbar {
 /* Main Backgrounds */
 html {
   /* Background */
-  background: var(--background) !important;
+  background: styles.$background !important;
 }
 
 body {
   /* Background */
-  background: var(--background) !important;
+  background: styles.$background !important;
 }
 
 body.v6 {
   /* Background */
-  background: var(--background) !important;
+  background: styles.$background !important;
 }
 
 .home_page_body_ctn {
   /* Background */
-  background: var(--background) !important;
+  background: styles.$background !important;
 }
 
 #MessageContent {
   /* Background */
-  background: var(--background) !important;
+  background: styles.$background !important;
 }
 
 div.profile_page.has_profile_background {
   /* Background */
-  background-color: var(--background) !important;
+  background-color: styles.$background !important;
 }
 
 body.profile_page #footer {
   /* Background */
-  background: var(--background) !important;
+  background: styles.$background !important;
 }
 
 .labs_cluster {
   /* Background */
-  background: var(--background) !important;
+  background: styles.$background !important;
 }
 
 .home_ctn.discovery_queue_ctn {
   /* Background */
-  background-color: var(--background) !important;
+  background-color: styles.$background !important;
 }
 
 .home_ctn.apps_recommended_by_curators_ctn {
   /* Background */
-  background: var(--background) !important;
+  background: styles.$background !important;
 }
 
 .home_ctn.tab_container {
   /* Background */
-  background: var(--background) !important;
+  background: styles.$background !important;
 }
 
 /* Header */
@@ -124,7 +117,7 @@ body.v6 .store_nav .popup_block_new .popup_body, body.v6 #footer_nav .popup_bloc
 }
 
 .store_nav .popup_menu .popup_menu_item, .creator .responsive_page_template_content .popup_menu .popup_menu_item, .curator .responsive_page_template_content .popup_menu .popup_menu_item, .footer_content .popup_menu .popup_menu_item, .search_area .popup_body .match, .search_area .popup_body .match .match_name {
-  color: var(--text) !important;
+  color: styles.$text !important;
 }
 
 .popup_menu .popup_menu_item {
@@ -153,7 +146,7 @@ a.store_header_btn_content {
   /* Header Hover */
   background: #4e4e4f !important;
   border-radius: 20px !important;
-  color: var(--text) !important;
+  color: styles.$text !important;
 }
 
 .store_nav .tab {
@@ -237,11 +230,11 @@ a#store_search_link img {
   background-color: #121212 !important;
 
   &:hover {
-    background-color: var(--scrollbar) !important;
+    background-color: styles.$scrollbar !important;
   }
 
   &.focus {
-    background-color: var(--scrollbar) !important;
+    background-color: styles.$scrollbar !important;
   }
 }
 
@@ -355,7 +348,7 @@ body.v6 .discount_pct {
 .big_button {
   /* Browse Steam Buttons */
   background-image: none !important;
-  background: var(--scrollbar) !important;
+  background: styles.$scrollbar !important;
   color: var(--white) !important;
   border-radius: 10px !important;
 }
@@ -398,14 +391,14 @@ body.v6 .discount_pct {
 
 .tab_item.focus {
   /* Tab Item Size Fix */
-  background: var(--scrollbar) !important;
+  background: styles.$scrollbar !important;
   margin-right: 0px !important;
   padding-right: 0px !important;
 }
 
 .tab_item:hover {
   /* Tab Item Size Fix */
-  background: var(--scrollbar) !important;
+  background: styles.$scrollbar !important;
 }
 
 .tab_item_cap img {
@@ -444,7 +437,7 @@ body.v6 .home_rightcol .tab_preview h2 {
 
 .tab_preview .tags > a {
   /* Genre Tags */
-  background-color: var(--scrollbar) !important;
+  background-color: styles.$scrollbar !important;
   border-radius: 10px !important;
 }
 
