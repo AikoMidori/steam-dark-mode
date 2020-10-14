@@ -62,10 +62,19 @@
 }
 
 /* Thread comment placeholder */
-.commentthread_textarea::-webkit-input-placeholder{
+.commentthread_textarea::-webkit-input-placeholder,
+.commentthread_textarea::-moz-input-placeholder {
 	font-style: normal !important;
 	font-weight: bold !important;
 	color: #ffffff99 !important;
+}
+
+/* Thread comment placeholder */
+input.gray_bevel::-webkit-input-placeholder, textarea.gray_bevel::-webkit-input-placeholder, .gray_bevel textarea::-webkit-input-placeholder, .gray_bevel input::-webkit-input-placeholder,
+input.gray_bevel:-moz-placeholder, textarea.gray_bevel:-moz-placeholder, .gray_bevel textarea:-moz-placeholder, .gray_bevel input:-moz-placeholder {
+	font-style: normal !important;
+	font-weight: bold !important;
+    color: #ffffff99 !important;
 }
 
 /* Right column background */
@@ -90,6 +99,12 @@
 /* Forum topics textbox entry background */
 input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_textarea_ctn {
     border-radius: 10px !important;
+    background: #2e2e2f !important;
+}
+
+/* Forum topics view all comments button positioning */
+.blotter_viewallcomments_container {
+    margin: 0px 0px 12px 0px !important;
 }
 
 /* Forum topics reply text background */
@@ -99,7 +114,12 @@ input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_
 
 /* Forum topics comments background */
 .forumtopic_comments .commentthread_comment {
-    margin-left: 10px !important;
+    margin-left: 12px !important;
     border-radius: 10px !important;
     background-color: #1e1e1f !important;
+}
+
+/* Footer background */
+body.flat_page #footer {
+    background: var(--trans) !important;
 }

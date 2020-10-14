@@ -547,7 +547,12 @@ body.v6 .home_rightcol .tab_preview h2 {
 }
 
 .blotter_daily_rollup {
-  background-color: transparent !important;
+  background-color: var(--trans) !important;
+}
+
+/* Thread group header background */
+.blotter_group_announcement_header_ogg {
+  background: var(--trans) !important;
 }
 
 /* Thread background */
@@ -592,7 +597,16 @@ body.v6 .home_rightcol .tab_preview h2 {
 }
 
 /* Thread comment placeholder */
-.commentthread_textarea::-webkit-input-placeholder {
+.commentthread_textarea::-webkit-input-placeholder,
+.commentthread_textarea::-moz-input-placeholder {
+  font-style: normal !important;
+  font-weight: bold !important;
+  color: #ffffff99 !important;
+}
+
+/* Thread comment placeholder */
+input.gray_bevel::-webkit-input-placeholder, textarea.gray_bevel::-webkit-input-placeholder, .gray_bevel textarea::-webkit-input-placeholder, .gray_bevel input::-webkit-input-placeholder,
+input.gray_bevel:-moz-placeholder, textarea.gray_bevel:-moz-placeholder, .gray_bevel textarea:-moz-placeholder, .gray_bevel input:-moz-placeholder {
   font-style: normal !important;
   font-weight: bold !important;
   color: #ffffff99 !important;
@@ -605,6 +619,44 @@ body.v6 .home_rightcol .tab_preview h2 {
 .blotter_eventsblock {
   background: var(--bgcolor) !important;
   border-radius: 10px !important;
+}
+
+/* New topic background */
+.forum_newtopic_header {
+  background: var(--trans) !important;
+}
+
+/* New topic commentbox background */
+.forum_newtopic_box {
+  background: var(--trans) !important;
+}
+
+/* Forum topics textbox entry background */
+input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_textarea_ctn {
+  border-radius: 10px !important;
+  background: #2e2e2f !important;
+}
+
+/* Forum topics view all comments button positioning */
+.blotter_viewallcomments_container {
+  margin: 0px 0px 12px 0px !important;
+}
+
+/* Forum topics reply text background */
+.forum_paging {
+  background: var(--trans) !important;
+}
+
+/* Forum topics comments background */
+.forumtopic_comments .commentthread_comment {
+  margin-left: 12px !important;
+  border-radius: 10px !important;
+  background-color: #1e1e1f !important;
+}
+
+/* Footer background */
+body.flat_page #footer {
+  background: var(--trans) !important;
 }
 
 /* -------------------------USER PROFILE------------------------- */
@@ -945,6 +997,32 @@ img.member_tile {
 /* Future Updates and Changes */
 .top_new_releases_background {
   background-image: none !important;
+}
+
+/* ACTIVITY PAGE PROFILES */
+/* avatar status */
+.playerAvatar, .friend_block_holder .friend_block_avatar, .friend_activity .friend_block_avatar {
+  border-radius: 50% !important;
+}
+
+/* avatar image */
+.playerAvatar img, .friend_block_holder .friend_block_avatar img, .friend_activity .friend_block_avatar img {
+  border-radius: 50% !important;
+}
+
+/* avatar small status */
+.blotter_playerAvatarSmall {
+  border-radius: 50% !important;
+}
+
+/* avatar small image */
+.blotter_playerAvatarSmall img {
+  border-radius: 50% !important;
+}
+
+/* removes new avatar picture frame */
+.playerAvatar .profile_avatar_frame > img {
+  display: none !important;
 }
 
 /*# sourceMappingURL=webkit.css.map */

@@ -1,0 +1,25 @@
+/* ACTIVITY PAGE PROFILES */
+/* avatar status */
+.playerAvatar, .friend_block_holder .friend_block_avatar, .friend_activity .friend_block_avatar {
+    border-radius: 50% !important;
+}
+
+/* avatar image */
+.playerAvatar img, .friend_block_holder .friend_block_avatar img, .friend_activity .friend_block_avatar img {
+    border-radius: 50% !important;
+}
+
+/* avatar small status */
+.blotter_playerAvatarSmall {
+    border-radius: 50% !important;
+}
+
+/* avatar small image */
+.blotter_playerAvatarSmall img {
+    border-radius: 50% !important;
+}
+
+/* removes new avatar picture frame */
+.playerAvatar .profile_avatar_frame > img {
+    display: none !important;
+}
