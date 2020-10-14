@@ -182,6 +182,16 @@ a#store_search_link img {
   display: none !important;
 }
 
+.game_page_background.game {
+  /* Hides game page background */
+  background: none !important;
+}
+
+.game_background_glow {
+/* Hides game page background glow */
+  background: none !important;
+}
+
 /* Store Featured and Recommended */
 .store_main_capsule, .store_main_capsule:hover {
   background-image: none !important;

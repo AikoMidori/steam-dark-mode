@@ -11,6 +11,15 @@
     border-radius: 10px !important;
 }
 
+.blotter_daily_rollup {
+    background-color: var(--trans) !important;
+}
+
+/* Thread group header background */
+.blotter_group_announcement_header_ogg {
+    background: var(--trans) !important;
+}
+
 /* Thread background */
 .blotter_block {
     background: var(--bgcolor) !important;
@@ -66,4 +75,31 @@
 .blotter_eventsblock {
     background: var(--bgcolor) !important;
     border-radius: 10px !important;
+}
+
+/* New topic background */
+.forum_newtopic_header {
+    background: var(--trans) !important;
+}
+
+/* New topic commentbox background */
+.forum_newtopic_box {
+    background: var(--trans) !important;
+}
+
+/* Forum topics textbox entry background */
+input.gray_bevel, textarea.gray_bevel, .gray_bevel, .commentthread_comment_edit_textarea_ctn {
+    border-radius: 10px !important;
+}
+
+/* Forum topics reply text background */
+.forum_paging {
+    background: var(--trans) !important;
+}
+
+/* Forum topics comments background */
+.forumtopic_comments .commentthread_comment {
+    margin-left: 10px !important;
+    border-radius: 10px !important;
+    background-color: #1e1e1f !important;
 }
