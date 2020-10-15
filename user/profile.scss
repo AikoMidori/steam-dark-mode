@@ -1,4 +1,4 @@
-@use 'styles';
+@use '../_styles';
 
 /* -------------------------USER PROFILE------------------------- */
 /* Header */
@@ -89,13 +89,18 @@
 /* Left Column Background */
 .profile_customization {
   backdrop-filter: none !important;
-  background: #121212 !important;
+  background: rgba(0,0,0, 0.3) !important;
   border-radius: 10px !important;
 }
 
 /* Showcase Art Background */
 .profile_customization.myart {
   background: transparent !important;
+}
+
+/* Showcars Artwork Small Background */
+.screenshot_showcase_smallscreenshot.screenshot_count {
+  background-color: rgba(0,0,0, 0.3) !important;
 }
 
 /* Left Column Containers */
@@ -172,7 +177,7 @@
 /* Profile Comment Container Line */
 .profile_comment_area .commentthread_header, .profile_leftcol_header {
   backdrop-filter: none !important;
-  background-color: #121212 !important;
+  background-color: rgba(0,0,0, 0.3) !important;
   border-radius: 10px !important;
 }
 
@@ -184,7 +189,7 @@
 /* Footer Line */
 .recent_game {
   border-radius: 10px !important;
-  background: #121212 !important;
+  background: rgba(0,0,0, 0.3) !important;
   backdrop-filter: none !important;
 }
 
@@ -217,7 +222,7 @@
 /* Workshop Showcase Group Img */
 .showcase_content_bg {
   border-radius: 10px !important;
-  background: #121212 !important;
+  background: transparent !important;
 }
 
 /* Showcase Content Background */

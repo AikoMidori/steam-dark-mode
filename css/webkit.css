@@ -3,7 +3,7 @@
 body::-webkit-scrollbar-thumb {
   background-clip: padding-box !important;
   -webkit-box-shadow: none !important;
-  background-color: #6624e2 !important;
+  background-color: orange !important;
   border: 5px solid var(--darkgrey) !important;
   border-radius: 10px !important;
   width: 25px !important;
@@ -160,7 +160,7 @@ a.store_header_btn_content {
 
 #store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
   /* Header */
-  background: var(--header) !important;
+  background: #3e3e3f !important;
   border-radius: 20px !important;
 }
 
@@ -191,7 +191,17 @@ a.store_header_btn_content {
 
 .searchbox input.default {
   /* Searchbox Search Placeholder */
-  display: none !important;
+  font-size: 14px !important;
+  text-shadow: none !important;
+  font-style: normal !important;
+}
+
+.searchbox input::placeholder {
+  color: orange !important;
+  font-style: normal !important;
+  font-size: 14px !important;
+  font-family: "Motiva Sans", Sans-serif !important;
+  font-weight: 300 !important;
 }
 
 a#store_search_link img {
@@ -253,10 +263,10 @@ a#store_search_link img {
   background-color: #121212 !important;
 }
 .carousel_container .carousel_thumbs > div:hover {
-  background-color: #6624e2 !important;
+  background-color: orange !important;
 }
 .carousel_container .carousel_thumbs > div.focus {
-  background-color: #6624e2 !important;
+  background-color: orange !important;
 }
 
 body.v6.infinite_scrolling #footer.small_footer {
@@ -365,7 +375,7 @@ body.v6 .discount_pct {
 .big_button {
   /* Browse Steam Buttons */
   background-image: none !important;
-  background: #6624e2 !important;
+  background: orange !important;
   color: var(--white) !important;
   border-radius: 10px !important;
 }
@@ -408,14 +418,14 @@ body.v6 .discount_pct {
 
 .tab_item.focus {
   /* Tab Item Size Fix */
-  background: #6624e2 !important;
+  background: orange !important;
   margin-right: 0px !important;
   padding-right: 0px !important;
 }
 
 .tab_item:hover {
   /* Tab Item Size Fix */
-  background: #6624e2 !important;
+  background: orange !important;
 }
 
 .tab_item_cap img {
@@ -452,7 +462,7 @@ body.v6 .home_rightcol .tab_preview h2 {
 
 .tab_preview .tags > a {
   /* Genre Tags */
-  background-color: #6624e2 !important;
+  background-color: orange !important;
   border-radius: 10px !important;
 }
 
@@ -738,13 +748,18 @@ body.flat_page #footer {
 /* Left Column Background */
 .profile_customization {
   backdrop-filter: none !important;
-  background: #121212 !important;
+  background: rgba(0, 0, 0, 0.3) !important;
   border-radius: 10px !important;
 }
 
 /* Showcase Art Background */
 .profile_customization.myart {
   background: transparent !important;
+}
+
+/* Showcars Artwork Small Background */
+.screenshot_showcase_smallscreenshot.screenshot_count {
+  background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 /* Left Column Containers */
@@ -789,7 +804,7 @@ body.flat_page #footer {
 .profile_customization_header {
   background: transparent !important;
   font-weight: bold !important;
-  color: #6624e2 !important;
+  color: orange !important;
 }
 
 /* Game Info Badge Border */
@@ -803,7 +818,7 @@ body.flat_page #footer {
 }
 
 .showcase_stat.favoritegroup_inchat {
-  background-color: #6624e2 !important;
+  background-color: orange !important;
   border-radius: 10px !important;
 }
 
@@ -820,7 +835,7 @@ body.flat_page #footer {
 /* Profile Comment Container Line */
 .profile_comment_area .commentthread_header, .profile_leftcol_header {
   backdrop-filter: none !important;
-  background-color: #121212 !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
   border-radius: 10px !important;
 }
 
@@ -832,7 +847,7 @@ body.flat_page #footer {
 /* Footer Line */
 .recent_game {
   border-radius: 10px !important;
-  background: #121212 !important;
+  background: rgba(0, 0, 0, 0.3) !important;
   backdrop-filter: none !important;
 }
 
@@ -865,7 +880,7 @@ body.flat_page #footer {
 /* Workshop Showcase Group Img */
 .showcase_content_bg {
   border-radius: 10px !important;
-  background: #121212 !important;
+  background: transparent !important;
 }
 
 /* Showcase Content Background */
@@ -880,7 +895,7 @@ body.flat_page #footer {
 }
 
 .progress_bar {
-  background: #6624e2 !important;
+  background: orange !important;
 }
 
 /* Progres Bar */
