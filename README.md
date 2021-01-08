@@ -1,3 +1,6 @@
+# my modification.
+I modified steam's dark mode by AikoMidori to be in the nord color scheme. Rest of the readme is the same as in the original repo.
+
 # Steam Dark Mode
 
 Use the Steam Dark Mode Tool to update and install the Dark Mode for Steam.
