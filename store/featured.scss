@@ -29,17 +29,17 @@ body::-webkit-scrollbar {
 
 /* Resolution Fix */
 @media only screen and (min-width: 3000px) {
-  .responsive_page_content {-webkit-transform: scale(2) !important;-webkit-transform-origin: 50% 0% 0 !important;}
+  .responsive_page_content {-webkit-transform: scale(2) !important;-webkit-transform-origin: 50% 0 0 !important;}
   .modal_frame {width: 66% !important;height: 80% !important;}
   #footer {display: none !important;}
 }
 @media only screen and (min-width: 3400px){
-  .responsive_page_content {-webkit-transform: scale(1) !important;-webkit-transform-origin: 50% 0% 0 !important;}
+  .responsive_page_content {-webkit-transform: scale(1) !important;-webkit-transform-origin: 50% 0 0 !important;}
   .modal_frame {width: 66% !important;height: 80% !important;}
   #footer {display: none !important;}
 }
 @media only screen and (min-width: 4000px){
-  .responsive_page_content {-webkit-transform: scale(2) !important;-webkit-transform-origin: 50% 0% 0 !important;}
+  .responsive_page_content {-webkit-transform: scale(2) !important;-webkit-transform-origin: 50% 0 0 !important;}
   .modal_frame {width: 66% !important;height: 80% !important;}
   #footer {display: none !important;}
 }
@@ -151,7 +151,7 @@ a.store_header_btn_content {
 
 .store_nav .tab {
   /* Remove Header Lines */
-  border-right: 0px !important;
+  border-right: 0 !important;
 }
 
 .searchbox {
@@ -176,8 +176,8 @@ a.store_header_btn_content {
   color: orange !important;
   font-style: normal !important;
   font-size: 14px !important;
-  font-family: "Motiva Sans", Sans-serif !important;
-	font-weight: 300 !important;
+  font-family: "Motiva Sans", Sans-serif, serif !important;
+  font-weight: 300 !important;
 }
 
 a#store_search_link img {
@@ -197,7 +197,6 @@ a#store_search_link img {
 
 /* Store Featured and Recommended */
 .store_main_capsule, .store_main_capsule:hover {
-  background-image: none !important;
   background: #121212 !important;
   border-radius: 10px !important;
 }
@@ -292,7 +291,6 @@ body.v6 .discount_pct {
 .spotlight_content {
   /* Price Background */
   border-radius: 10px !important;
-  background-image: none !important;
   background: #121212 !important;
 }
 
@@ -357,7 +355,6 @@ body.v6 .discount_pct {
 
 .big_button {
   /* Browse Steam Buttons */
-  background-image: none !important;
   background: styles.$scrollbar !important;
   color: var(--white) !important;
   border-radius: 10px !important;
@@ -402,8 +399,8 @@ body.v6 .discount_pct {
 .tab_item.focus {
   /* Tab Item Size Fix */
   background: styles.$scrollbar !important;
-  margin-right: 0px !important;
-  padding-right: 0px !important;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
 }
 
 .tab_item:hover {
