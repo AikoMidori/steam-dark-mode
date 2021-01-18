@@ -164,8 +164,9 @@ body.v6.infinite_scrolling #footer.small_footer{background:var(--bedarkgrey)!imp
 body.v6 #footer{background:var(--bedarkgrey)!important}
 .curator_buttons_ctn{background:var(--bedarkgrey)!important}
 body.flat_page #footer{background:var(--bedarkgrey)!important}
-div#global_header{max-height:74px!important}
-div#global_header .content{height:74px!important;left:-1%!important}
+div#global_header{max-height:74px!important;background:var(--bedarkgrey)!important}
+div#global_header .content{height:74px!important;left:-1%!important;background:var(--bedarkgrey)!important}
+div#global_header .supernav_content{background:var(--realblack)!important}
 div#global_header div.logo{padding-top:15px!important}
 div#global_header .menuitem{padding-top:29px!important}
 div#global_actions #global_action_menu{padding-top:18px!important}
@@ -181,7 +182,6 @@ body.v6 #global_header,body.v6 #global_header .content,body.v6 .supernav_content
 .header_notification_btn{background-color:var(--lightgrey)!important}
 .header_notification_btn:hover{background-color:var(--lightgrey)!important}
 .popup_block_new .popup_body{border:0!important;position:relative!important;background-color:var(--realblack)!important}
-div#global_header .submenuitem{background:var(--realblack)!important}
 .supernav_content{background:var(--realblack)!important}
 .home_discounts_ctn .see_more_link, .home_category_games_ctn .see_more_link, .home_category_ctn .see_more_link{bottom:-5px!important;background:var(--grey)!important;border-radius:var(--border0)!important;padding:4px!important;color:var(--blue)!important}
 .home_category_games_ctn .see_more_link:hover, .home_discounts_ctn .see_more_link:hover, .home_category_ctn .see_more_link:hover{bottom:-5px!important;background:var(--blue)!important;border-radius:var(--border0)!important;padding:4px!important;color:var(--black)!important}
