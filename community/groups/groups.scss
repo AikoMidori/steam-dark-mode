@@ -1,0 +1,97 @@
+/* -------------------------GROUPS PAGES------------------------- */
+/* This is the part for the Group page Banner */
+.grouppage_membertiles_overlay {
+  top: 0 !important;
+  padding-bottom: 12px !important;
+  background: var(--darkgrey) !important;
+  opacity: 0.9 !important;
+}
+
+/* Header avatars group background */
+img.member_tile {
+  border-radius: 50% !important;
+  margin: 7px !important;
+  width: 65px !important;
+  height: 65px !important;
+}
+
+.grouppage_member_tiles {
+  right: -1px !important;
+  height: 230px !important;
+  padding-bottom: 12px !important;
+  padding-top: 0 !important;
+  background: 0 0 !important;
+  border-radius: var(--border0) !important;
+}
+
+.grouppage_header {
+  border-bottom: 4px !important;
+  background: 0 0 !important;
+}
+
+.grouppage_header_name {
+  background: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  position: absolute !important;
+  transform: translate(-50%, -50%) !important;
+  display: inline-block !important;
+  text-align: center !important;
+  right: auto !important;
+  left: 50% !important;
+  top: 30% !important;
+  background-color: transparent !important;
+}
+
+.grouppage_header_label {
+  border-top-left-radius: var(--border1) !important;
+  border-top-right-radius: var(--border1) !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  position: absolute !important;
+  transform: translate(-50%, -50%) !important;
+  display: inline-block !important;
+  text-align: center !important;
+  right: auto !important;
+  left: 50% !important;
+  top: 15% !important;
+  background-color: transparent !important;
+}
+
+/* User Avatars Row */
+.grouppage_friendsingroup {
+  position: absolute !important;
+  transform: translate(-50%, -50%) !important;
+  display: inline-block !important;
+  text-align: center !important;
+  right: auto !important;
+  left: 50% !important;
+  top: 50% !important;
+  background-color: transparent !important;
+}
+
+/* x Friends in group Button (this is fine) */
+.grouppage_friendsingroup_title {
+  border-radius: var(--border1) !important;
+  background: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  position: absolute !important;
+  transform: translate(-50%, -50%) !important;
+  display: inline-block !important;
+  text-align: center !important;
+  right: auto !important;
+  left: 1% !important;
+  top: -130% !important;
+  background-color: transparent !important;
+}
+
+/* User Avatars */
+.grouppage_friendsingroup .friendavatar {
+  float: left !important;
+  padding: 4px !important;
+  border-radius: var(--border5) !important;
+}
+
+/* Future Updates and Changes */
+.top_new_releases_background {
+  background-image: none !important;
+}
