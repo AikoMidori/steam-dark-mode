@@ -1,6 +1,8 @@
-@use 'store/featured';
-@use 'user/activity';
-@use 'user/profile';
-@use 'community/groups';
-@use 'contributors/userAvatars';
-@use 'contributors/images';
+@use 'store/featured/featured';
+@use 'store/discovery_queue/discovery_queue';
+@use 'user/activity/activity';
+@use 'user/profile/profile';
+@use 'community/groups/groups';
+@use 'ui_elements/avatars/user_avatars';
+@use 'ui_elements/avatars/group_avatars';
+@use 'ui_elements/images/images';

@@ -29,7 +29,7 @@ body::-webkit-scrollbar {
 @media only screen and (min-width: 3000px) {
   .responsive_page_content {
     -webkit-transform: scale(2) !important;
-    -webkit-transform-origin: 50% 0% 0 !important;
+    -webkit-transform-origin: 50% 0 0 !important;
   }
 
   .modal_frame {
@@ -44,7 +44,7 @@ body::-webkit-scrollbar {
 @media only screen and (min-width: 3400px) {
   .responsive_page_content {
     -webkit-transform: scale(1) !important;
-    -webkit-transform-origin: 50% 0% 0 !important;
+    -webkit-transform-origin: 50% 0 0 !important;
   }
 
   .modal_frame {
@@ -59,7 +59,7 @@ body::-webkit-scrollbar {
 @media only screen and (min-width: 4000px) {
   .responsive_page_content {
     -webkit-transform: scale(2) !important;
-    -webkit-transform-origin: 50% 0% 0 !important;
+    -webkit-transform-origin: 50% 0 0 !important;
   }
 
   .modal_frame {
@@ -176,7 +176,7 @@ a.store_header_btn_content {
 
 .store_nav .tab {
   /* Remove Header Lines */
-  border-right: 0px !important;
+  border-right: 0 !important;
 }
 
 .searchbox {
@@ -200,7 +200,7 @@ a.store_header_btn_content {
   color: orange !important;
   font-style: normal !important;
   font-size: 14px !important;
-  font-family: "Motiva Sans", Sans-serif !important;
+  font-family: "Motiva Sans", Sans-serif, serif !important;
   font-weight: 300 !important;
 }
 
@@ -221,7 +221,6 @@ a#store_search_link img {
 
 /* Store Featured and Recommended */
 .store_main_capsule, .store_main_capsule:hover {
-  background-image: none !important;
   background: #121212 !important;
   border-radius: 10px !important;
 }
@@ -313,7 +312,6 @@ body.v6 .discount_pct {
 .spotlight_content {
   /* Price Background */
   border-radius: 10px !important;
-  background-image: none !important;
   background: #121212 !important;
 }
 
@@ -374,7 +372,6 @@ body.v6 .discount_pct {
 
 .big_button {
   /* Browse Steam Buttons */
-  background-image: none !important;
   background: orange !important;
   color: var(--white) !important;
   border-radius: 10px !important;
@@ -419,8 +416,8 @@ body.v6 .discount_pct {
 .tab_item.focus {
   /* Tab Item Size Fix */
   background: orange !important;
-  margin-right: 0px !important;
-  padding-right: 0px !important;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
 }
 
 .tab_item:hover {
@@ -532,6 +529,41 @@ body.v6 .home_rightcol .tab_preview h2 {
   /* Under Footer Section Footer */
   background: #121212 !important;
   border-radius: 10px !important;
+}
+
+.page_header_ctn {
+  /* remove the blue tint behind the Queue image */
+  background: none !important;
+}
+
+.discovery_queue_overlay_bg {
+  /* repositioned and re-themed the Queue button */
+  width: 425px !important;
+  border-radius: 50px !important;
+  background: #15151590 !important;
+  margin-right: 75px !important;
+  backdrop-filter: blur(20px) !important;
+}
+
+.discovery_queue_customize_ctn {
+  /* remove the small customize queue button background */
+  background: transparent !important;
+}
+
+.explore_rightcol_box {
+  /* re-themed the right column boxes */
+  background-color: #151515 !important;
+  border-radius: 20px !important;
+}
+
+body.v6 #footer {
+  /* changed footer background */
+  background: #1e1e1f !important;
+}
+
+.faq_question {
+  /* changed FAQ text color */
+  color: orange !important;
 }
 
 /* New Thread background */
@@ -925,7 +957,7 @@ body.flat_page #footer {
 .detailBox .commentthread_comment:not(.hidden_post):hover,
 .group_comments .commentthread_comment:not(.hidden_post):hover,
 .profile_comment_area .commentthread_comment:not(.hidden_post):hover {
-  background: #121212 !important;
+  background: #12121280 !important;
   border-radius: 10px !important;
 }
 

@@ -1,0 +1,30 @@
+@use './styles';
+
+.page_header_ctn { /* remove the blue tint behind the Queue image */
+    background: none !important;
+}
+
+.discovery_queue_overlay_bg { /* repositioned and re-themed the Queue button */
+    width: 425px !important;
+    border-radius: 50px !important;
+    background: #15151590 !important;
+    margin-right: 75px !important;
+    backdrop-filter: blur(20px) !important;
+}
+
+.discovery_queue_customize_ctn { /* remove the small customize queue button background */
+    background: transparent !important;
+}
+
+.explore_rightcol_box { /* re-themed the right column boxes */
+    background-color: styles.$boxesColor !important;
+    border-radius: styles.$boxesStyle !important;
+}
+
+body.v6 #footer { /* changed footer background */
+    background: styles.$background !important;
+}
+
+.faq_question { /* changed FAQ text color */
+    color: styles.$customColor !important;
+}
