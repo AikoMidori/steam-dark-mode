@@ -323,7 +323,6 @@ body.v6 .home_rightcol .tab_preview h2{color:var(--white)!important}
 .header_installsteam_btn_green .header_installsteam_btn_content,.header_installsteam_btn_green .header_installsteam_btn_leftcap,.header_installsteam_btn_green .header_installsteam_btn_rightcap{background-color:var(--lightgrey)!important;color:var(--white)!important}
 .page_header_ctn{background:0 0!important}
 .page_header_ctn{background:0 0!important}
-.responsive_page_content{overflow-x:hidden!important}
 .home_ctn.discovery_queue_ctn{background:var(--bedarkgrey)!important;border-radius:var(--border0)!important}
 body.v6.newonsteam .newonsteam_headercaps>a{background:var(--grey)!important}
 .tabarea .tab.active .tab_content{background:var(--bedarkgrey)!important}
@@ -472,7 +471,7 @@ div#headerSearch.friend_activity_header_search{border-radius:var(--border0)!impo
 .friendBlock.persona.in-game{color:var(--ingame)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
 .friendBlock.persona.online{color:var(--online)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
 .friendBlock.persona.offline{color:var(--offline)!important;height:36px!important;padding:4px 0 4px 4px!important;margin-bottom:4px!important;font-size:11px!important;line-height:13px!important;overflow:hidden!important;white-space:nowrap!important;text-overflow:ellipsis!important;position:relative!important}
-.profile_content.has_profile_background{z-index:0!important;margin-top:0px!important;padding-top:5px!important;background:rgba(23, 23, 23, 0.85)!important;backdrop-filter:var(--blur)!important;border-radius:var(--border1)!important}
+.profile_content.has_profile_background{z-index:0!important;margin-top:0px!important;padding-top:5px!important;background:rgba(23, 23, 23, 0.85)!important;backdrop-filter:var(--blur)!important;}
 .workshop_showcase_details_row{background-image:none!important}
 .profile_header_content{padding-top:0px!important}
 .workshop_showcase_details_content{background-color:transparent!important}
