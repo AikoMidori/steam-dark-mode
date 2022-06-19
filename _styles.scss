@@ -1,13 +1,62 @@
-// _styles.scss
-
-$txtcolor:      orange;
-$progressbar:   orange;
-$customcolor:   orange;
-$bgcolor:       #121212;
-$trans:         transparent;
+/* default properties */
+$txtcolor:      #ff7b00;
+$progressbar:   #ff7b00;
+$customcolor:   #ff7b00;
+$dark:          #131313;
+$white:         green;
+$bgblur:        #1e1e1f90;
+$darkblur:      #13131390;
+$lightblur:     #1e1e1f40;
+$transparent:   transparent;
 $grey:          #2e2e2f;
 $background:    #1e1e1f;
-$scrollbar:     orange;
+$scrollbar:     #ff7b00;
 $header:        #3e3e3f;
+$text:          #fff;
+$white:         #fff;
+$darkred:       darkred;
+$border0:       5px;
 $border1:       10px;
-$text:          #ffffff;
+$border2:       20px;
+$border3:       30px;
+$border4:       40px;
+$border5:       50px;
+$border6:       60px;
+$border7:       70px;
+$border8:       80px;
+$border9:       90px;
+$blur1:         blur(10px);
+$blur2:         blur(20px);
+$blur3:         blur(30px);
+$blur4:         blur(40px);
+$blur5:         blur(50px);
+$blur6:         blur(60px);
+$blur7:         blur(70px);
+$blur8:         blur(80px);
+$blur9:         blur(90px);
+$shadow:        none;
+
+
+:root {
+    /* mod colors */
+    --txtcolor:     orange;
+    --progressbar:  orange;
+    --customcolor:  orange;
+    --dark:         #191919;
+    --transparent:  transparent;
+    --grey:         #2e2e2f;
+    --background:   #1e1e1f;
+    --scrollbar:    orange;
+    --header:       #3e3e3f;
+    --text:         #ffffff;
+    --border0:      5px;
+    --border1:      10px;
+    --border2:      20px;
+    --border3:      30px;
+    --border4:      40px;
+    --border5:      50px;
+    --border6:      60px;
+    --border7:      70px;
+    --border8:      80px;
+    --border9:      90px;
+}

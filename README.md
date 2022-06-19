@@ -24,6 +24,16 @@ The updater and installer are made with much love by **PhantomGamers.**
     ~/.local/share/Steam/skins/YourSkinName/resource
     Copy or drag the files in, click replace, restart steam and all done!
     
+
+# Want to compile and build your own code?
+
+Download `node.js` from here: https://nodejs.org/en/
+
+install Sass: `npm install -g sass`
+
+include all your files in `build.scss` and compile it to css, output it to: `build/css/webkit.css`
+Compile and build with: `sass build.scss build/css/webkit.css`
+
 ------------------------------------------------------------------------------------------------------------------
 
 ### Beta Update 0.1.0
