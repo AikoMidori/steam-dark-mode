@@ -132,6 +132,20 @@ body.v6 #footer {
   border-radius: 10px !important;
 }
 
+.store_nav .tab:hover,
+.store_nav .tab.focus > span,
+.store_nav .tab.focus {
+  background: rgba(30, 30, 31, 0.2509803922) !important;
+  border-radius: 5px !important;
+}
+
+.store_nav .tab:hover > span {
+  background: rgba(30, 30, 31, 0.2509803922) !important;
+  height: 98% !important;
+  border-radius: 2px !important;
+  border-bottom: 2px solid #ff7b00 !important;
+}
+
 .searchbox {
   background: rgba(30, 30, 31, 0.2509803922) !important;
   border: 1px solid rgba(30, 30, 31, 0.2509803922) !important;
@@ -141,7 +155,6 @@ body.v6 #footer {
 }
 
 .searchbox input {
-  border: 1px solid transparent !important;
   color: #fff !important;
   width: 100% !important;
   margin-left: -1px !important;
@@ -153,25 +166,18 @@ body.v6 #footer {
   background: rgba(30, 30, 31, 0.2509803922) !important;
 }
 
-.store_nav .tab:hover > span,
-.store_nav .tab:hover,
-.store_nav .tab.focus > span,
-.store_nav .tab.focus {
-  background: rgba(30, 30, 31, 0.2509803922) !important;
-  border-radius: 5px !important;
-  border-bottom: 1px solid #ff7b00 !important;
-}
-
 .searchbox input:focus {
   color: #fff !important;
   background: rgba(19, 19, 19, 0.5647058824) !important;
   border-bottom: 2px solid #ff7b00 !important;
   border-top: 1px solid transparent !important;
+  height: 98% !important;
   border-radius: 5px !important;
 }
 
-.searchbox input.default::placeholder {
+.searchbox input::placeholder {
   color: #fff !important;
+  padding-left: 10px !important;
 }
 
 .searchbox input.default {

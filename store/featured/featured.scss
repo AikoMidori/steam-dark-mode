@@ -107,6 +107,21 @@ body.v6 #footer {
   border-radius: styles.$border1 !important;
 }
 
+.store_nav .tab:hover,
+.store_nav .tab.focus > span,
+.store_nav .tab.focus {
+  // header tab hover
+	background: styles.$lightblur !important;
+  border-radius: styles.$border0 !important;
+}
+
+.store_nav .tab:hover > span {
+  background: styles.$lightblur !important;
+	height: 98% !important;
+	border-radius: 2px !important;
+  border-bottom: 2px solid styles.$customcolor !important;
+}
+
 .searchbox {
   // Searchbox header
   background: styles.$lightblur !important;
@@ -118,7 +133,6 @@ body.v6 #footer {
 
 .searchbox input {
   // Search input box header
-  border: 1px solid transparent !important;
   color: styles.$text !important;
   width: 100% !important;
   margin-left: -1px !important;
@@ -131,29 +145,20 @@ body.v6 #footer {
   background: styles.$lightblur !important;
 }
 
-.store_nav .tab:hover > span,
-.store_nav .tab:hover,
-.store_nav .tab.focus > span,
-.store_nav .tab.focus {
-  // header tab hover
-	background: styles.$lightblur !important;
-  border-radius: styles.$border0 !important;
-  border-bottom: 1px solid styles.$customcolor !important;
-}
-
-
 .searchbox input:focus {
   // Search input box header
   color: styles.$text !important;
   background: styles.$darkblur !important;
   border-bottom: 2px solid styles.$customcolor !important;
   border-top: 1px solid transparent !important;
+  height: 98% !important;
   border-radius: styles.$border0 !important;
 }
 
 .searchbox input.default::placeholder {
   // placeholder text
   color: styles.$text !important;
+  padding-left: 10px !important;
 }
 
 .searchbox input.default {
