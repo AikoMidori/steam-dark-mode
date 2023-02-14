@@ -1,1 +1,37 @@
 @use '../../styles';
+
+.page_header_ctn {
+    // Removes the blue background
+    background: none !important;
+}
+
+.discovery_queue_overlay_bg {
+    // Change discovery queue arrow
+    margin-right: 220px !important;
+    max-width: 60% !important;
+    background: styles.$bgblur !important;
+    backdrop-filter: styles.$blur2 !important;
+    border-radius: styles.$border3 !important;
+}
+
+.discovery_queue_overlay_message {
+    // Change discovery queuetext color
+    color: styles.$customcolor !important;
+}
+
+.discovery_queue_customize_ctn {
+// Change discovery queue arrow
+    background: styles.$transparent !important;
+    border: 0px !important;
+}
+
+.faq_question {
+    // Change faq text color
+    color: styles.$customcolor !important;
+}
+
+.explore_rightcol_box {
+    // right Boxes
+    background-color: styles.$onebackground !important;
+    border-radius: styles.$border1 !important;
+}

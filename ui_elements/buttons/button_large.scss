@@ -1,0 +1,74 @@
+@use './styles';
+
+
+.big_button {
+    // large buttons on store
+    background: styles.$bttnbg !important;
+    border-radius: styles.$bttnradius !important;
+    &:hover {
+        background: styles.$customcolor !important;
+    }
+}
+
+.home_tab.active .tab_content {
+    // Discovery queue top buttons
+    background-color: styles.$bttnbg !important;
+    border-radius: styles.$bttnradius2 !important;
+    &:hover {
+        background: styles.$customcolor !important;
+    }
+}
+
+.btn_tiny > span {
+    // Your discovery queue activity buttons
+    color: orange !important;
+    background: #2e2e2f !important;
+    border-radius: 20px !important;
+}
+
+.explore_rightcol_count_box .btnv6_blue_hoverfade {
+    background: transparent !important;
+}
+
+.btn_small_thin > span {
+    // About discovery queue faq buttons
+    color: orange !important;
+    background: #121212 !important;
+    border-radius: 20px !important;
+    border: 1px solid transparent !important;
+    &:hover {
+        border: 1px solid transparent !important;
+    }
+}
+
+.btn_medium > span, input.btn_medium {
+    // Discover queue page big blue button
+    color: orange !important;
+    background: #121212 !important;
+    border-radius: 30px !important;
+    &:hover {
+        background: styles.$customcolor !important;
+        color: white !important;
+    }
+}
+
+.btnv6_blue_hoverfade {
+    background: transparent !important;
+    &:hover {
+        background: transparent !important;
+    }
+}
+
+.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
+    // Discover queue page big blue button hover
+    background: #2e2e2f !important;
+    border-radius: 20px !important;
+}
+
+.wishlist_row .purchase_area a > span {
+    // Wishlist button color
+    background: #2e2e2f !important;
+    &:hover {
+        background: styles.$customcolor !important;
+    }
+}

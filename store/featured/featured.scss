@@ -5,61 +5,14 @@
 }
 
 // -------------------------STORE FEATURED-------------------------
-body::-webkit-scrollbar-thumb {
-  // Scrollbar thumb
-  background-clip: padding-box !important;
-  -webkit-box-shadow: none !important;
-  background-color: styles.$scrollbar !important;
-  border: 5px solid styles.$background !important;
-  border-radius: styles.$border1 !important;
-  width: 25px !important;
-}
 
-body::-webkit-scrollbar-track {
-  // Scrollbar track
-  -webkit-box-shadow: none !important;
-  background: var(--darkgrey) !important;
-}
-
-body::-webkit-scrollbar {
-  // Scrollbar
-  background-clip: padding-box !important;
-  border: 5px solid transparent !important;
-  background-color: transparent !important;
-}
-
-.DialogBody::-webkit-scrollbar {
-  // Scrollbar
-  display: none !important;
-  border: 5px solid transparent !important;
-}
-
-
-@media only screen and (min-width: 3000px) {
-  // Resolution Fix
-  .responsive_page_content {-webkit-transform: scale(2) !important;-webkit-transform-origin: 50% 0 0 !important;}
-  .modal_frame {width: 66% !important;height: 80% !important;}
-  #footer {display: none !important;}
-}
-@media only screen and (min-width: 3400px){
-  // Resolution Fix
-  .responsive_page_content {-webkit-transform: scale(1) !important;-webkit-transform-origin: 50% 0 0 !important;}
-  .modal_frame {width: 66% !important;height: 80% !important;}
-  #footer {display: none !important;}
-}
-@media only screen and (min-width: 4000px){
-  // Resolution Fix
-  .responsive_page_content {-webkit-transform: scale(2) !important;-webkit-transform-origin: 50% 0 0 !important;}
-  .modal_frame {width: 66% !important;height: 80% !important;}
-  #footer {display: none !important;}
-}
-
+// By Shiina
 
 // --------------- Steam Dark Mode Reworked V1 ---------------
-
 body.v6 {
   // Main page background color
   background: styles.$background !important;
+  color: styles.$text !important;
 }
 
 body.v6 #footer {
@@ -67,6 +20,32 @@ body.v6 #footer {
   background: styles.$dark !important;
   margin: 0px 50px 30px 50px !important;
   border-radius: styles.$border4 !important;
+}
+
+.home_page_body_ctn {
+  // pushes down the page
+  margin-top: 50px !important;
+}
+
+a.gutter_item {
+  // Changes left side steam links colors
+  color: styles.$customcolor !important;
+}
+
+.gutter_item .icon {
+  // Removes left side steam links icons
+  display: none !important;
+}
+
+.gutter_header {
+  color: styles.$text !important;
+}
+
+body.v6 .store_nav .popup_block_new .popup_body {
+  // Menu dropdown header
+  background: styles.$onebackground !important;
+  margin-top: 10px !important;
+  border-radius: styles.$border1 !important;
 }
 
 .home_ctn.tab_container, body.v6 .page_content_ctn.dark {
@@ -95,11 +74,81 @@ body.v6 #footer {
   padding-top: 7px !important;
 }
 
+div#store_controls {
+  // Position cart and wishlist button 
+  top: 6px !important;
+}
+
+a.store_header_btn_content {
+  // Fixes button and text height
+  margin-top: 2px !important;
+  line-height: 30px !important;
+  text-transform: capitalize !important;
+}
+
+div.store_header_btn {
+  // Theme cart and wishlist button 
+  border-radius: styles.$border0 !important;
+  position: fixed !important;
+  background: styles.$whiteblur !important;
+  box-shadow: 0px 0px 0px, rgb(17, 17, 17) 3px 2px 10px !important;
+  padding-bottom: 10px !important;
+  right: 0 !important;
+  top: 0 !important;
+  height: 25px !important;
+  margin-top: 6px !important;
+  margin-right: 100px !important;
+  backdrop-filter: styles.$blur2 !important;
+}
+
+.store_header_btn_gray a {
+  // Centered cart text
+  color: pink !important;
+}
+
+.store_header_btn_green a {
+  // Centered cart text
+  margin-right: 6px !important;
+}
+
+.store_header_btn_green a:hover, .store_header_btn_gray a:hover {
+  // Theme cart and wishlist button hover effect
+  border-radius: styles.$border0 !important;
+  background: styles.$transparent !important;
+  color: white !important;
+}
+
+#cart_status_data .store_header_btn_green {
+  // Theme cart button
+  margin-right: 230px !important;
+  width: 95px !important;
+  right: 0 !important;
+}
+
 #store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
   // Header
   background: styles.$darkblur !important;
   backdrop-filter: styles.$blur2 !important;
-  border-radius: styles.$border0 !important;
+  border-bottom-right-radius: styles.$border0 !important;
+  position: fixed !important;
+  box-shadow: none !important;
+  width: 100% !important;
+  left: 0 !important;
+  top: 0 !important;
+  margin-top: -1px !important;
+  padding-bottom: 15px !important;
+}
+
+.store_nav {
+  // Lowers the text in the header
+  margin-top: 8px !important;
+  margin-left: 8px !important;
+  place-content: center !important;
+}
+
+.store_nav .search_flex_spacer {
+  // Fixes the size of the Header
+  position: fixed !important;
 }
 
 .store_nav .tab img.foryou_avatar {
@@ -107,58 +156,54 @@ body.v6 #footer {
   border-radius: styles.$border1 !important;
 }
 
-.store_nav .tab:hover,
-.store_nav .tab.focus > span,
-.store_nav .tab.focus {
+.store_nav .tab:hover > span, .store_nav .tab.focus > span {
   // header tab hover
-	background: styles.$lightblur !important;
-  border-radius: styles.$border0 !important;
+  background: styles.$whiteblur !important;
+  border-radius: styles.$border1 !important;
 }
 
-.store_nav .tab:hover > span {
-  background: styles.$lightblur !important;
-	height: 98% !important;
-	border-radius: 2px !important;
-  border-bottom: 2px solid styles.$customcolor !important;
+.store_nav .tab:hover, .store_nav .tab.focus  {
+  // header tab hover
+  background: styles.$whiteblur !important;
+	border-radius: styles.$border1 !important;
 }
 
 .searchbox {
   // Searchbox header
-  background: styles.$lightblur !important;
-  border: 1px solid styles.$lightblur !important;
-  border-radius: styles.$border0 !important;
-  border-bottom: 2px solid styles.$darkblur !important;
+  background: transparent !important;
+  border: 0px !important;
+  border-radius: 0px solid #121212 !important;
   padding: 0px !important;
 }
 
 .searchbox input {
   // Search input box header
   color: styles.$text !important;
-  width: 100% !important;
-  margin-left: -1px !important;
-  margin-top: 0px !important;
-  border-radius: styles.$border0 !important;
+  margin-left: 10px !important;
+  margin-top: 2px !important;
+  border-top: 1px solid transparent !important;
 }
 
 .searchbox input:hover {
   // Search input box header
-  background: styles.$lightblur !important;
+  background: none !important;
+  border-top: 1px solid transparent !important;
 }
 
 .searchbox input:focus {
   // Search input box header
   color: styles.$text !important;
-  background: styles.$darkblur !important;
-  border-bottom: 2px solid styles.$customcolor !important;
+  background: none !important;
   border-top: 1px solid transparent !important;
   height: 98% !important;
-  border-radius: styles.$border0 !important;
+  border-radius: 2px !important;
+  margin-top: 1px !important;
 }
 
-.searchbox input.default::placeholder {
+.searchbox input::placeholder {
   // placeholder text
-  color: styles.$text !important;
-  padding-left: 10px !important;
+  color: transparent !important;
+  text-shadow: none !important;
 }
 
 .searchbox input.default {
@@ -167,9 +212,57 @@ body.v6 #footer {
   width: 100% !important;
 }
 
+.search_suggest {
+  // Changes the search box layout
+  right: auto !important;
+  margin-top: 5px !important;
+}
+
+.search_suggest .match {
+  // Removes search result dividers
+  border-top: 0px !important;
+}
+
+.search_suggest .match .match_img img {
+  // Make search result images rounded
+  border-radius: styles.$border0 !important;
+}
+
+.store_nav .search_area {
+  // Changes the max lenght of the searchbox
+  max-width: 34px !important;
+  border-radius: styles.$border2 !important;
+  background: styles.$whiteblur !important;
+  margin-left: 10px !important;
+  transition-property: max-width !important;
+  transition-duration: 0.5s !important;
+  transition-timing-function: linear !important;
+}
+
+
+.store_nav .search_area:hover {
+  // Changes the max lenght of the searchbox
+  max-width: 160px !important;
+  border-radius: styles.$border2 !important;
+}
+
 a#store_search_link img {
   // Search button in header
-  display: none !important;
+  max-width: 24px !important;
+  max-height: 24px !important;
+  position: absolute !important;
+  top: 3px !important;
+  display: flex !important;
+  right: -1px !important;
+  object-fit: fill !important;
+  border-radius: 20px !important;
+  background-color: indianred !important;
+  box-shadow: 0px 0px 4px 0px #121212 !important;
+  filter: revert !important;
+    &:hover {
+      background: styles.$customcolor !important;
+      background-image: none !important;
+    }
 }
 
 .carousel_container .arrow.left {
@@ -213,6 +306,11 @@ a#store_search_link img {
   // Featured box reworked
   border-radius: styles.$border1 !important;
   background: styles.$background !important; 
+}
+
+.home_cluster_ctn {
+  // Removes the blue image from spotlight
+  background: none !important;
 }
 
 .store_main_capsule .capsule, .store_main_capsule .info {
@@ -302,8 +400,8 @@ a#store_search_link img {
 
 .discount_block > .discount_prices, .store_capsule .discount_block.discount_block_large .discount_prices {
   // New game prices
-  background-color: styles.$darkred !important;
-  border-radius: styles.$border1 !important;
+  background-color: styles.$dark !important;
+  border-radius: styles.$border0 !important;
   margin-left: 10px !important;
 }
 
@@ -318,7 +416,12 @@ a#store_search_link img {
   color: styles.$text !important;
 }
 
-.home_hardware_banner > a {
+.content_hub_carousel_ctn .content_hub_capsule_ctn img, .content_hub_capsule_ctn .gradient {
+  // content hub carousel images rounded
+  border-radius: styles.$border1 !important;
+}
+
+.home_hardware_banner img, .home_page_content.takeunder a {
   // Hardware banners, Steam Deck, Valve index
   border-radius: styles.$border1 !important;
 }
@@ -391,11 +494,12 @@ body.v6 .deep_dive_key_tags {
   // New and trending tabs focused
   background: styles.$customcolor !important;
   margin-right: 5px !important;
+  padding-right: 0px !important;
 }
 
 .tab_item_cap_img, .tab_preview .screenshot {
   // New and trending tabs images
-  border-radius: styles.$border1 !important;
+  border-radius: styles.$border0 !important;
 }
 
 .tab_item.focus .discount_block .discount_final_price {
@@ -432,6 +536,10 @@ body.v6 .home_rightcol .tab_preview h2 {
   border-radius: styles.$border1 !important;
 }
 
+div.game_hover {
+  // fix the game info hover pane
+  z-index: 30 !important;
+}
 
 
 
@@ -445,4 +553,20 @@ body.v6 .home_rightcol .tab_preview h2 {
   // Recommended section below the footer
   background: styles.$dark !important;
   border-radius: styles.$border1 !important;
+}
+
+.home_content a.home_content_item img, .home_content .item img {
+  // More games due to recent gametime
+  border-radius: styles.$border1 !important;
+}
+
+.home_content.single .capsule {
+  // Since you played big image correction
+  border-radius: styles.$border1 !important;
+}
+
+.home_content.single a.screenshot {
+  // Since you played image correction
+  background: none !important;
+  margin: 10px 10px 0px -22px !important;
 }

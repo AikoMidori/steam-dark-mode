@@ -1,0 +1,18 @@
+@use '../../styles';
+
+body.v6 .game_page_background {
+    // Background color fix
+    background: styles.$secbackground !important;
+}
+
+.wishlist_row {
+    // Wishlist row cards
+    background: styles.$secbackground !important;
+    border-radius: styles.$border1 !important;
+}
+
+.wishlist_row .purchase_area {
+    // Remove button background
+    background-color: styles.$transparent !important;
+}
+

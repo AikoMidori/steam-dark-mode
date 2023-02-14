@@ -1,0 +1,13 @@
+@use './styles';
+
+.btnv6_white_transparent > span {
+    // Small buttons on store
+    color: styles.$customcolor !important;
+    border: 1px solid styles.$bttnbg !important;
+    background: styles.$bttnbg !important;
+    border-radius: styles.$bttnradius2 !important;
+    &:hover {
+        border: 1px solid styles.$bttnbg !important;
+        border-radius: styles.$bttnradius2 !important;
+    }
+}

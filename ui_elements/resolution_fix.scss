@@ -1,0 +1,21 @@
+@use '../styles';
+
+//Fixes resolution scaling ( needs testing )
+@media only screen and (min-width: 3000px) {
+    // Resolution Fix
+    .responsive_page_content {-webkit-transform: scale(2) !important;-webkit-transform-origin: 50% 0 0 !important;}
+    .modal_frame {width: 66% !important;height: 80% !important;}
+    #footer {display: none !important;}
+}
+@media only screen and (min-width: 3400px){
+    // Resolution Fix
+    .responsive_page_content {-webkit-transform: scale(1) !important;-webkit-transform-origin: 50% 0 0 !important;}
+    .modal_frame {width: 66% !important;height: 80% !important;}
+    #footer {display: none !important;}
+}
+@media only screen and (min-width: 4000px){
+    // Resolution Fix
+    .responsive_page_content {-webkit-transform: scale(2) !important;-webkit-transform-origin: 50% 0 0 !important;}
+    .modal_frame {width: 66% !important;height: 80% !important;}
+    #footer {display: none !important;}
+}

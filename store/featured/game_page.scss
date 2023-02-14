@@ -1,0 +1,133 @@
+@use '../../styles';
+
+// CONFIRM AGE PAGE
+.main_content_ctn {
+    // confirm age, removed the border
+    border: 0px !important;
+}
+
+.agegate_text_container img {
+    // confirm age, makes the image rounded
+    border-radius: styles.$border1 !important;
+}
+
+// GAME PAGE
+.broadcast_embeddable_bordered_container_3cQe7{
+    // Live now, different background
+    border-radius: styles.$border1 !important;
+    background: styles.$onebackground !important;
+}
+
+.broadcast_embeddable_container_2t2rR{
+    // Live now, rounded video
+    border-radius: styles.$border1 !important;
+}
+
+// Mini Player
+.broadcast_embeddable_broadcast_floating_3Sg16, .STV_BroadcastSettingsPanel {
+    // Mini player borders
+    border: 1px solid styles.$onebackground !important;
+    background: styles.$onebackground !important;
+    border-radius: styles.$border1 !important;
+}
+
+.broadcast_embeddable_broadcast_floating_3Sg16 .broadcast_embeddable_PopOutVideoTitleBar_1vT_0, .broadcast_embeddable_BroadcastPlayerContainer_1pDmt {
+    // Mini player header & container
+    background: styles.$onebackground !important;
+    border-radius: styles.$border1 !important;
+}
+
+.broadcast_embeddable_broadcast_floating_3Sg16 .videoContainer {
+    // Mini player video
+    border-top-left-radius: styles.$border1 !important;
+    border-top-right-radius: styles.$border1 !important;
+    border-bottom-right-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+}
+
+.videoControls .videoControlsBottom {
+    // Player video controls pane
+    background: styles.$onebackground !important;
+    border-radius: styles.$border1 !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.STV_BroadcastSettingsMenuItems, .STV_BroadcastSettingsMenuItems .contextMenuItem:hover {
+    // Player settings background
+    background: styles.$onebackground !important;
+}
+
+.contextmenu_contextMenuItem_pFo3k {
+    // Player settings no lines
+    border-top: 0px !important;
+}
+
+.settingsMenuSeparator {
+    // Removes the menu seperator
+    background-color: styles.$transparent !important;
+}
+
+.broadcast_embeddable_broadcast_floating_3Sg16 .STV_BroadcastSettingsPanel {
+    // Mini player Settings panel
+    margin-left: 24px !important;
+    border-radius: styles.$border1 !important;
+    margin-top: -30px !important;
+    border-color: styles.$onebackground !important;
+    background: styles.$onebackground !important;
+}
+
+.broadcast_embeddable_broadcast_floating_3Sg16 .videoControlsButtons.GoLive {
+    // Mini player fixed go live postition
+    margin-top: -170px !important;
+    margin-left: -210px !important;
+}
+
+.broadcast_embeddable_broadcast_floating_3Sg16 .STV_BroadcastSettings {
+    // Mini player fixed other buttons
+    margin-top: -170px !important;
+}
+
+.game_background_glow {
+    // Removes game backround image glow
+    background: none !important;
+}
+
+.game_page_background.game {
+    // Removes game background image
+    background-image: none !important;
+}
+
+#highlight_player_area, .highlight_player_area_spacer img, .highlight_movie {
+    // Make the video player rounded
+    border-radius: styles.$border1 !important;
+    background: styles.$transparent !important;
+}
+
+#game_highlights {
+    // Remove the background behind the video and right info
+    background: none !important;
+}
+
+img.game_header_image_full {
+    // make the image rounded on the right info pane
+    border-radius: styles.$border1 !important;
+}
+
+.highlight_strip_item img {
+    // Image slider image rounded
+    border-radius: styles.$border1 !important;
+}
+
+.highlight_selector {
+    // Image slider selector
+    background-image: none !important;
+    border-radius: styles.$border0 !important;
+    border-bottom: 1px solid orange !important;
+}
+
+.highlight_strip_item {
+    // remove background from image slider
+    background-color: styles.$transparent !important;
+}

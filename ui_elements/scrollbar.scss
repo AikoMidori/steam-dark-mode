@@ -1,0 +1,32 @@
+
+@use '../styles';
+
+body::-webkit-scrollbar-thumb {
+    // Scrollbar thumb
+    background-clip: padding-box !important;
+    -webkit-box-shadow: none !important;
+    background-color: styles.$scrollbar !important;
+    border: 0px solid styles.$background !important;
+    width: 4px !important;
+  }
+  
+  body::-webkit-scrollbar-track {
+    // Scrollbar track
+    -webkit-box-shadow: none !important;
+    background: var(--darkgrey) !important;
+    width: 4px !important;
+  }
+  
+  body::-webkit-scrollbar {
+    // Scrollbar
+    background-clip: padding-box !important;
+    border: 0px solid transparent !important;
+    background-color: transparent !important;
+    width: 4px !important;
+  }
+  
+  .DialogBody::-webkit-scrollbar {
+    // Scrollbar
+    width: 4px !important;
+    border: 0px solid transparent !important;
+  }

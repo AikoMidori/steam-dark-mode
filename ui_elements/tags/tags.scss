@@ -1,0 +1,27 @@
+@use './styles';
+
+body.v6 .deep_dive_tag {
+    // Tags shape
+    color: styles.$customcolor !important;
+    background-color: styles.$tagbg !important;
+    border-radius: styles.$tagradius !important;
+}
+
+.tab_preview .tags > a {
+    // Tags background
+    background-color: styles.$tagbg !important;
+}
+
+.store_main_capsule .reason .main .tags > span, .tab_preview .tags > a {
+    // Tags shape
+    border-radius: styles.$tagradius !important;
+    color: styles.$customcolor !important;
+    background-color: styles.$tagbg1 !important;
+}
+
+.store_main_capsule .reason .additional > div {
+    // Tags shape
+    background-color: styles.$tagbg1 !important;
+    border-radius: styles.$tagradius !important;
+    color: styles.$customcolor !important;
+}
