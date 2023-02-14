@@ -7,7 +7,7 @@ body.v6 .game_page_background {
 
 .wishlist_row {
     // Wishlist row cards
-    background: styles.$secbackground !important;
+    background: styles.$onebackground !important;
     border-radius: styles.$border1 !important;
 }
 
@@ -15,4 +15,3 @@ body.v6 .game_page_background {
     // Remove button background
     background-color: styles.$transparent !important;
 }
-
