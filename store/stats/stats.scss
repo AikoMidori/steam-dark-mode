@@ -1,0 +1,116 @@
+@use '../../styles';
+
+body.steamchartsshell_SteamChartsPage_2aYDM .responsive_page_frame {
+    // Background color fix
+    background: styles.$secbackground !important;
+}
+
+.steamchartsshell_SteamChartsMenu_KSZ9h {
+    // Left side Background color fix & positioning
+    background: styles.$secbackground !important;
+    margin-left: 10px !important;
+}
+
+.steamchartsshell_SteamChartsMenu_KSZ9h .steamchartsshell_MenuGroup_2X7eT .steamchartsshell_MenuLinks_Lj-O1 a.steamchartsshell_ActiveLink_3kEWJ {
+    // Left side item & hover 
+    background-color: styles.$onebackground !important;
+    border-radius: styles.$border1 !important;
+}
+
+.steamchartsshell_SteamChartsMenu_KSZ9h .steamchartsshell_MenuGroup_2X7eT .steamchartsshell_MenuLinks_Lj-O1 a:hover {
+    background-color: styles.$onebackground !important;
+    border-radius: styles.$border1 !important;
+}
+.steamchartsshell_SteamChartsMenu_KSZ9h .steamchartsshell_MenuGroup_2X7eT .steamchartsshell_MenuHeader_19boj {
+    // Left side header text color & remove dividers
+    color: styles.$customcolor !important;
+    border-top: 0px !important;
+}
+
+.steamchartsshell_SteamChartsMenu_KSZ9h .steamchartsshell_MenuGroup_2X7eT .steamchartsshell_MenuLinks_Lj-O1 a {
+    // Left side text color
+    color: styles.$text !important;
+}
+
+.steamchartsshell_SteamChartsShell_2rArj .steamchartsshell_SteamChartsContent_2uKyX .steamchartsshell_HeaderCtn_1kLTg h1 {
+    // chart overview header color
+    color: styles.$customcolor !important;
+}
+
+.onlineuserchart_ChartContainer_FpMH3 {
+    // Graph background
+    background: styles.$onebackground !important;
+    border-radius: styles.$border1 !important;
+}
+
+.overviewpage_ChartItemsCtn_3BNYF {
+    // Top selling and most played
+    background: styles.$onebackground !important;
+    border-radius: styles.$border1 !important;
+}
+
+.overviewpage_TopItem_3rNNl {
+    // Removes the blue botto border under the image
+    border-bottom: 0px !important;
+}
+
+.overviewpage_TopItem_3rNNl img.overviewpage_Capsule_1hnd3{
+    // Rounds the image
+    border-radius: styles.$border1 !important;
+}
+
+.overviewpage_ItemRow_WAvlE {
+    // Removes the dividers between titles
+    border-top: 0px !important;
+    margin-bottom: 5px !important;
+    &:hover {
+        background: styles.$secbackground !important;
+        border-radius: styles.$border1 !important;
+    }
+}
+
+.overviewpage_ChartItemsCtn_3BNYF .overviewpage_ChartMoreBtn_2HZLN{
+    // Top 100 button
+    background: styles.$secbackground !important;
+    border-radius: styles.$border1 !important;
+    &:hover {
+        background: styles.$secbackground !important;
+    }
+}
+
+.overviewpage_ImageButtonCtn_11u1M {
+    // Top selling images
+    border-radius: styles.$border1 !important;
+}
+
+.chartscommon_PageSection_3JAzR .chartscommon_SectionTitle_f7CCw {
+    // Small headers, small text
+    color: styles.$text !important;
+}
+
+.chartscommon_PageSection_3JAzR .chartscommon_SectionTitle_f7CCw b {
+    // Small headers
+    color: styles.$customcolor !important;
+}
+
+.overviewpage_BestOfYearBanner_1ad0u.overviewpage_Big_2bwzB {
+    // The best of 2022/2023
+    border-radius: styles.$border1 !important;
+}
+
+.overviewpage_MoreLinksCtn_2ZaAF a {
+    // More stats buttons at the bottom of the page
+    background: styles.$onebackground !important;
+    border-radius: styles.$border1 !important;
+    &:hover {
+        color: styles.$customcolor !important;
+    }
+}
+
+.cookiepreferences_popup_content {
+    background: styles.$darkblur !important;
+    backdrop-filter: styles.$blur2 !important;
+    box-shadow: 1px 1px 10px 0px styles.$onebackground !important;
+    border-radius: styles.$border0 !important;
+    border-left: 2px solid styles.$customcolor !important;
+}

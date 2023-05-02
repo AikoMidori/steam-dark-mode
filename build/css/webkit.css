@@ -54,6 +54,14 @@ a.gutter_item {
   color: #fff !important;
 }
 
+.home_page_gutter_giftcard {
+  display: none !important;
+}
+
+body:not(.no_home_gutter) .home_page_gutter {
+  margin-top: 15px !important;
+}
+
 body.v6 .store_nav .popup_block_new .popup_body {
   background: #121212 !important;
   margin-top: 10px !important;
@@ -67,6 +75,7 @@ body.v6 .store_nav .popup_block_new .popup_body {
 .fullscreen-bg, .page_background_holder {
   margin: 10px 40px !important;
   border-radius: 10px !important;
+  box-shadow: 3px 3px 10px 0px #121212 !important;
 }
 
 .fullscreen-bg__video {
@@ -110,7 +119,7 @@ div.store_header_btn {
 }
 
 .store_header_btn_green a {
-  margin-right: 6px !important;
+  margin-right: 12px !important;
 }
 
 .store_header_btn_green a:hover, .store_header_btn_gray a:hover {
@@ -120,13 +129,13 @@ div.store_header_btn {
 }
 
 #cart_status_data .store_header_btn_green {
-  margin-right: 230px !important;
-  width: 95px !important;
+  margin-right: 235px !important;
+  width: 110px !important;
   right: 0 !important;
 }
 
 #store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
-  background: rgba(19, 19, 19, 0.5647058824) !important;
+  background: rgba(18, 18, 18, 0.5647058824) !important;
   backdrop-filter: blur(20px) !important;
   border-bottom-right-radius: 5px !important;
   position: fixed !important;
@@ -390,7 +399,7 @@ a#store_search_link img:hover {
 }
 
 .discovery_queue_ctn .begin_exploring {
-  background: rgba(19, 19, 19, 0.5647058824) !important;
+  background: rgba(18, 18, 18, 0.5647058824) !important;
   backdrop-filter: blur(20px) !important;
   color: #fff !important;
   border-radius: 20px !important;
@@ -453,6 +462,10 @@ body.v6 .deep_dive_key_tags {
   margin-top: 80px !important;
 }
 
+.tab_review_summary {
+  background: transparent !important;
+}
+
 body.v6 .home_rightcol .tab_preview h2 {
   color: #ff7b00 !important;
 }
@@ -491,6 +504,10 @@ div.game_hover {
 .home_content.single a.screenshot {
   background: none !important;
   margin: 10px 10px 0px -22px !important;
+}
+
+.home_content.single a.screenshot img {
+  border-radius: 10px !important;
 }
 
 .main_content_ctn {
@@ -630,7 +647,7 @@ img.game_header_image_full {
   border-radius: 10px !important;
 }
 
-body.v6 .game_page_background {
+body.v6 .game_page_background.game {
   background: #1e1e1f !important;
 }
 
@@ -641,6 +658,105 @@ body.v6 .game_page_background {
 
 .wishlist_row .purchase_area {
   background-color: transparent !important;
+}
+
+body.steamchartsshell_SteamChartsPage_2aYDM .responsive_page_frame {
+  background: #1e1e1f !important;
+}
+
+.steamchartsshell_SteamChartsMenu_KSZ9h {
+  background: #1e1e1f !important;
+  margin-left: 10px !important;
+}
+
+.steamchartsshell_SteamChartsMenu_KSZ9h .steamchartsshell_MenuGroup_2X7eT .steamchartsshell_MenuLinks_Lj-O1 a.steamchartsshell_ActiveLink_3kEWJ {
+  background-color: #121212 !important;
+  border-radius: 10px !important;
+}
+
+.steamchartsshell_SteamChartsMenu_KSZ9h .steamchartsshell_MenuGroup_2X7eT .steamchartsshell_MenuLinks_Lj-O1 a:hover {
+  background-color: #121212 !important;
+  border-radius: 10px !important;
+}
+
+.steamchartsshell_SteamChartsMenu_KSZ9h .steamchartsshell_MenuGroup_2X7eT .steamchartsshell_MenuHeader_19boj {
+  color: #ff7b00 !important;
+  border-top: 0px !important;
+}
+
+.steamchartsshell_SteamChartsMenu_KSZ9h .steamchartsshell_MenuGroup_2X7eT .steamchartsshell_MenuLinks_Lj-O1 a {
+  color: #fff !important;
+}
+
+.steamchartsshell_SteamChartsShell_2rArj .steamchartsshell_SteamChartsContent_2uKyX .steamchartsshell_HeaderCtn_1kLTg h1 {
+  color: #ff7b00 !important;
+}
+
+.onlineuserchart_ChartContainer_FpMH3 {
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+
+.overviewpage_ChartItemsCtn_3BNYF {
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+
+.overviewpage_TopItem_3rNNl {
+  border-bottom: 0px !important;
+}
+
+.overviewpage_TopItem_3rNNl img.overviewpage_Capsule_1hnd3 {
+  border-radius: 10px !important;
+}
+
+.overviewpage_ItemRow_WAvlE {
+  border-top: 0px !important;
+  margin-bottom: 5px !important;
+}
+.overviewpage_ItemRow_WAvlE:hover {
+  background: #1e1e1f !important;
+  border-radius: 10px !important;
+}
+
+.overviewpage_ChartItemsCtn_3BNYF .overviewpage_ChartMoreBtn_2HZLN {
+  background: #1e1e1f !important;
+  border-radius: 10px !important;
+}
+.overviewpage_ChartItemsCtn_3BNYF .overviewpage_ChartMoreBtn_2HZLN:hover {
+  background: #1e1e1f !important;
+}
+
+.overviewpage_ImageButtonCtn_11u1M {
+  border-radius: 10px !important;
+}
+
+.chartscommon_PageSection_3JAzR .chartscommon_SectionTitle_f7CCw {
+  color: #fff !important;
+}
+
+.chartscommon_PageSection_3JAzR .chartscommon_SectionTitle_f7CCw b {
+  color: #ff7b00 !important;
+}
+
+.overviewpage_BestOfYearBanner_1ad0u.overviewpage_Big_2bwzB {
+  border-radius: 10px !important;
+}
+
+.overviewpage_MoreLinksCtn_2ZaAF a {
+  background: #121212 !important;
+  border-radius: 10px !important;
+}
+.overviewpage_MoreLinksCtn_2ZaAF a:hover {
+  color: #ff7b00 !important;
+}
+
+.cookiepreferences_popup_content {
+  background: rgba(18, 18, 18, 0.5647058824) !important;
+  backdrop-filter: blur(20px) !important;
+  box-shadow: 1px 1px 10px 0px #121212 !important;
+  border-radius: 5px !important;
+  border-left: 2px solid #ff7b00 !important;
 }
 
 /* default properties */
@@ -743,45 +859,6 @@ body.v6 .deep_dive_tag {
   background: #ff7b00 !important;
 }
 
-@media only screen and (min-width: 3000px) {
-  .responsive_page_content {
-    -webkit-transform: scale(2) !important;
-    -webkit-transform-origin: 50% 0 0 !important;
-  }
-  .modal_frame {
-    width: 66% !important;
-    height: 80% !important;
-  }
-  #footer {
-    display: none !important;
-  }
-}
-@media only screen and (min-width: 3400px) {
-  .responsive_page_content {
-    -webkit-transform: scale(1) !important;
-    -webkit-transform-origin: 50% 0 0 !important;
-  }
-  .modal_frame {
-    width: 66% !important;
-    height: 80% !important;
-  }
-  #footer {
-    display: none !important;
-  }
-}
-@media only screen and (min-width: 4000px) {
-  .responsive_page_content {
-    -webkit-transform: scale(2) !important;
-    -webkit-transform-origin: 50% 0 0 !important;
-  }
-  .modal_frame {
-    width: 66% !important;
-    height: 80% !important;
-  }
-  #footer {
-    display: none !important;
-  }
-}
 body::-webkit-scrollbar-thumb {
   background-clip: padding-box !important;
   -webkit-box-shadow: none !important;

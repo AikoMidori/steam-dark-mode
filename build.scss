@@ -2,6 +2,7 @@
 @use 'store/featured/game_page';
 @use 'store/discovery_queue/discovery_queue';
 @use 'store/wishlist/wishlist.scss';
+@use 'store/stats/stats.scss';
 @use 'user/activity/activity';
 @use 'user/profile/profile';
 @use 'community/groups/groups';
@@ -10,5 +11,4 @@
 @use 'ui_elements/tags/tags.scss';
 @use 'ui_elements/buttons/button_small.scss';
 @use 'ui_elements/buttons/button_large.scss';
-@use 'ui_elements/resolution_fix.scss';
 @use 'ui_elements/scrollbar.scss';

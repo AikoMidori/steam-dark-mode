@@ -23,7 +23,7 @@ body.v6 #footer {
 }
 
 .home_page_body_ctn {
-  // pushes down the page
+  // Pushes down the page
   margin-top: 50px !important;
 }
 
@@ -38,8 +38,20 @@ a.gutter_item {
 }
 
 .gutter_header {
+  // Gutter text color
   color: styles.$text !important;
 }
+
+.home_page_gutter_giftcard {
+  // Removes giftcard image
+	display: none !important;
+}
+
+body:not(.no_home_gutter) .home_page_gutter {
+  // Lowers the gutter due to giftcard image removal
+  margin-top: 15px !important;
+}
+
 
 body.v6 .store_nav .popup_block_new .popup_body {
   // Menu dropdown header
@@ -57,6 +69,7 @@ body.v6 .store_nav .popup_block_new .popup_body {
   // Store banner image background
   margin: 10px 40px !important;
   border-radius: 10px !important;
+  box-shadow: 3px 3px 10px 0px #121212 !important;
 }
 
 .fullscreen-bg__video {
@@ -108,7 +121,7 @@ div.store_header_btn {
 
 .store_header_btn_green a {
   // Centered cart text
-  margin-right: 6px !important;
+  margin-right: 12px !important;
 }
 
 .store_header_btn_green a:hover, .store_header_btn_gray a:hover {
@@ -120,8 +133,8 @@ div.store_header_btn {
 
 #cart_status_data .store_header_btn_green {
   // Theme cart button
-  margin-right: 230px !important;
-  width: 95px !important;
+  margin-right: 235px !important;
+  width: 110px !important;
   right: 0 !important;
 }
 
@@ -514,6 +527,11 @@ body.v6 .deep_dive_key_tags {
   margin-top: 80px !important;
 }
 
+.tab_review_summary {
+  // Removes tab review background
+  background: styles.$transparent !important;
+}
+
 body.v6 .home_rightcol .tab_preview h2 {
   // New and trending name title color
   color: styles.$customcolor !important;
@@ -532,12 +550,12 @@ body.v6 .home_rightcol .tab_preview h2 {
 }
 
 .home_marketing_message > span {
-  //Updated and offers image rounded
+  // Updated and offers image rounded
   border-radius: styles.$border1 !important;
 }
 
 div.game_hover {
-  // fix the game info hover pane
+  // Fix the game info hover pane
   z-index: 30 !important;
 }
 
@@ -569,4 +587,9 @@ div.game_hover {
   // Since you played image correction
   background: none !important;
   margin: 10px 10px 0px -22px !important;
+}
+
+.home_content.single a.screenshot img {
+  // Images rounded "since you wish for"
+  border-radius: styles.$border1 !important;
 }

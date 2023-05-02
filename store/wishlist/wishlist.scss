@@ -1,6 +1,6 @@
 @use '../../styles';
 
-body.v6 .game_page_background {
+body.v6 .game_page_background.game {
     // Background color fix
     background: styles.$secbackground !important;
 }
