@@ -886,3 +886,35 @@ body::-webkit-scrollbar {
 }
 
 /*# sourceMappingURL=webkit.css.map */
+
+/* Knowledge's changes */
+.discount_block .discount_final_price, .discount_block_inline.no_discount .discount_prices {
+  font-size: 19px !important;
+  padding: 5px 3px 5px 0px !important;
+  /* Bigger font for the price after discount. Padding added to accomodate the size change. */
+}
+
+.discount_original_price {
+  order: 2;
+  /* Original price placed after the discounted one. */
+}
+
+.discount_block .discount_final_price {
+  order: 1;
+  /* Discounted price placed before the original one. */
+}
+
+.discount_block_large .discount_prices {
+  align-items: end;
+  /* Special offer's original prices aligned to the left (closer to the percentage discounted) */
+}
+
+.discount_block > .discount_prices, .store_capsule .discount_block.discount_block_large .discount_prices {
+  margin-left: 0px !important;
+  /* Featured game's price aligned to the discount's percentage */
+}
+
+.discount_block_inline .discount_pct, .discount_block_inline .bundle_base_discount {
+  padding: 3px 3px !important;
+  /* Featured game's discount's percentage correct alignment */
+}
